@@ -9,3 +9,5 @@ main:
     url: /resources/
   - title: "Links"
     url: /links/
+  - title: "Blog"
+    url: /blog/
