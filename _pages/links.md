@@ -3,7 +3,6 @@ permalink: /links/
 title: "Links"
 ---
 
-Coming soon.
 
 <h2>Scholarship</h2>
 <ul>
