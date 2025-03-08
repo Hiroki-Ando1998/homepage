@@ -8,9 +8,9 @@ permalink: /publications/
 
 
 <h2>2025</h2>
-<ol>
-  <li>12. M. Kitajima, M. Murakami, <u><b>H. Ando</b></u>, S. Kadoya, R. Iwamoto, T. Kuroita, K. Yamaguchi, H. Kobayashi, S. Okabe, H. Katayama, and S. Imoto. Quantitative association of SARS-CoV-2 in wastewater and clinically confirmed cases in different areas of the Tokyo 2020 Olympic and Paralympic Village. Science of The Total Environment, 960, 178209, 2025. https://doi.org/10.1016/j.scitotenv.2024.178209</li>
-</ol>
+<ul>
+  <li><b>12.</b> M. Kitajima, M. Murakami, <u><b>H. Ando</b></u>, S. Kadoya, R. Iwamoto, T. Kuroita, K. Yamaguchi, H. Kobayashi, S. Okabe, H. Katayama, and S. Imoto. Quantitative association of SARS-CoV-2 in wastewater and clinically confirmed cases in different areas of the Tokyo 2020 Olympic and Paralympic Village. Science of The Total Environment, 960, 178209, 2025. https://doi.org/10.1016/j.scitotenv.2024.178209</li>
+</ul>
 
 <h2>2024</h2>
 <ol>
