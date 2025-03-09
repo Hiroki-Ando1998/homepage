@@ -26,15 +26,14 @@ Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 ![Research image](/assets/images/home.jpg)
 Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
 - Development of detection methods for pathogens in wastewater and environmental water
-- Fate of pathogens in the environment
+- Fate and transportation of pathogens in the environment
 - Time series analysis of wastewater surveillance data
-- Infectious disease modeling using wastewater surveillance data
+- Mathematical infectious disease modeling using wastewater surveillance data
 
 ### <span style="color:#5E9CA0;">Skills</span> 
 - Wastewater concentration, Nucleotide extraction, PCR
 - R programming
-- Frequentist and Bayesian statistics
-- Time series analysis (i.e., state-space modeling)
+- Time series analysis; state-space modeling
 - Stochastic (infectious disease) modeling
 - Deterministic infectious disease modeling
 - Quantitative microbial risk assessment
