@@ -12,7 +12,7 @@ author_profile: true
 - April 2021 - March 2023 University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)
    <ul>
   <li><a href="https://www-eng-hokudai-ac-jp.translate.goog/labo/water/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja">Water Quality Coversation Enginnering Laboratory 水質変換工学研究室</a></li>
-  Supervisor: <li><a href="https://scholar.google.co.jp/citations?user=46SKTFsAAAAJ&hl=en">Dr. Masaaki Kitajima 北島正章</a></li>
+  Supervisor: Dr. Masaaki Kitajima 北島正章
 </ul>
 - April 2017 - March 2021 University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
