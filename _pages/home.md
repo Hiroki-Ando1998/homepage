@@ -13,7 +13,7 @@ author_profile: true
    <ul>
   <li><a href="https://www-eng-hokudai-ac-jp.translate.goog/labo/water/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja">Water Quality Coversation Enginnering Laboratory 水質変換工学研究室</a></li>
   Supervisor: Dr. Masaaki Kitajima　　
-     Advisor: Dr. Satoshi Okabe & Dr. Mamoru Oshiki　　
+Advisor: Dr. Satoshi Okabe & Dr. Mamoru Oshiki　　
 </ul>
 - April 2017 - March 2021 University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
