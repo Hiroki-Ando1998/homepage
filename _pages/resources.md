@@ -17,7 +17,7 @@ permalink: /resources/
 ※Anyone seeking to use the data for a specifiedpurpose is required to contact aboehm@stanford.edu. When the data are used in any format, the following attributionshould be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership betweenStanford University, Emory University, and Verily funded philanthropically through a gift to Stanford University.”
 
 ### Data analysis of wastewater-based data
-- EpiSewer [R progamming package](https://github.com/adrian-lison/EpiSewer)
+- EpiSewer (ETH Zurich group) [R progamming package](https://github.com/adrian-lison/EpiSewer)
 
 ### Wastewater surveillance webinar
 - University of Notre Dame [Webinar](https://sites.nd.edu/rcn-wastewater-sarscov2/webinar-series/)
