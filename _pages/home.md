@@ -8,8 +8,9 @@ author_profile: true
 ### Education
 
 - August 2023 - Present: University of Arizona (USA), Ph.D program in Envrionmental Health Sciences
-- 
+  
 - April 2021 - March 2023 University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)
+   
 - April 2017 - March 2021 University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
 ### Research filed
