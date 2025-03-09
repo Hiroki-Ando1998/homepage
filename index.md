@@ -27,6 +27,15 @@ Wastewater and environmental water surveillance for infectious diseases: <u><b>a
 - Time series analysis of wastewater surveillance data
 - Infectious disease modeling using wastewater surveillance data
 
+### <span style="color:#5E9CA0;">Skills</span> 
+- Wastewater concentration, Nucleotide extraction, PCR
+- R programming
+- Frequentist and Bayesian statistics
+- Time series analysis (i.e., state-space modeling)
+- Stochastic (infectious disease) modeling
+- Deterministic infectious disease modeling
+- Quantitative microbial risk assessment
+
 ### <span style="color:#5E9CA0;">Awards</span> 
 - Best Research Award at the 8th International Society for Food and Environmental Virology (9-14 June, 2024)  
 - Awardee for One Health Pilot Grants, sponsored by UA's One Health Research Initiative ($50,000/ May 2024)  
@@ -39,7 +48,8 @@ Wastewater and environmental water surveillance for infectious diseases: <u><b>a
 - Poster award at the 55th Japan Society on Water Environment (Lion award, 2021 March)  
 - Dean of Engineering Award (The highest GPA in the Environmental Engineering course in Hokkaido University, 2021 March)  
 
-
+### <span style="color:#5E9CA0;">CV</span> 
+coming soon
 
 ### Contact
 - Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
