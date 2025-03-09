@@ -17,15 +17,14 @@ author_profile: true
 
 - April 2017 - March 2021: University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
-### Research filed
-Wastewater and environmental water surveillance for infectious diseases, interdisplinarly displine between environmental engineering and public health 
+### <span style="color:#4169E1;">Research interests</span> 
+Wastewater and environmental water surveillance for infectious diseases: an interdisciplinary discipline between environmental engineering and public health.
 - Development of detection methods for pathogens in wastewater and environmental water
+- Fate of pathogens in the environment
+- Time series analysis of wastewater surveillance data
 - Infectious disease modeling using wastewater surveillance data
-- Statistical modeling 
 
-これまでに培った知識を活かし、さまざまな分野において問題解決に取り組んでいます。興味があれば、私の研究やプロジェクトについてさらに詳しくご覧ください。
 
 ### Contact
-- Email: [hirokiando@arizona.edu]
-- LinkedIn: [LinkedInのURL]
+- Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 
