@@ -5,7 +5,7 @@ layout: posts
 author_profile: true
 ---
 
-### <span style="color:#50C878;">Education</span>
+### <span style="color:#191970;">Education</span>
 
 - August 2023 - Present: University of Arizona (USA), Ph.D program in Envrionmental Health Sciences
   
