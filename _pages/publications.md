@@ -15,7 +15,7 @@ permalink: /publications/
 <h2>2024</h2>
 <p><b>12.</b> <u><b>H. Ando</b></u>, M. Murakami, M. Kitajima, and KA Reynolds. Wastewater-based estimation of temporal variation in shedding amount of influenza A virus and clinically identified case using the PRESENS model. Environment international. 109218, 2024. https://doi.org/10.1016/j.envint.2024.109218</p>
 <p><b>11.</b> M. Murakami, <u><b>H. Ando</b></u>, R Yamaguchi, and M. Kitajima. Evaluating survey techniques in wastewater-based epidemiology for accurate COVID-19 incidence estimation. Science of the Total Environment 954, 176702, 2024. https://doi.org/10.1016/j.scitotenv.2024.176702</p>
-<p><b>10.</b><u><b>H. Ando</b></u>, and KA. Reynolds. Wastewater-based effective reproduction number and prediction under the absence of shedding information. Environment International 194, 109128, 2024. https://doi.org/10.1016/j.envint.2024.109128</p>
+<p><b>10.</b> <u><b>H. Ando</b></u>, and KA. Reynolds. Wastewater-based effective reproduction number and prediction under the absence of shedding information. Environment International 194, 109128, 2024. https://doi.org/10.1016/j.envint.2024.109128</p>
 <p><b>9.</b> T. Kuroita, A Yoshimura, R. Iwamoto, <u><b>H. Ando</b></u>, S. Okabe, M. Kitajima. Quantitative analysis of SARS-CoV-2 RNA in wastewater and evaluation of sampling frequency during the downward period of a COVID-19 wave in Japan. Science of the Total Environment, 166526, 2024. https://doi.org/10.1016/j.scitotenv.2023.166526</p>
 
 <h2>2023</h2>
