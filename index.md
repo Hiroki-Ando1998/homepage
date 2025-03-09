@@ -23,6 +23,7 @@ Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 - <u>April 2017 - March 2021</u>: University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
 ### <span style="color:#5E9CA0;">Research interests</span> 
+![Research image](/assets/images/home.jpg)
 Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
 - Development of detection methods for pathogens in wastewater and environmental water
 - Fate of pathogens in the environment
