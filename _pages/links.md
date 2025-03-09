@@ -4,7 +4,7 @@ title: "Links"
 ---
 
 
-<h2>Scholarship</h2>
+<h2>Scholarships</h2>
 <ul>
   <li><a href="https://www.nishihara-cf.org/">Nishihara Cultural Foundation 西原環境科学財団</a></li>
   <li><a href="https://funaifoundation.jp/en/">Funai overship 船井情報科学財団</a></li>
@@ -12,7 +12,7 @@ title: "Links"
 </ul>
 
 
-<h2>Conference</h2>
+<h2>Conferences</h2>
 <ul>
   <li><a href="https://www.jswe.or.jp/">Japanese Society on Water Environment 日本水環境学会</a></li>
   <li><a href="https://isfev.org/">International Society for Food and Environmental Virology</a></li>
