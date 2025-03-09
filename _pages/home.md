@@ -18,14 +18,14 @@ author_profile: true
 
 - April 2017 - March 2021: University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
-### <span style="color:#4169E1;">Research interests</span> 
+### <span style="color:#5E9CA0;">Research interests</span> 
 Wastewater and environmental water surveillance for infectious diseases: an interdisciplinary discipline between environmental engineering and public health.
 - Development of detection methods for pathogens in wastewater and environmental water
 - Fate of pathogens in the environment
 - Time series analysis of wastewater surveillance data
 - Infectious disease modeling using wastewater surveillance data
 
-### <span style="color:#4169E1;">Awards</span> 
+### <span style="color:#5E9CA0;">Awards</span> 
 - Best Research Award at the 8th International Society for Food and Environmental Virology (9-14 June, 2024)  
 - Awardee for One Health Pilot Grants, sponsored by UA's One Health Research Initiative ($50,000/ May 2024)  
 - Adopted as a scholarship student by the Funai Foundation for Information Technology (Sep-tember 2023 – August 2025)  
