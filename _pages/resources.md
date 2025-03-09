@@ -13,7 +13,7 @@ permalink: /resources/
 - Japan [Sapporo city](https://www.city.sapporo.jp.e.ain.hp.transer.com/gesui/surveillance.html)  
 
 ### Publicly available wastewater surveillance
-- USA [Wastewaterscan,2020-2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11662017/)  
+- USA [Wastewaterscan,2020-2024](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=wJx5fNAAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=wJx5fNAAAAAJ:GtszHNlY0egC)  
 ※Anyone seeking to use the data for a specifiedpurpose is required to contact aboehm@stanford.edu. When the data are used in any format, the following attributionshould be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership betweenStanford University, Emory University, and Verily funded philanthropically through a gift to Stanford University.”
 
 ### Data analysis of wastewater-based data
