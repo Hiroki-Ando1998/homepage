@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
+title: Home/CV
 ---
 
 ### <span style="color:#5E9CA0;">Education</span>
