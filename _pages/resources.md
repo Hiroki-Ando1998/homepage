@@ -13,7 +13,7 @@ permalink: /resources/
 
 # Publicly available wastewater surveillance
 - USA [Wastewaterscan,2020-2024](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://pmc.ncbi.nlm.nih.gov/articles/PMC11662017/pdf/41597_2024_Article_4257.pdf)  
-※Anyone seeking to use the data for a specifiedpurpose is required to contact aboehm@stanford.edu. Whenthe data are used in any format, the following attributionshould be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership betweenStanford University, Emory University, and Verily fundedphilanthropically through a gift to Stanford University.”
+※Anyone seeking to use the data for a specifiedpurpose is required to contact aboehm@stanford.edu. When the data are used in any format, the following attributionshould be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership betweenStanford University, Emory University, and Verily funded philanthropically through a gift to Stanford University.”
 
 # Data analysis of wastewater-based data
 - EpiSewer [R progamming package](https://github.com/adrian-lison/EpiSewer)
