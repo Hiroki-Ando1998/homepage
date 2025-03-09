@@ -7,7 +7,7 @@ author_profile: true
 title: Home/CV
 ---
 ### Contact
-- Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
+Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 
 ### <span style="color:#5E9CA0;">Education</span>
 
