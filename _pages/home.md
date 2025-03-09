@@ -10,7 +10,10 @@ author_profile: true
 - August 2023 - Present: University of Arizona (USA), Ph.D program in Envrionmental Health Sciences
   
 - April 2021 - March 2023 University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)
-   
+   <ul>
+  <li><a href="https://www-eng-hokudai-ac-jp.translate.goog/labo/water/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja">Water Quality Coversation Enginnering Laboratory 水質変換工学研究室</a></li>
+  <li><a href="https://funaifoundation.jp/en/">Funai overship 船井情報科学財団</a></li>
+</ul>
 - April 2017 - March 2021 University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
 ### Research filed
