@@ -26,16 +26,16 @@ Wastewater and environmental water surveillance for infectious diseases: an inte
 - Infectious disease modeling using wastewater surveillance data
 
 ### <span style="color:#4169E1;">Award</span> 
--Best Research Award at the 8th International Society for Food and Environmental Virology (9-14 June, 2024)  
--Awardee for One Health Pilot Grants, sponsored by UA's One Health Research Initiative ($50,000/ May 2024)  
--Adopted as a scholarship student by the Funai Foundation for Information Technology (Sep-tember 2023 – August 2025)  
--Adopted as a scholarship student by the Nishihara cultural foundation (April 2022 ‒ March 2023)  
--Presentation award at the 55th Japan Society on Water Environment (Kurita award, 2022 March)  
--Presentation award at the 14th interim presentation of master’s thesis (2021 December)  
--Environmental technology and project award at the 58th Environmental Engineering Re-search Forum (2021 October)  
--Poster award at the 7th Cross-Departmental Symposium of Hokkaido University (2021 Octo-ber)  
--Poster award at the 55th Japan Society on Water Environment (Lion award, 2021 March)  
--Dean of Engineering Award (The highest GPA in the Environmental Engineering course in Hokkaido University, 2021 March)  
+- Best Research Award at the 8th International Society for Food and Environmental Virology (9-14 June, 2024)  
+- Awardee for One Health Pilot Grants, sponsored by UA's One Health Research Initiative ($50,000/ May 2024)  
+- Adopted as a scholarship student by the Funai Foundation for Information Technology (Sep-tember 2023 – August 2025)  
+- Adopted as a scholarship student by the Nishihara cultural foundation (April 2022 ‒ March 2023)  
+- Presentation award at the 55th Japan Society on Water Environment (Kurita award, 2022 March)  
+- Presentation award at the 14th interim presentation of master’s thesis (2021 December)  
+- Environmental technology and project award at the 58th Environmental Engineering Re-search Forum (2021 October)  
+- Poster award at the 7th Cross-Departmental Symposium of Hokkaido University (2021 Octo-ber)  
+- Poster award at the 55th Japan Society on Water Environment (Lion award, 2021 March)  
+- Dean of Engineering Award (The highest GPA in the Environmental Engineering course in Hokkaido University, 2021 March)  
 
 
 
