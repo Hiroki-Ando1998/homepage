@@ -4,8 +4,8 @@ title: "Resources"
 permalink: /resources/
 ---
 
-# Wastewater Surveillance
-### <span style="color:#5E9CA0;">Real-world application of wastewater surveillance worldwide</span>
+# <span style="color:#5E9CA0;">Wastewater surveillance</span>Wastewater Surveillance</span>
+### Real-world application of wastewater surveillance worldwide
 - WHO [Dashboard](https://data.who.int/dashboards/covid19/wastewater#:~:text=Monitoring%20the%20concentration%20levels%20of,are%20still%20infectious%20to%20others.)
 - USA [Wastewaterscan](https://data.wastewaterscan.org/)  
 - Switzerland [Wise Dashboard](https://wise.ethz.ch/)  
