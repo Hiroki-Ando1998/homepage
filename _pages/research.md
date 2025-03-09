@@ -1,6 +1,9 @@
 ---
-title: "Posts by Research"
-layout: categories
+title: "Research"
+# layout: categories
 permalink: /research/
 author_profile: true
 ---
+
+Coming soon
+
