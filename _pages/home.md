@@ -1,8 +1,6 @@
 ---
 title: "Home"
 permalink: /home/
-layout: posts
-author_profile: true
 ---
 
 ### <span style="color:#5E9CA0;">Education</span>
