@@ -14,7 +14,7 @@ permalink: /resources/
 
 ### Publicly available wastewater-based data
 - USA [Wastewaterscan,2020-2024](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=wJx5fNAAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=wJx5fNAAAAAJ:GtszHNlY0egC)  
-※Anyone seeking to use the data for a specifiedpurpose is required to contact aboehm@stanford.edu. When the data are used in any format, the following attributionshould be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership betweenStanford University, Emory University, and Verily funded philanthropically through a gift to Stanford University.”
+※Anyone seeking to use the data for a specified purpose is required to contact aboehm@stanford.edu. When the data are used in any format, the following attribution should be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership between Stanford University, Emory University, and Verily funded philanthropically through a gift to Stanford University.”
 
 ### Data analysis of wastewater-based data
 - EpiSewer (ETH Zurich group) [R progamming package](https://github.com/adrian-lison/EpiSewer)
