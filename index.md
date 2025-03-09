@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
-title: Home/CV
+title: Hiroki Ando
 ---
 ### Contact
 Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
