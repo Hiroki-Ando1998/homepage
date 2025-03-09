@@ -12,7 +12,7 @@ permalink: /resources/
 - EU [Dashboard](https://arcgis.jrc.ec.europa.eu/portal/apps/dashboards/e296cdf0c0d042e6b60b07a351f2dc5c)  
 - Japan [Sapporo city](https://www.city.sapporo.jp.e.ain.hp.transer.com/gesui/surveillance.html)  
 
-### Publicly available wastewater surveillance
+### Publicly available wastewater-based data
 - USA [Wastewaterscan,2020-2024](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=wJx5fNAAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=wJx5fNAAAAAJ:GtszHNlY0egC)  
 ※Anyone seeking to use the data for a specifiedpurpose is required to contact aboehm@stanford.edu. When the data are used in any format, the following attributionshould be made: “These data were collected as part of theWastewaterSCAN/SCAN project, a partnership betweenStanford University, Emory University, and Verily funded philanthropically through a gift to Stanford University.”
 
