@@ -6,6 +6,8 @@ layout: single
 author_profile: true
 title: Home/CV
 ---
+### Contact
+- Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 
 ### <span style="color:#5E9CA0;">Education</span>
 
@@ -35,6 +37,8 @@ Wastewater and environmental water surveillance for infectious diseases: <u><b>a
 - Stochastic (infectious disease) modeling
 - Deterministic infectious disease modeling
 - Quantitative microbial risk assessment
+- Geographic information technology (learning)
+- Machine learning (learning)
 
 ### <span style="color:#5E9CA0;">Awards</span> 
 - Best Research Award at the 8th International Society for Food and Environmental Virology (9-14 June, 2024)  
@@ -51,5 +55,4 @@ Wastewater and environmental water surveillance for infectious diseases: <u><b>a
 ### <span style="color:#5E9CA0;">CV</span> 
 coming soon
 
-### Contact
-- Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
+
