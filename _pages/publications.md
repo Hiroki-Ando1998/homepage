@@ -8,6 +8,8 @@ permalink: /publications/
 
 
 <h2>2025</h2>
+<p><b>14.</b> <u><b>H. Ando</b></u>, M. Kitajima, T. Oki, and  M. Murakami. Advancements in global water and sanitation access (2000–2020). Scientific Reports, 15, 6399, 2025. https://www.nature.com/articles/s41598-025-90980-7</p>  
+<p><b>13.</b> M. Murakami, S. Nomura <u><b>H. Ando</b></u>, and M. Kitajima. Perceptions and responses to COVID-19 through wastewater surveillance information and online search behavior: A randomized controlled trial, International Journal of Disaster Risk Reduction, 118, 105224, 2025. https://www.sciencedirect.com/science/article/pii/S2212420925000482</p>　　
 <p><b>12.</b> M. Kitajima, M. Murakami, <u><b>H. Ando</b></u>, S. Kadoya, R. Iwamoto, T. Kuroita, K. Yamaguchi, H. Kobayashi, S. Okabe, H. Katayama, and S. Imoto. Quantitative association of SARS-CoV-2 in wastewater and clinically confirmed cases in different areas of the Tokyo 2020 Olympic and Paralympic Village. Science of The Total Environment, 960, 178209, 2025. https://doi.org/10.1016/j.scitotenv.2024.178209</p>
 
 <h2>2024</h2>
