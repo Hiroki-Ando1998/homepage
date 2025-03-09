@@ -7,16 +7,16 @@ author_profile: true
 
 ### <span style="color:#5E9CA0;">Education</span>
 
-- August 2023 - Present: University of Arizona (USA), Ph.D program in Envrionmental Health Sciences
+- <u>August 2023 - Present</u>: University of Arizona (USA), Ph.D program in Envrionmental Health Sciences
   
-- April 2021 - March 2023: University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)  
+- <u>April 2021 - March 2023</u>: University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)  
   
   - Laboratory: Water Quality Conversation Engineering Laboratory 水質変換工学研究室 [Homepage](https://www-eng-hokudai-ac-jp.translate.goog/labo/water/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja)  
   - Supervisor: Dr. Masaaki Kitajima  
   - Advisors: Dr. Satoshi Okabe & Dr. Mamoru Oshiki
   - Thesis's title: Development of highly sensitive detection methods and mathematical models to understand viral infectious disease prevalence through wastewater surveillance
 
-- April 2017 - March 2021: University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
+- <u>April 2017 - March 2021</u>: University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
 ### <span style="color:#5E9CA0;">Research interests</span> 
 Wastewater and environmental water surveillance for infectious diseases: an interdisciplinary discipline between environmental engineering and public health.
