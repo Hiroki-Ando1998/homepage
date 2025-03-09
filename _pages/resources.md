@@ -1,5 +1,5 @@
 ---
-title: "Posts by Resources"
+title: "Resources"
 permalink: /resources/
 ---
 
