@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Hiroki Ando (安藤 宏紀)"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/myself_monotone.jpg"
   bio    : "Ph.D. student in Enviromental Health Sciences interested in wastewater surveillance."
   links:
     - label: "Website"
