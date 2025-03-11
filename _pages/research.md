@@ -24,7 +24,7 @@ Coming soon
 - Applicable to envelope and non-envelope viruses
 
 ### 3. Detection of respiratory and gastroenteritics viruses (2023-2024)
-![Research image_2](/assets/images/research_detection.jpg)
+![Research image_3](/assets/images/research_detection.jpg)
 - Use the EPISENS-M method
 - Influenza A virus and Respiratory syncytial virus
 - Norovirus, Rotavirus, Sapovirus, and Aichivirus
