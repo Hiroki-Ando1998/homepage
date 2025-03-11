@@ -17,11 +17,12 @@ Coming soon
 - Applicable to environmental water and treated wastewater
 - Applicable to envelope and non-envelope viruses
 
-### <p><b>2.</b> >2023-2024 Detection of respiratory and gastroenteritics viruses (2022) </p
-- Used the EPISENS-M method
+### <p><b>3.</b> Detection of respiratory and gastroenteritics viruses (2023-2024) </p>
+- Use the EPISENS-M method
+- Influenza A virus and Respiratory syncytial virus
+- Norovirus, Rotavirus, Sapovirus, and Aichivirus
 - First study for long-term wastewater surveillance in Japan
 - Reveal epidemic dynamics of the infectious viruses before and during COVID-19
 - Lead to social implementation of wastewater surveillance in Sapporo city, Japan
 
  
-<p><b>10.</b> Best Research Award at the 8th International Society for Food and Environmental Virology (9-14 June, 2024)</p>  
