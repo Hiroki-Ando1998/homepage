@@ -13,7 +13,7 @@ Coming soon
 - Detect viruses in solid fractions of wastewater
 - Simple method without additonal investiment for equipment
 - Approximately 100 times senstive than a conventional method
-- Pelleting is critical step
+- Pelleting is a critical step for detection
 - Vulnerable to precipitation
 
 ### 2. EPISENS-M method (2023)
