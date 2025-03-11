@@ -17,14 +17,14 @@ Coming soon
 - Vulnerable to precipitation
 
 ### 2. EPISENS-M method (2023)
-![Research image_2](/assets/images/research_EPISENS_M.jpg)
+![Research image_2](../assets/images/research_EPISENS_M.jpg)
 - Approximately 100 times senstive than a conventional method
 - Collect viruses in both solid and liquid fraction of wastewater
 - Applicable to environmental water and treated wastewater
 - Applicable to envelope and non-envelope viruses
 
 ### 3. Detection of respiratory and gastroenteritics viruses (2023-2024)
-![Research image_3](/assets/images/research_detection.jpg)
+![Research image_3](../assets/images/research_detection.jpg)
 - Use the EPISENS-M method
 - Influenza A virus and Respiratory syncytial virus
 - Norovirus, Rotavirus, Sapovirus, and Aichivirus
