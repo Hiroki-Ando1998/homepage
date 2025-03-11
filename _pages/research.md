@@ -12,7 +12,7 @@ Coming soon
 
 ### <p><b>2.</b> EPISENS-M method (2023) </p>
 ![Research image](/assets/images/research_EPISENS_M.jpg)
-- Approximately 100 times senstive than a conventional methods
+- Approximately 100 times senstive than a conventional method
 - Collect viruses in both solid and liquid fraction of wastewater
 - Applicable to environmental water and treated wastewater
 - Applicable to envelope and non-envelope viruses
