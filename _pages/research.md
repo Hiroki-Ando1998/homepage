@@ -11,7 +11,6 @@ Coming soon
 ### 1. EPISENS-S method (2022)
 
 ### 2. EPISENS-M method (2023)
-![Research image_1](/assets/images/research_EPISENS_M.jpg)
 ![Research image_2](/assets/images/research_EPISENS_M_2.jpg)
 - Approximately 100 times senstive than a conventional method
 - Collect viruses in both solid and liquid fraction of wastewater
