@@ -24,6 +24,7 @@ Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 
 ### <span style="color:#5E9CA0;">Research interests</span> 
 ![Research image](/assets/images/home.jpg)
+![Research image](/assets/images/research_EPISENS_M.jpg)
 Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
 - Development of detection methods for pathogens in wastewater and environmental water
 - Fate and transportation of pathogens in the environment
