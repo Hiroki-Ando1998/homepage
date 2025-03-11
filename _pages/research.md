@@ -9,6 +9,12 @@ Coming soon
 
 # <span style="color:#5E9CA0;">Development of highly sensitive detection methods</span> 
 ### 1. EPISENS-S method (2022)
+![Research image_2](/assets/images/research_EPISENS_S.jpg)
+- Detect viruses in solid fractions of wastewater
+- Simple method without additonal investiment for equipment
+- Approximately 100 times senstive than a conventional method
+- Pelleting is critical step
+- Vulnerable to precipitation
 
 ### 2. EPISENS-M method (2023)
 ![Research image_2](/assets/images/research_EPISENS_M.jpg)
