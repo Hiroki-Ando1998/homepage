@@ -10,14 +10,14 @@ author_profile: true
 - Detect viruses in solid fractions of wastewater
 - Simple method without additonal investiment for equipment
 - Approximately 100 times senstive than a conventional method
-- Pelleting is a critical step for detection
-- Vulnerable to precipitation
+- Pelleting is a critical step for the viral detection
+- Affected by the amount of solids
 
 ### 2. EPISENS-M method (2023)
 ![Research image_2](../assets/images/research_EPISENS_M.jpg)
 - Approximately 100 times senstive than a conventional method
-- Collect viruses in both solid and liquid fraction of wastewater
-- Applicable to environmental water and treated wastewater
+- Capture viruses in both solid and liquid fractions of wastewater
+- Applicable to raw wastewater, treated wastewater, and environmental water 
 - Applicable to envelope and non-envelope viruses
 
 ### 3. Detection of respiratory and gastroenteritics viruses (2023-2024)
