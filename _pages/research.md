@@ -4,9 +4,6 @@ layout: single
 permalink: /research/
 author_profile: true
 ---
-
-Coming soon
-
 # <span style="color:#5E9CA0;">Development of highly sensitive detection methods</span> 
 ### 1. EPISENS-S method (2022)
 ![Research image_1](../assets/images/research_EPISENS_S.jpg)
@@ -32,4 +29,5 @@ Coming soon
 - Reveal epidemic dynamics of the infectious viruses before and during COVID-19
 - Lead to social implementation of wastewater surveillance in Sapporo city, Japan
 
- 
+# <span style="color:#5E9CA0;"> Mathematical modeling</span> 
+Coming soon 
