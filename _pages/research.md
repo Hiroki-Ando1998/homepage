@@ -27,7 +27,7 @@ author_profile: true
 - Norovirus, Rotavirus, Sapovirus, and Aichivirus
 - First study for long-term wastewater surveillance in Japan
 - Reveal epidemic dynamics of the infectious viruses before and during COVID-19
-- Lead to social implementation of wastewater surveillance in Sapporo city, Japan
+- Lead to social implementation of wastewater surveillance in Sapporo city, Japan (see Links)
 
 # <span style="color:#5E9CA0;"> Mathematical modeling</span> 
 Coming soon 
