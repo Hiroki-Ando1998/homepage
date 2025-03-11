@@ -7,10 +7,10 @@ author_profile: true
 
 Coming soon
 
-# <span style="color:#5E9CA0;">Development of highly sensitive detection method</span> 
+# <span style="color:#5E9CA0;">Development of highly sensitive detection methods</span> 
 ### <p><b>1.</b> EPISENS-S method (2022) </p>
 
-### <p><b>2.</b> EPISENS-M method (2022) </p>
+### <p><b>2.</b> EPISENS-M method (2023) </p>
 ![Research image](/assets/images/research_EPISENS_M.jpg)
 - Approximately 100 times senstive than a conventional methods
 - Collect viruses in both solid and liquid fraction of wastewater
