@@ -33,7 +33,7 @@ Using the EPISENS-M method, we conducted approximately four years of wastewater 
 - revealed epidemic dynamics of the infectious viruses before and during COVID-19
 - Lead to the implementation of wastewater surveillance in Sapporo city, Japan ([Link](https://www.city.sapporo.jp.e.ain.hp.transer.com/gesui/surveillance.html)).
 
-# <span style="color:#5E9CA0;"> Mathematical modeling</span> 
+# <span style="color:#5E9CA0;"> Development of analytical frameworks</span> 
 ### 1. Handling left-censored wastewater suveillance data (2025)
 ![Research image_4](../assets/images/research_model_1.jpg)  
 Despite technological advancements, non-detected samples are still observed. Left-censored data hinders an accurate understanding of the temporal dynamics of wastewater concentration. To address this, we developed a state-space model to handle left-censored wastewater surveillance data (The paper will be submitted soon). The developed model
