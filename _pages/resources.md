@@ -3,6 +3,7 @@ title: "Resources"
 #layout: tag
 permalink: /resources/
 ---
+These resources are highly useful for learning about wastewater surveillance and related knowledge.
 
 # <span style="color:#5E9CA0;">Wastewater surveillance</span>
 ### Real-world application of wastewater surveillance
