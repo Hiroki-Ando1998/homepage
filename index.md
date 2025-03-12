@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
-title: Hiroki Ando
+title: Welcome to Hiroki's Page!
 ---
 ### Contact
 Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
