@@ -8,9 +8,9 @@ title: Welcome to Hiroki's Page!
 ---
 ### Contact
 Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
+CV: [PDF](https://drive.google.com/drive/u/0/folders/1pc7cjvroS0JEafk4r6ReJu2O-D3NqyJp)
 
 ### <span style="color:#5E9CA0;">Education</span>
-
 - <u>August 2023 - Present</u>: University of Arizona (USA), Ph.D program in Envrionmental Health Sciences
   
 - <u>April 2021 - March 2023</u>: University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)  
@@ -50,8 +50,5 @@ Wastewater and environmental water surveillance for infectious diseases: <u><b>a
 <p><b>3.</b> Poster award at the 7th Cross-Departmental Symposium of Hokkaido University (2021 Octo-ber)</p>   
 <p><b>2.</b> Poster award at the 55th Japan Society on Water Environment (Lion award, 2021 March)</p>   
 <p><b>1.</b> Dean of Engineering Award (The highest GPA in the Environmental Engineering course in Hokkaido University, 2021 March)</p>   
-
-### <span style="color:#5E9CA0;">CV</span> 
-coming soon
 
 
