@@ -31,7 +31,7 @@ Using the EPISENS-M method, we conducted approximately four years of wastewater 
 - demonstrated the applicability of wastewater surveillance for Influenza A virus and Respiratory syncytial virus
 - highlighted the applicability for Norovirus, Rotavirus, Sapovirus, and Aichivirus
 - revealed epidemic dynamics of the infectious viruses before and during COVID-19
-- Lead to social implementation of wastewater surveillance in Sapporo city, Japan (see Links)
+- Lead to the implementation of wastewater surveillance in Sapporo city, Japan ([Link](https://www.city.sapporo.jp.e.ain.hp.transer.com/gesui/surveillance.html)).
 
 # <span style="color:#5E9CA0;"> Mathematical modeling</span> 
 ### 1. Handling left-censored wastewater suveillance data (2025)
