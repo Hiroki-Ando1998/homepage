@@ -7,7 +7,7 @@ author_profile: true
 title: Welcome to Hiroki's Page!
 ---
 ### Contact
-Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
+Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]  
 CV: [PDF](https://drive.google.com/drive/u/0/folders/1pc7cjvroS0JEafk4r6ReJu2O-D3NqyJp)
 
 ### <span style="color:#5E9CA0;">Education</span>
