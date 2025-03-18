@@ -24,10 +24,12 @@ tags:
 ### Modeling
 1. General linear modeling
 - Mass
-- lme4 (liner mixed model) 
-- miceadds (multiple imputation)
+- lme4 (liner mixed model)
 
-This post has a manual excerpt `<!--more-->` set after the second paragraph. The following R code is used for multiple imputation:
+This post has a manual excerpt `<!--more-->` set after the second paragraph
+
+- miceadds (multiple imputation)
+The following R code is used for multiple imputation:
 
 ```yaml
 library(mice)
