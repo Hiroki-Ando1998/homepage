@@ -13,9 +13,10 @@ tags:
 
 # Visualization
 - ggplot2
+- [gganimate](https://gganimate.com/)
+- [ggblend](https://mjskay.github.io/ggblend/)
 - gganimate
 - ggnewscale
-- gganimate
 
 # Data analysis
 1. General linear modeling
