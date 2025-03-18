@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-#layout: tag
+layout: tag
 permalink: /resources/
 ---
 These resources are highly useful for learning about wastewater surveillance and related knowledge.
