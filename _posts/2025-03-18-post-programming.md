@@ -1,5 +1,5 @@
 ---
-title: "2. R programming & Packages"
+title: "2. プログラミング(一般化線形モデル)"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
