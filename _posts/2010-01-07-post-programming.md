@@ -9,19 +9,22 @@ tags:
   - standard
 ---
 
-# Data 
+### Data modification
+- dplyr
+- tidyr
+- plyr
+- tidyverse
 
-# Visualization
-- ggplot2
+### Visualization
+- [ggplot2](https://r4ds.had.co.nz/data-visualisation.html)
 - [gganimate](https://gganimate.com/)
 - [ggblend](https://mjskay.github.io/ggblend/)
-- gganimate
 - ggnewscale
 
-# Data analysis
+### Modeling
 1. General linear modeling
 - Mass
-- lme4 (liner mixed model & 
+- lme4 (liner mixed model) 
 - miceadds (multiple imputation)
-2. Baysian modeling
-- Rstan
+2. Baysian modeling and time-series analysis
+- [Rstan](https://mc-stan.org/docs/2_19/stan-users-guide/index.html)
