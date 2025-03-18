@@ -1,5 +1,5 @@
 ---
-title: "Post: Notice"
+title: "Post: Statistics"
 categories:
   - Blog
 tags:
