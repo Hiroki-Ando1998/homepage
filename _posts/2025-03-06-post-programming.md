@@ -1,5 +1,5 @@
 ---
-title: "プログラミング (ベイジアンモデリング)"
+title: "Bayesian modeling (R code)"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
