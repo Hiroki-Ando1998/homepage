@@ -11,12 +11,6 @@ tags:
 備忘録兼落書きです。
 
 
-### Visualization
-- [ggplot2](https://r4ds.had.co.nz/data-visualisation.html)
-- [gganimate](https://gganimate.com/)
-- [ggblend](https://mjskay.github.io/ggblend/)
-- ggnewscale
-
 ### Modeling
 1. General linear modeling
 - Mass
