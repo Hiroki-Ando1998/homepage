@@ -1,5 +1,5 @@
 ---
-title: "統計学&モデリングを勉強する際に使用したテキスト"
+title: "統計学とモデリングの勉強に使用したテキスト"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
