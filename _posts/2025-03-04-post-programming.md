@@ -1,5 +1,5 @@
 ---
-title: "プログラミング (ベイジアンモデリング)"
+title: "Data visulization"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
