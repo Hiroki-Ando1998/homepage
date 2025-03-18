@@ -8,7 +8,7 @@ tags:
   - readability
   - standard
 ---
-
+備忘録兼落書きです。
 ### Data modification
 - dplyr
 - tidyr
