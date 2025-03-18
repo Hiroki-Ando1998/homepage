@@ -10,7 +10,7 @@ tags:
 ---
 
 Coming soon 
-#統計学 & モデリング
+# <span style="color:#5E9CA0;">統計学 & モデリング</span>
 ### 統計学入門
 1. [データ分析に必須の知識・考え方　統計学入門](https://www.socym.co.jp/book/1319)
 - [公式と例題で学ぶ数学の基礎](https://www.kyoritsu-pub.co.jp/book/b10123480.html)
