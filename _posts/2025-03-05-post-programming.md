@@ -52,5 +52,4 @@ summary(pooled_results)
 #詳しくは、"欠測データ処理 Rによる単一代入法と多重代入法, P97
 ```
 
-2. Baysian modeling and time-series analysis
-- [Rstan](https://mc-stan.org/docs/2_19/stan-users-guide/index.html)
+
