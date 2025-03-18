@@ -1,5 +1,5 @@
 ---
-title: "プログラミング (ベイジアンモデリング)"
+title: "Data organization & Basic analysis"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
