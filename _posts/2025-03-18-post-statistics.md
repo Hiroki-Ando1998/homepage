@@ -1,5 +1,5 @@
 ---
-title: "1. Statistics"
+title: "統計学&モデリングを勉強する際に使用したテキスト"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
@@ -9,8 +9,9 @@ tags:
   - standard
 ---
 
-Coming soon 
 # <span style="color:#5E9CA0;">統計学 & モデリング</span>
+[ベイズ統計学を勉強する参考書のフロー (慶應義塾大学・株式会社Nospare 菅澤先生)](https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6)
+
 ### 統計学入門
 1. [データ分析に必須の知識・考え方　統計学入門](https://www.socym.co.jp/book/1319)
 - [公式と例題で学ぶ数学の基礎](https://www.kyoritsu-pub.co.jp/book/b10123480.html)
