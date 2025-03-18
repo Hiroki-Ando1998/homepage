@@ -1,5 +1,5 @@
 ---
-title: "2. プログラミング(一般化線形モデル)"
+title: "Generalized linear model (R code)"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
