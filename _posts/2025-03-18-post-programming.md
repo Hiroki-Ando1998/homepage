@@ -26,9 +26,13 @@ tags:
 - Mass
 - lme4 (liner mixed model)
 
-This post has a manual excerpt `<!--more-->` set after the second paragraph
+The following R code is used for logistic regression analysis:
+```yaml
+lo_f <- glm(disease ~ passive*personal, data = ex_1, family = binomial(link = “logit”))
+summary(lo_1)
+```
 
-- miceadds (multiple imputation)
+- miceadds (multiple imputation)  
 The following R code is used for multiple imputation:
 
 ```yaml
