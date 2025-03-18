@@ -9,11 +9,7 @@ tags:
   - standard
 ---
 備忘録兼落書きです。
-### Data modification
-- dplyr
-- tidyr
-- plyr
-- tidyverse
+
 
 ### Visualization
 - [ggplot2](https://r4ds.had.co.nz/data-visualisation.html)
