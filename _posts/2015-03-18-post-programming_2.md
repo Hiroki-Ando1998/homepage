@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "プログラミング (ベイジアンモデリング)"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
