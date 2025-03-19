@@ -1,5 +1,5 @@
 ---
-title: "Data visulization"
+title: "Data visualization"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
