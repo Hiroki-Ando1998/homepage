@@ -19,9 +19,9 @@ coming soon
 
 This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
-### Basic statistics % overview of data
+### Basic statistics & data overview
 ```yaml
-mean(data$aA, na.rm = TRUE) #NAデータを無視
+mean(data$aA, na.rm = TRUE) #exclude NA
 median()
 mode()
 max()
