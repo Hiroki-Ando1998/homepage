@@ -53,7 +53,9 @@ scale_fill_gradientn(fill = c(“darked”, “orange”, “yellow”, “white
 
 ```yaml
 #Adjustment of axis
+library(scales)
 plot <- plot + scale_y_continuous(limits = c(0,100), breaks = seq(0, 100, 20), label = NULL, name = “Age in years”)
+plot <- plot + scale_y_log10(breaks = 10^(-7:-2), labels = trans_format("log10", math_format(10^.x)))
 plot <- plot + scale_x_continuous(limits = c(1.5, 5.5), breaks = seq(2, 5, 1), label = NULL)
 #limitの方向を逆転すれば、軸が逆転する
 
@@ -136,28 +138,6 @@ p1
 #correlation matrix
 library(GGally)
 ggpairs(data)
-
-```
-
-### Scater plot
-```yaml
-library(scales)
-plot <- ggplot(Data_GDP, aes(x = AA, y = BB, fill = factor(Dummy)))
-plot <- plot + geom_point(shape = 21, size = 3.0, colour = "black")
-plot <- plot + scale_fill_manual(values = c("lightskyblue3", "thistle1"))
-plot <- plot + scale_y_log10(breaks = 10^(-7:-2), labels = trans_format("log10", math_format(10^.x)))
-
-plot <- plot + scale_x_continuous(limits = c(1.5, 5.5), breaks = seq(2, 5, 1), label = NULL)
-plot <- plot + theme_classic()
-plot <- plot + theme_bw(
-  axis.line = element_line(size = 1.0, lineend = "square"),
-  text = element_text(colour ="black", size = 14),
-  legend.position = "none",
-  axis.ticks = element_line(linewidth = 1.5),
-  axis.ticks.length = unit(-2, "mm"))
-plot
-
-ggsave(path = NULL, file = "file_name.svg", plot = plot, dpi = 600, width = 4, height = 3.2)
 ```
 
 ### Labeling plots
@@ -191,13 +171,7 @@ plot <- plot + theme(
   axis.ticks.length = unit(-2, "mm"))
 plot <- plot + guides(fill = guide_legend(title = NULL))
 plot
-```
-
-### Vertical or horizontal line
-```yaml
-plot + geom_hline(yintercept = 60)
-plot + geom_vline(xintercept = 14)
-plot + geom_abline(intercept = 10, slope = 5)
+ggsave(path = NULL, file = "file_name.svg", plot = plot, dpi = 600, width = 4, height = 3.2)
 ```
 
 ### Line up figures
@@ -219,7 +193,6 @@ grid.arrange(
   ncol = 2  # 2列のレイアウトを指定
 )
 ```
-
 
 ### Facets
 ```yaml
