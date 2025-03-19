@@ -19,6 +19,42 @@ coming soon
 
 This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
+### Basic statistics % overview of data
+```yaml
+mean(data$aA, na.rm = TRUE) #NAデータを無視
+median()
+mode()
+max()
+min()
+
+# unbiased variance 
+var()
+sd(data, na.rm = FALSE)
+
+covariance <- cov(c1, c2)
+
+#quantile
+quantile(data$A, c(0.025, 0.5, 0.975))
+
+#Histogram
+ggplot(data, aes(x = values)) +
+  geom_histogram(binwidth = 0.5, fill = "blue", color = "black", aes(y = ..density..)) +
+  geom_density(alpha = 0.2, fill = "orange") +
+  labs(title = "Histogram of Random Data", x = "Values", y = "Density")
+
+#Boxplot and dotplot
+RR_plot <- ggplot(data_fil_1_1, aes(x = 1, y = change))
+RR_plot <- RR_plot + geom_boxplot(notch = FALSE, width = 0.9)
+RR_plot <- RR_plot + geom_dotplot(binaxis = "y", binwidth = 1.0, stackdir = "center", alpha = 0.5) 
+RR_plot <- RR_plot + theme_classic() + theme(
+  axis.line = element_line(size = 1.0, lineend = "square"),
+  text = element_text(colour ="black", size = 14),
+  legend.position = "none",
+  axis.ticks = element_line(linewidth = 1.5),
+  axis.ticks.length = unit(-2, "mm"))
+RR_plot
+```
+
 ### correlation & Statistical test
 ```yaml
 #Correlation coefficient
