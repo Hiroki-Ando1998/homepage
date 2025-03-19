@@ -160,6 +160,19 @@ plot
 ggsave(path = NULL, file = "file_name.svg", plot = plot, dpi = 600, width = 4, height = 3.2)
 ```
 
+### Labeling plots
+```yaml
+ggplot(data, aes(x = data$A, y = data$B, fill = data$C)) + geom_col(position = position_dodge())
+geom_text(aes(label = data$B), vjust = 1.5, colour = “white”, size = 3, position = position_dodge(0.9))
+
+#add name to plots
+library(ggrepel)
+ggplot(data, aes(x = A, y = B)) + geom_point() +
+geom_text_repel(aes(label = C), size = 3)
+
+#Other options is use of geom_text()
+```
+
 ### Box plot
 ```yaml
 plot <- ggplot(data_all_sample, aes(x = as.factor(COUNTY), y = adjust_cidm, fill = as.factor(sample))) + geom_boxplot() +
@@ -187,8 +200,7 @@ plot + geom_vline(xintercept = 14)
 plot + geom_abline(intercept = 10, slope = 5)
 ```
 
-
-### line up figures
+### Line up figures
 ```yaml
 library(cowplot)
 Plot_grid(figure_1, figure_2, ncol = 1, nrow = 2, rel_heights = c(2, 3))
@@ -207,3 +219,19 @@ grid.arrange(
   ncol = 2  # 2列のレイアウトを指定
 )
 ```
+
+
+### Facets
+```yaml
+#縦並び
+ggplot(data, aes(x = A)) + geom_histogram(fill = “white”, colour = “black”) +
+facet_grid(race ~., scales = “free”) +
+theme(strip.text = element_text(face = “bold”, size = rel(1.5)), +
+strip.background = element_rect(fill = “lightblue”, colour = “black”, size = 1)
+
+# other version (横並びと自由に並べる)
+face_grid(.~race)
+facet_wrap(~class, nrow = 2) # or ncol = 4
+```
+
+
