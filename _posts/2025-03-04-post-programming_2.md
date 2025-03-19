@@ -8,6 +8,7 @@ tags:
   - readability
   - standard
 ---
+Memo
 [github_Hiroki Ando](https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2)
 
 ### Visualization
@@ -44,7 +45,41 @@ scale_fill_gradient(low = “black”, high = “white”, limits = c(0, 6000), 
 scale_fill_gradientn(fill = c(“darked”, “orange”, “yellow”, “white”
 ```
 
-### plot type
+### Axis 
+- [Colour_github](https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/ggplot2_Colour.R)
+- [Colour code](https://rpubs.com/nishikosh/308337)
+- scale_fill_viridis_d() #色覚障碍者でも認識可能
+- scale_fill_brewer(palette = “Spectral”)
+
+```yaml
+#Adjustment of axis
+plot <- plot + scale_y_continuous(limits = c(0,100), breaks = seq(0, 100, 20), label = NULL, name = “Age in years”)
+plot <- plot + scale_x_continuous(limits = c(1.5, 5.5), breaks = seq(2, 5, 1), label = NULL)
+#limitの方向を逆転すれば、軸が逆転する
+
+#% axis
+scale_y_continuous(labels = scales::percent)
+
+#change of order
+scale_x_discrete(limits = c(“A”, “B”, “C”)
+scale_x_discrete(limits = rev(levels(data$A)
+
+#flip of axis
+ggplot() + geom_boxplot() + coord_flip() + scale_x_discrete(limits = rev(levels(data$A)
+
+Change order of value
+ggplot(data_name, aes(x = reorder(column_1, column_2), y = column_3)
+# Based on value of column_2, change the order of column_1
+#change of order of more than 2 factor data
+#sorted by B and then by C
+order_change <- data$A[order(B, C)
+data2 <- factor[data$A, order_change)
+
+scale_x_discrete(limits = c(“A”, “B”, “C”)
+scale_x_discrete(limits = rev(levels(data$A)
+```
+
+### Plot types
 ```yaml
 #Scatter plots
 geom_point()
@@ -150,4 +185,25 @@ plot
 plot + geom_hline(yintercept = 60)
 plot + geom_vline(xintercept = 14)
 plot + geom_abline(intercept = 10, slope = 5)
+```
+
+
+### line up figures
+```yaml
+library(cowplot)
+Plot_grid(figure_1, figure_2, ncol = 1, nrow = 2, rel_heights = c(2, 3))
+#2行1列に並べる。上下の図の高さの比 2:3
+
+library(devtools)
+library(patchwork)
+plot1 + plot2 + plot(col = 2, heights = c(1, 4)) #nrow, 高さ1:4の比
+
+
+library(gridExtra)
+# 2つのプロットを横に並べる
+grid.arrange(
+  plot,
+  plot_ww,
+  ncol = 2  # 2列のレイアウトを指定
+)
 ```
