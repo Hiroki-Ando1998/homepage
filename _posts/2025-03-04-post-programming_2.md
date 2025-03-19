@@ -16,6 +16,33 @@ tags:
 - [ggblend](https://mjskay.github.io/ggblend/)
 - ggnewscale
 
+### Basic function
+- [guide book](https://ggplot2-book.org/themes)
+- [plot shape](https://www.sthda.com/english/wiki/ggplot2-point-shapes)
+- [theme](https://r-charts.com/ggplot2/themes/) (title, axis, legend, facet title)
+- [scale_xx_manual](https://ggplot2.tidyverse.org/reference/scale_manual.html) (fill, colour, shape, gradation, size)
+
+### Colour 
+- [Colour code](https://rpubs.com/nishikosh/308337)
+- [Colour code](https://rpubs.com/nishikosh/308337)
+- scale_fill_viridis_d() #色覚障碍者でも認識可能
+
+```yaml
+Gradation
+library(RcolorBrewer)
+display.brewer.all
+scale_fill_brewer(palette = “Spectral”)
+
+scale_fill_gradient(low = “black”, high = “white)
+
+ggplot(data, aes(x = data$A, y = data$B, fill = data$C)) + 
+scale_fill_gradient(low = “black”, high = “white”, limits = c(0, 6000), breaks = seq(70, 170, by = 20), guide =guide_legend()
+#離散的な凡例。連続値は、breaks以降を削除
+
+#n個のgradation
+scale_fill_gradientn(fill = c(“darked”, “orange”, “yellow”, “white”
+```
+
 ### plot type
 ```yaml
 #Scatter plots
@@ -76,12 +103,6 @@ ggpairs(data)
 
 ```
 
-### Basic function
-- [guide book](https://ggplot2-book.org/themes)
-- [plot shape](https://www.sthda.com/english/wiki/ggplot2-point-shapes)
-- [theme](https://r-charts.com/ggplot2/themes/) (title, axis, legend, facet title)
-- [scale_xx_manual](https://ggplot2.tidyverse.org/reference/scale_manual.html) (fill, colour, shape, gradation, size)
-
 ### Scater plot
 ```yaml
 library(scales)
@@ -123,3 +144,9 @@ plot <- plot + guides(fill = guide_legend(title = NULL))
 plot
 ```
 
+### Vertical or horizontal line
+```yaml
+plot + geom_hline(yintercept = 60)
+plot + geom_vline(xintercept = 14)
+plot + geom_abline(intercept = 10, slope = 5)
+```
