@@ -23,9 +23,10 @@ tags:
 - [scale_xx_manual](https://ggplot2.tidyverse.org/reference/scale_manual.html) (fill, colour, shape, gradation, size)
 
 ### Colour 
-- [Colour code](https://rpubs.com/nishikosh/308337)
+- [Colour_github](https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/ggplot2_Colour.R)
 - [Colour code](https://rpubs.com/nishikosh/308337)
 - scale_fill_viridis_d() #色覚障碍者でも認識可能
+- scale_fill_brewer(palette = “Spectral”)
 
 ```yaml
 Gradation
