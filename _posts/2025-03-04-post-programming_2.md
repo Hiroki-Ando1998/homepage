@@ -45,10 +45,7 @@ ggsave(path = NULL, file = "file_name.svg", plot = plot, dpi = 600, width = 4, h
 ### Box plot
 ```yaml
 plot <- ggplot(data_all_sample, aes(x = as.factor(COUNTY), y = adjust_cidm, fill = as.factor(sample))) + geom_boxplot() +
-  labs(
-    x = "County",                 # X軸ラベル
-    y = "Concentration (ug/g or ug/L)"                  # Y軸ラベル
-  )
+  labs(x = "County", y = "Concentration (ug/g or ug/L)")
 plot <- plot + scale_fill_manual(values = c("lightblue", "orange", "red"))
 plot <- plot + theme_classic()
 plot <- plot + theme(
