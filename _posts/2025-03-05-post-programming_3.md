@@ -52,4 +52,19 @@ summary(pooled_results)
 #詳しくは、"欠測データ処理 Rによる単一代入法と多重代入法, P97
 ```
 
+### Logistic regression model
+```yaml
+#pin : プロット領域, par : 余白の指定
+par(pin = c(3,3))
+par(mar = c(3, 3, 3, 3))
+p1 <- ggplot(data, aes(x = Clinical, y = WBE)) #WBE: 0 or 1
+p1 <- p1+ geom_point(alpha = 0.4, shape = 21, size = 2, colour = "black", fill = "grey")  + scale_x_log10()
+
+p1 <- p1 + stat_smooth(method = glm, method.args = list(family = binomial), fullrange = TRUE)
+res = glm(WBE ~ Clinical, data, family=binomial)
+summary(res)
+
+```
+
+
 
