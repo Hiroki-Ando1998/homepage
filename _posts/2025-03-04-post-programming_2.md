@@ -16,6 +16,9 @@ coming soon
 - ggnewscale
 
 
+### basic function
+- [plot shape](https://www.sthda.com/english/wiki/ggplot2-point-shapes)
+
 ```yaml
 excerpt_separator: "<!--more-->"
 ```
