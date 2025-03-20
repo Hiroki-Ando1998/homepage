@@ -81,28 +81,18 @@ Data <- data %>% order(dataset$Weight, decreasing = TRUE))
 Data <- rbind(data, data)
 Data <- cbind(data, data)
 
-
+colnames(data_name)
 ```
 
-
-### Basic statistics & data overview
+### Data overview
 ```yaml
 head(data, 5)
-#Number of row and column
 nrow(data_name)
 ncol(data_name)
 
-#Name of row and column
-names(data_name) 
-colnames(data_name)
-
-#Table 
+#Table & summary & quantile
 Table(data$col)
-
-#Summary
 summary(data$col)
-
-#quantile
 quantile(data$A, c(0.025, 0.5, 0.975))
 
 #Histogram
@@ -115,28 +105,29 @@ ggplot(data, aes(x = values)) +
 RR_plot <- ggplot(data_fil_1_1, aes(x = 1, y = change))
 RR_plot <- RR_plot + geom_boxplot(notch = FALSE, width = 0.9)
 RR_plot <- RR_plot + geom_dotplot(binaxis = "y", binwidth = 1.0, stackdir = "center", alpha = 0.5) 
-RR_plot <- RR_plot + theme_classic() + theme(
+RR_plot <- RR_plot + theme_bw() + theme(
   axis.line = element_line(size = 1.0, lineend = "square"),
   text = element_text(colour ="black", size = 14),
   legend.position = "none",
   axis.ticks = element_line(linewidth = 1.5),
   axis.ticks.length = unit(-2, "mm"))
 RR_plot
+```
 
+
+### Basic statistics
+```yaml
 mean(data$aA, na.rm = TRUE) #exclude NA
 median()
 mode()
 max()
 min()
-
 # unbiased variance 
 var()
 sd(data, na.rm = FALSE)
-
 covariance <- cov(c1, c2)
-
-
 ```
+
 
 ### correlation & Statistical test
 ```yaml
