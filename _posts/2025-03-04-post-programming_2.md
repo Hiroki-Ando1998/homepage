@@ -30,7 +30,7 @@ Memo
 - scale_fill_brewer(palette = “Spectral”)
 
 ```yaml
-Gradation
+#Gradation
 library(RcolorBrewer)
 display.brewer.all
 scale_fill_brewer(palette = “Spectral”)
