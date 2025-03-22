@@ -17,23 +17,67 @@ coming soon
 - lme4 (liner mixed model)
 
 ### Linear regression model
+1. Linear relationship of coefficients  
+2. Normality of residuals (Shapilo wilk test, Q-Q plot, histogram)  
+3. Homoscedasticity (statistical test, variance does not depend on level of X)  
+4. Independent observation (i.e., no correlation between samples)
+
 ```yaml
-res_lm <- lm (Y ~ X + as.factor(D), data = d) 
+#plot
+RR_plot <- ggplot(data, aes(x = X, y = Y, colour = males))
+RR_plot <- RR_plot + geom_point()
+RR_plot <- RR_plot + scale_colour_brewer(palette = "Set1")
+RR_plot <- RR_plot + geom_smooth(method = "lm", formula = y ~ x, aes(col = “lift”))
+RR_plot <- RR_plot + labs(title = "Linear regression", x = "Number of drivers (log10)", y = "deaths (log10)")
+RR_plot <- RR_plot + theme_classic() + theme(
+  axis.line = element_line(linewidth = 1.0, lineend = "square"),
+  text = element_text(colour ="black", size = 14),
+  legend.position = "none",)
+
+#linear model
+res_lm <-  lm(Y ~ X + males + X*males, data = data) 
+summary(res_lm)
 
 #Regression and confidence interval
 X_new <- data.frame(X = 23:60)
 Conf <- predict(res_lm, X_new, interval = ‘confidence’, level = 0.95)
 Conf <- predict(res_lm, X_new, interval = ‘prediction’, level = 0.95)
 ```
+- [Normality & Homoscedasticity](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/1_B_Normality_Homoscedasticity.R)
+- [Outliners](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/1_C_Detecion%20of%20outliers.R)
+- [Collinearity](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/1_D_Collinearity.R)
+- Coversion of variables
+- Interaction
+- Fitness or predictive performance
+- Confounding
 
-
-
-
-The following R code is used for logistic regression analysis:
+#### Step-wise method (should not be used)
 ```yaml
-lo_f <- glm(disease ~ passive*personal, data = ex_1, family = binomial(link = “logit”))
-summary(lo_1)
+lm_model <- lm(data = fev, logfev ~ Age + Hgt + sex + smoke)
+ 
+ols_step_both_p(lm_model, pent = 0.05, prem = 0.051) #The P-value of 0.05 is the threshold.
+ols_step_best_subset(lm_model)
 ```
+
+
+### logistic regression analysis
+1. Output is binary variable  
+2. Linear relationship of coefficient  
+3. Independent observations
+
+```yaml
+lo_1 <- glm(disease ~ passive, data = ex_1[ex_1$personal ==0, ], family = binomial(link = “logit”))
+summary(lo_1)
+
+#compute the odds ratio
+library(oddsratio)
+or_glm(ex_1, lo_1, incr = list(passive = 1))
+```
+- [likelihood ratio test](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_A_logistic_likelihood.R)
+- [Interaction](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_B_Interaction.R)
+- [Confounding](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_C_Confounding.R)
+- [Goodness of fit (Hosmer-Lemeshow test)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_D_Hosmer-Lemeshow_test.R)
+
 
 - miceadds (multiple imputation)  
 The following R code is used for multiple imputation:
