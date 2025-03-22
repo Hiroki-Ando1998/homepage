@@ -28,6 +28,7 @@ Conf <- predict(res_lm, X_new, interval = ‘prediction’, level = 0.95)
 
 
 
+
 The following R code is used for logistic regression analysis:
 ```yaml
 lo_f <- glm(disease ~ passive*personal, data = ex_1, family = binomial(link = “logit”))
