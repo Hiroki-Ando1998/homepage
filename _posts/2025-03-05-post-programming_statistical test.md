@@ -9,6 +9,7 @@ tags:
   - standard
 
 ### Data overview
+```yaml
 #Histogram
 ggplot(data, aes(x = values)) +
   geom_histogram(binwidth = 0.5, fill = "blue", color = "black", aes(y = ..density..)) +
