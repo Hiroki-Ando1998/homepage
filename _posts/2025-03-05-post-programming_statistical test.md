@@ -8,9 +8,30 @@ tags:
   - readability
   - standard
 ---
-# R packages
 
-t-test & Wilcoxson
+```yaml
+### Data overview
+#Histogram
+ggplot(data, aes(x = values)) +
+  geom_histogram(binwidth = 0.5, fill = "blue", color = "black", aes(y = ..density..)) +
+  geom_density(alpha = 0.2, fill = "orange") +
+  labs(title = "Histogram of Random Data", x = "Values", y = "Density")
+
+#Boxplot and dotplot
+RR_plot <- ggplot(data_fil_1_1, aes(x = 1, y = change))
+RR_plot <- RR_plot + geom_boxplot(notch = FALSE, width = 0.9)
+RR_plot <- RR_plot + geom_dotplot(binaxis = "y", binwidth = 1.0, stackdir = "center", alpha = 0.5) 
+RR_plot <- RR_plot + theme_bw() + theme(
+  axis.line = element_line(size = 1.0, lineend = "square"),
+  text = element_text(colour ="black", size = 14),
+  legend.position = "none",
+  axis.ticks = element_line(linewidth = 1.5),
+  axis.ticks.length = unit(-2, "mm"))
+RR_plot
+```
+
+### t-test & Wilcoxson
+P-value and effect size should be calculated.
 ```yaml
 #t test 
 t.test(data, data, var.equal=TRUE, paired = FALSE)
