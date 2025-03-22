@@ -8,14 +8,10 @@ tags:
   - readability
   - standard
 ---
-coming soon
-
-
 # R packages
 - car
 - Mass
 - lme4 (liner mixed model)
-
 
 # 1.Linear regression model
 1. Linear relationship of coefficients  
