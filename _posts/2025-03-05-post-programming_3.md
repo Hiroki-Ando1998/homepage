@@ -93,17 +93,16 @@ or_glm(ex_1, lo_1, incr = list(passive = 1))
 - [Interaction](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_B_Interaction.R)
 - [Confounding](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_C_Confounding.R)
 - [Goodness of fit (Hosmer-Lemeshow test)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_D_Hosmer-Lemeshow_test.R)
-- [Goodness of fit (Outlinear & ROC curve)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_E_Outlinear_ROC%20curve(
+- [Goodness of fit (Outlinear & ROC curve)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_E_Outlinear_ROC%20curve)
 
-- miceadds (multiple imputation)  
-The following R code is used for multiple imputation:
 
 # 3. Multiple impuation
 - library(mice)
 - library(Amelia)  
-- library (miceadds)
-[R code](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/3_A_Multiple%20imputation)
-#詳しくは、"欠測データ処理 Rによる単一代入法と多重代入法, P97
+- library (miceadds)  
+- [R code](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/3_A_Multiple%20imputation)  
+詳しくは、"欠測データ処理 Rによる単一代入法と多重代入法, P97  
+
 ```yaml
 library(mice)
 library(miceadds)　#library(Amelia)を使用するのもよい
