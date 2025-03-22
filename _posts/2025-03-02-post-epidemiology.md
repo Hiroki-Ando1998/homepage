@@ -10,7 +10,7 @@ tags:
 ---
 ### 疫学
 1. [疫学 医学的研究と実践のサイエンス](https://www.molcom.jp/products/detail/52131/)
-2. [Essential of Epidemiology in Public health[(https://www.academia.edu/43690544/ESSENTIALS_OF_FOURTH_EDITION)
+2. [Essential of Epidemiology in Public health](https://www.academia.edu/43690544/ESSENTIALS_OF_FOURTH_EDITION)
 3. [アドバンス分析疫学](https://www.medsi.co.jp/products/detail/3742)
 4. [現代疫学](https://www.gakujutsu.co.jp/product/978-4-7806-1245-5/)
 
