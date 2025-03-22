@@ -7,9 +7,7 @@ tags:
   - Post Formats
   - readability
   - standard
----
 
-```yaml
 ### Data overview
 #Histogram
 ggplot(data, aes(x = values)) +
