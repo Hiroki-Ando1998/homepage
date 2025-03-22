@@ -16,7 +16,8 @@ coming soon
 - Mass
 - lme4 (liner mixed model)
 
-#1.Linear regression model
+
+# 1.Linear regression model
 1. Linear relationship of coefficients  
 2. Normality of residuals (Shapilo wilk test, Q-Q plot, histogram)  
 3. Homoscedasticity (statistical test, variance does not depend on level of X)  
@@ -67,12 +68,20 @@ ols_step_best_subset(lm_model)
 ```
 
 
-#2. logistic regression analysis
+# 2.Logistic regression analysis
 1. Output is binary variable  
 2. Linear relationship of coefficient  
 3. Independent observations
 
 ```yaml
+#pin : プロット領域, par : 余白の指定
+par(pin = c(3,3))
+par(mar = c(3, 3, 3, 3))
+p1 <- ggplot(data, aes(x = Clinical, y = WBE)) #WBE: 0 or 1
+p1 <- p1+ geom_point(alpha = 0.4, shape = 21, size = 2, colour = "black", fill = "grey")  + scale_x_log10()
+p1 <- p1 + stat_smooth(method = glm, method.args = list(family = binomial), fullrange = TRUE)
+
+
 lo_1 <- glm(disease ~ passive, data = ex_1[ex_1$personal ==0, ], family = binomial(link = “logit”))
 summary(lo_1)
 
@@ -89,6 +98,12 @@ or_glm(ex_1, lo_1, incr = list(passive = 1))
 - miceadds (multiple imputation)  
 The following R code is used for multiple imputation:
 
+# 3. Multiple impuation
+- library(mice)
+- library(Amelia)  
+- library (miceadds)
+[R code](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/3_A_Multiple%20imputation)
+#詳しくは、"欠測データ処理 Rによる単一代入法と多重代入法, P97
 ```yaml
 library(mice)
 library(miceadds)　#library(Amelia)を使用するのもよい
@@ -112,22 +127,6 @@ imp <- mice(mydata, m = 5, method = "pmm", seed = 500)
 logit_model <- with.mids(imp, glm(y ~ x1 + x2 + x3, family = binomial()))
 pooled_results <- pool(logit_model)
 summary(pooled_results)
-
-#詳しくは、"欠測データ処理 Rによる単一代入法と多重代入法, P97
-```
-
-### Logistic regression model
-```yaml
-#pin : プロット領域, par : 余白の指定
-par(pin = c(3,3))
-par(mar = c(3, 3, 3, 3))
-p1 <- ggplot(data, aes(x = Clinical, y = WBE)) #WBE: 0 or 1
-p1 <- p1+ geom_point(alpha = 0.4, shape = 21, size = 2, colour = "black", fill = "grey")  + scale_x_log10()
-
-p1 <- p1 + stat_smooth(method = glm, method.args = list(family = binomial), fullrange = TRUE)
-res = glm(WBE ~ Clinical, data, family=binomial)
-summary(res)
-
 ```
 
 
