@@ -21,4 +21,4 @@ This post has a manual excerpt `<!--more-->` set after the second paragraph. The
 excerpt_separator: "<!--more-->"
 ```
 
-
+- [Goodness of fit (Outlinear & ROC curve)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_E_Outlinear_ROC%20curve)
