@@ -1,6 +1,6 @@
 
 ---
-title: "Statistical test & epidemiological study designs (R code)"
+title: "Statistical test & epidemiological study designs (R code)"  
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
