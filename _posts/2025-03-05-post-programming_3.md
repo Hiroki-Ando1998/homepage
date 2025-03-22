@@ -1,6 +1,5 @@
-
 ---
-title: "Statistical test & epidemiological study designs (R code)"  
+title: "Data visualization"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
