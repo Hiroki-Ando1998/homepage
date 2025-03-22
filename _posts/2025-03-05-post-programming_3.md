@@ -11,12 +11,12 @@ tags:
 coming soon
 
 
-### Modeling
-1. General linear modeling
+# R packages
+- car
 - Mass
 - lme4 (liner mixed model)
 
-### Linear regression model
+#1.Linear regression model
 1. Linear relationship of coefficients  
 2. Normality of residuals (Shapilo wilk test, Q-Q plot, histogram)  
 3. Homoscedasticity (statistical test, variance does not depend on level of X)  
@@ -46,10 +46,17 @@ Conf <- predict(res_lm, X_new, interval = ‘prediction’, level = 0.95)
 - [Normality & Homoscedasticity](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/1_B_Normality_Homoscedasticity.R)
 - [Outliners](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/1_C_Detecion%20of%20outliers.R)
 - [Collinearity](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/1_D_Collinearity.R)
-- Coversion of variables
-- Interaction
-- Fitness or predictive performance
-- Confounding
+- Coversion of variables  
+  Interaction  
+- Confounding  
+- Fitness or predictive performance  
+
+Conversion of varaibles, interaction, confunding could be identified with likelihood test.(But Baysian modeling is better) 
+1. Fit the model containing the variables we want to test and save the log-likelihood.
+2. Fit the model removing the variables we want to test and save the log-likelihood.
+3. Compare the two log-likelihoods to perform the likelihood ratio test (e.g., testing whether interaction is present)
+4. Compute the odds ratio
+
 
 #### Step-wise method (should not be used)
 ```yaml
@@ -60,7 +67,7 @@ ols_step_best_subset(lm_model)
 ```
 
 
-### logistic regression analysis
+#2. logistic regression analysis
 1. Output is binary variable  
 2. Linear relationship of coefficient  
 3. Independent observations
@@ -77,7 +84,7 @@ or_glm(ex_1, lo_1, incr = list(passive = 1))
 - [Interaction](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_B_Interaction.R)
 - [Confounding](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_C_Confounding.R)
 - [Goodness of fit (Hosmer-Lemeshow test)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_D_Hosmer-Lemeshow_test.R)
-
+- [Goodness of fit (Outlinear & ROC curve)](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_E_Outlinear_ROC%20curve(
 
 - miceadds (multiple imputation)  
 The following R code is used for multiple imputation:
