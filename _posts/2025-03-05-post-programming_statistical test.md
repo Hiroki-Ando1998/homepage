@@ -106,7 +106,78 @@ P21 <- 16/79 = 0.2532
 power.mcnemar_test(n = NULL, paid =0.2025, psi = 0.2532/0.2025, sig.level = 0.05, power = 0.9, ratio = 1, alternative = “two.sided”, method = “normal)
 ```
 
+# Third variable
+- For testing the association between a risk factor and disease adjusting for other factors, stratified analysis should be the first step in the analysis plan.  
+- Testing the interaction (MH test of Homogeneity, P < 0.10)  
+- If being no interaction, report average (adjusted) odds ratio  
+
+Approach (The similar analysis can be done with logistic regression model)
+1.Test whether there is interaction, using woolf’s test (P-value, crude and adjusted odds ratio are shown in R program).
+2.If not, check confounding by comparing adjusted and crude odds ratios.
+3. Test whether there is association, using the Mantel-Haenszel test (assume no interaction). 
+
+[github](https://github.com/Hiroki-Ando1998/R/blob/main/Statistical%20tests%20%26%20epidemiological%20study%20design/3_A_Third%20variable.R)
+```yaml
+# Create matrix
+data <- c(rep(c(0, 1, 1), 120), rep(c(0, 1, 0), 80), rep(c(0, 0, 1), 111), rep(c(0, 1, 0), 155),
+rep(c(1, 1, 1), 161), rep(c(1, 1, 0), 130), rep(c(0, 0, 1), 117), rep(c(0, 1, 0), 124)
+data <- matrix(data, ncol = 3, byrow = TRUE)
+data <- data.frame(data)
+colnames(data) <- c(“personal”, “passive”, “disease”)
+ 
+library(EpiStats)
+library(dplyr)
+library(knitr)
+
+#Odds ratio stratified 
+res1 <- CC(data[data$personal == 0, ], cases = “disease”, exposure = “passive”, exact = TRUE, full = TRUE)
+kable(res1$df1, align = “r”)
+kable(res1$df2, align = res1$df2.align)
+res2 <- CC(d1[d1$personal == 1, ], cases = “disease”, exposure = “passive”, exact = TRUE, full = TRUE)
+kable(res2$df1, align = “r”)
+kable(res2$df2, align = res2$df2.align)
+
+# Test for whether the two odds ratios differ (Woolf’s test for interaction)
+# CCinter: Case-control interaction
+res <- CCInter(data, cases = ”disease”, exposure = “passive”, by = “personal”, full = TRUE)
+kable(res$df2)
+
+#Test for association assuming no interaction (Mantel-Haenszel χ2 test)
+The test should be used only when if the variance V > 5 (χ2 test)
+#行列の作成
+data <- array(c(98, 832, 169, 3520, + 54, 227, 55, 686, + 11, 85, 61, 926, + 7, 102, 90, 1936), + dim = c(2, 2, 4), + dimnames = list( + Exposure = c("1", "0"), + Response = c("1", "0"), + Race.Level = c("1", "2", "3", "4"))) 
+mantelhaen.test(data, correct = FALSE)
+ 
+res4 <- CC(d2, cases = “bw”, exposure = “smoking”, exact = TRUE, full = TRUE)
+kable(res4$df2, align = res4$df2.align)
+```
 
 
+### Test trend (linear trend in odds ratio across levels)
+Approach 
+1. Test homogeneity of odds (all odds ratio is equivalent)
+2. If rejected, test for trend
 
+[github](https://github.com/Hiroki-Ando1998/R/blob/main/Statistical%20tests%20%26%20epidemiological%20study%20design/3_A_Third%20variable.R)
+```yaml
+#χ2 test (used only if variance is >5) Homogeneity 
+
+disease <- c(320, 1206, 1011, 463, 220)
+no_disease <- c(1422, 4432, 2893, 1092, 406)
+n <- c(1742, 5683, 3904, 1555, 626)
+m <- as.table(cbind(no_disease, disease))
+damnames(m) <- list(age = c(“1”, “2”, “3”, “4”, “5”)), + disease = c(“N”, “Y”)
+chisq.test(m)
+ 
+# test for trend
+prop.trend.test(disease, n, score = seq_along(disease))
+
+#Since p < 0.001, we reject the null hypothesis and conclude that there is a linear trend in the odds
+```
+
+Maternal extension test
+Goal is to determine whether there is a linear trend in the odds ratios across levels of an (ordinal) risk factor after controlling for a confounder.
+```yaml
+mantelhaen(table)
+```
 
