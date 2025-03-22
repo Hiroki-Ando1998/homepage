@@ -52,8 +52,9 @@ herges_g()
 
 
 
-# 2.Power test
+# Power test
 - library(MESS)
+- [github](https://github.com/Hiroki-Ando1998/R/tree/main/Statistical%20tests%20&%20epidemiological%20study%20design)
 
 ```yaml
 library(MESS)
