@@ -49,18 +49,30 @@ herges_g()
 - [ANOVA & Krustical-wallis](https://github.com/Hiroki-Ando1998/R/blob/main/Statistical%20tests%20%26%20epidemiological%20study%20design/1_C_ANOVA_Krustical-wallis.R)
 
 
-#### Step-wise method (should not be used)
-```yaml
-
-```
 
 
-# 2.Logistic regression analysis
 
+# 2.Power test
+- library(MESS)
 
 ```yaml
-
+library(MESS)
+#Grammer
+Power_t_test(n = NULL, delta = NULL, sd = 1, sig.level = 0.05, power = NULL, ratio = 1,
+  sd.ratio = 1, type = c("two.sample", "one.sample", "paired"), alternative = c("two.sided", "one.sided"),  df.method = c("welch", "classical"), strict = TRUE)
 ```
+question:Plasma-glucose levels are used to determine the presence of diabetes. Suppose the mean ln (plasma-glucose) concentration (mg/dL) in 35- to 44-year-olds is 4.86 with standard deviation = 0.54. A study of 100 sedentary people in this age group is planned to test whether they have a higher or lower level of plasma glucose than the general population.  
+
+```yaml
+#If you want know unknown
+d <- 0.1/0.54
+pwr.t.test(n = 200, d = d, sig.level = 0.05, power = NULL)
+
+# If you want to know sample size
+d <- 0.1/0.54
+pwr.t.test(n = NULL, d = d, sig.level = 0.05, power = 0.80)
+```
+
 
 
 # 3. Multiple impuation
