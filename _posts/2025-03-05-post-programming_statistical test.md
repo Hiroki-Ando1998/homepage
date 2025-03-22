@@ -153,12 +153,12 @@ kable(res4$df2, align = res4$df2.align)
 ```
 
 
-### Test trend (linear trend in odds ratio across levels)
+### Test Odds trend (linear trend in odds ratio across levels)
 Approach 
 1. Test homogeneity of odds (all odds ratio is equivalent)
 2. If rejected, test for trend
 
-[github](https://github.com/Hiroki-Ando1998/R/blob/main/Statistical%20tests%20%26%20epidemiological%20study%20design/3_A_Third%20variable.R)
+[github](https://github.com/Hiroki-Ando1998/R/blob/main/Statistical%20tests%20%26%20epidemiological%20study%20design/3_B_trend_odds_test.R)
 ```yaml
 #χ2 test (used only if variance is >5) Homogeneity 
 
