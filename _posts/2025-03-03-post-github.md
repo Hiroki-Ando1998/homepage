@@ -17,8 +17,10 @@ tags:
 - [website](https://wet-to-dry.hatenablog.com/entry/Github-on-Rstudio)
 - [website](https://obstetrician.hatenablog.com/entry/2023/11/23/113543)
 
+
 ## githubでのホームページの作り方
-- 
+- [Youtube](https://www.youtube.com/watch?v=Pof342wGt78)
+- [Minimal Mistakes_Template](https://github.com/mmistakes/mm-github-pages-starter/generate)
 
 
 
