@@ -26,26 +26,63 @@ options(mc.cores = parallel::detectCores())
 - [Git hub](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_E_Outlinear_ROC%20curve)
 
 ### Linear regression model
+R code
 ```yaml
-excerpt_separator: "<!--more-->"
+data_list_ww <- list(N = sample_size, x = data$infected, y = concentation)
+
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+
+mcmc <- stan(
+  file = "linear_regression.stan", 
+  data = data_list_ww,
+  seed = 1,
+  chain = 4,
+  iter = 10000,
+  warmup = 5000,
+  thin = 4
+)
 ```
 
+stan file (name: linear_regression.stan
+```yaml
+data {
+  int<lower=0> N;      // サンプル数
+  vector[N] x;         // 説明変数
+  vector[N] y;         // 目的変数
+}
 
+parameters {
+  real alpha;          // 切片
+  real beta;           // 回帰係数
+  real<lower=0> sigma; // 誤差の標準偏差
+}
+
+model {
+  // Priors
+  alpha ~ normal(0, 10);
+  beta ~ normal(0, 10);
+  sigma ~ normal(0, 10);
+
+  // Likelihood
+  y ~ normal(alpha + beta * x, sigma);
+}
+```
 
 ### Trace plots, WAIC, and loo
 ```yaml
 R code
-print(mcmc_CA, pars = c("c1", "intercept"), probe = c(0.025, 0.50, 0.975))
+print(mcmc, pars = c("c1", "intercept"), probe = c(0.025, 0.50, 0.975))
 
 #Traceplot
 library(bayesplot)
-mcmc_combo(mcmc_CA, pars = c("A", "a", "b", "sigma"))
+mcmc_combo(mcmc, pars = c("alpha", "beta", "sigma"))
 
-traceplot(mcmc_CA, inc_warmup = T)
+traceplot(mcmc, inc_warmup = T)
 
 #Extract log-likelihood produced from generated block
 library(loo)
-log_lik <- extract_log_lik(mcmc_CA, parameter_name = "log_lik", merge_chains = TRUE)
+log_lik <- extract_log_lik(mcmc, parameter_name = "log_lik", merge_chains = TRUE)
 
 waic(log_lik)
 loo(log_lik)
