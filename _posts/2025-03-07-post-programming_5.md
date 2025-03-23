@@ -67,7 +67,18 @@ model {
   // Likelihood
   y ~ normal(alpha + beta * x, sigma);
 }
+
+generated quantities {
+vector[N] y_rep;  // 事後予測値
+  
+  for (n in 1:N) {
+    y_rep[n] = normal_rng(alpha + beta * x[n], sigma);
+  }
+}
+
 ```
+- generatedブロックでは、A = normal_rng(A, B)という表記である.
+
 
 ### Trace plots, WAIC, and loo
 ```yaml
