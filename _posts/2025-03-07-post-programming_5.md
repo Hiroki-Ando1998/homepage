@@ -15,6 +15,13 @@ Baysian modeling and time-series analysis
 - StanはNAを取り扱えないから、あらかじめ除去しておく。  
 
 
+```yaml
+R code
+#並列計算するにはstan関数やstan_model関数とsampling関数を呼ぶ前に以下のコードを書く
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+```
+
 # Regression model
 - [Git hub](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/2_E_Outlinear_ROC%20curve)
 
@@ -22,6 +29,30 @@ Baysian modeling and time-series analysis
 ```yaml
 excerpt_separator: "<!--more-->"
 ```
+
+
+
+### Trace plots, WAIC, and loo
+```yaml
+R code
+print(mcmc_CA, pars = c("c1", "intercept"), probe = c(0.025, 0.50, 0.975))
+
+#Traceplot
+library(bayesplot)
+mcmc_combo(mcmc_CA, pars = c("A", "a", "b", "sigma"))
+
+traceplot(mcmc_CA, inc_warmup = T)
+
+#Extract log-likelihood produced from generated block
+library(loo)
+log_lik <- extract_log_lik(mcmc_CA, parameter_name = "log_lik", merge_chains = TRUE)
+
+waic(log_lik)
+loo(log_lik)
+```
+
+
+
 
 ### Logistic regression model
 Stan code
@@ -44,7 +75,6 @@ transformed parameters{
   
     real c2;
     c2 = exp(1+c2_raw);
-
 }
 
 model {
