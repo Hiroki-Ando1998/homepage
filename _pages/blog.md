@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Memo"
 layout: posts
 permalink: /blog/
 ---
