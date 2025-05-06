@@ -1,7 +1,7 @@
 ---
 title: "Memo"
 layout: posts
-permalink: /blog/
+permalink: /Memo/
 ---
 
 
