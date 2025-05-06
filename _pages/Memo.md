@@ -4,4 +4,4 @@ layout: posts
 permalink: /blog/
 ---
 
-coming soon
+
