@@ -27,5 +27,6 @@ tags:
 - [gitでのバージョン管理 (基礎編)](https://qiita.com/zakkiiii/items/2ef92c8dd5d174a9ceed)
 - [githubとRstudioの連携](https://mom-neuroscience.com/rstudio-github/)
 
-※GitHubに登録するSSH鍵は、RStudioに対して（正確にはPCのユーザーアカウントに対して）1つで十分。Rファイルごと、プロジェクトごとにSSHキーを変える必要はありません
+※GitHubに登録するSSH鍵は、RStudioに対して（正確にはPCのユーザーアカウントに対して）1つで十分。Rファイルごと、プロジェクトごとにSSHキーを変える必要はない。
+※GitHub連携後にRファイルを保存する際は、"save"を使う("save.as"を使わない方が連携が壊れないで簡単にファイルが保存できる)
 
