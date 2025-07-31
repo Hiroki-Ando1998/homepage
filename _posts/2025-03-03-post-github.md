@@ -29,4 +29,5 @@ tags:
 
 ※GitHubに登録するSSH鍵は、RStudioに対して（正確にはPCのユーザーアカウントに対して）1つで十分。Rファイルごと、プロジェクトごとにSSHキーを変える必要はない。
 ※GitHub連携後にRファイルを保存する際は、"save"を使う("save.as"を使わない方が連携が壊れないで簡単にファイルが保存できる)
+<img width="476" height="335" alt="image" src="https://github.com/user-attachments/assets/bab21b9a-b6f3-435c-92da-2f745fc528cd" />
 
