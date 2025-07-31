@@ -23,5 +23,6 @@ tags:
 - [Minimal Mistakes_Template](https://github.com/mmistakes/mm-github-pages-starter/generate)
 
 
-
+## githubでRのバージョン管理(Rstudioと連携)
+- [website](https://qiita.com/zakkiiii/items/2ef92c8dd5d174a9ceed)
 
