@@ -23,6 +23,6 @@ tags:
 - [Minimal Mistakes_Template](https://github.com/mmistakes/mm-github-pages-starter/generate)
 
 
-## githubでRのバージョン管理(Rstudioと連携)
-- [website](https://qiita.com/zakkiiii/items/2ef92c8dd5d174a9ceed)
-
+## gitでRのバージョン管理(Rstudioと連携)
+- [gitでのバージョン管理 (基礎編)](https://qiita.com/zakkiiii/items/2ef92c8dd5d174a9ceed)
+- [githubとRstudioの連携](https://mom-neuroscience.com/rstudio-github/)
