@@ -11,7 +11,7 @@ title: Ph.D. Student in Public Health
 
 
 I am a Ph.D. student with research interests in infectious disease epidemiology and [wastewater-based epidemiology](https://www.youtube.com/watch?v=G4PN7rXHEWY), which is one type of environemtnal surveillance that uses sewage to monitor the presence and dynamics of biological or chemical markers in a community.
-I completed my Master’s training in environmental engineering, where I developed a strong foundation in water systems and environmental processes, and during my doctoral studies I have expanded my focus to public health. My current research ([Google Scholar](https://scholar.google.co.jp/citations?user=2ucfkxcAAAAJ&hl=ja)) centers on 
+I completed my Master’s training in environmental engineering, where I developed a strong foundation in water systems and environmental processes, and during my doctoral studies I have expanded my focus to public health. My research ([Google Scholar](https://scholar.google.co.jp/citations?user=2ucfkxcAAAAJ&hl=ja)) include 
 - the design of effective wastewater sampling strategies including development of highly sensitive detection methods 
 - the development of statistical modeling frameworks to analyze wastewater-based data so that it can meaningfully inform public health decision-making.
 
