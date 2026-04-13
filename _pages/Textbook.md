@@ -9,7 +9,7 @@ I compiled a list of textbooks I used to study topics related to my research—s
 1. [疫学 医学的研究と実践のサイエンス](https://www.molcom.jp/products/detail/52131/) introduces the overall framework of epidemiology, covering basic measures, study designs, bias, and practical applications in public health
 2. [Essential of Epidemiology in Public health](https://www.academia.edu/43690544/ESSENTIALS_OF_FOURTH_EDITION) focuses more on real-world applications, emphasizing how epidemiological methods are used in public health practice with many concrete examples.
 3. [アドバンス分析疫学](https://www.medsi.co.jp/products/detail/3742) takes a more analytical approach, explaining statistical modeling, confounding adjustment, and methods for analyzing epidemiological data in greater depth
-4. [現代疫学](https://www.gakujutsu.co.jp/product/978-4-7806-1245-5/) provides a more theoretical and rigorous treatment of epidemiology, particularly in causal inference and the formal understanding of bias and study design
+4. [現代疫学](https://www.gakujutsu.co.jp/product/978-4-7806-1245-5/) provides a more theoretical and rigorous treatment of epidemiology, particularly in causal inference and the formal understanding of bias and study design ([English](https://www.amazon.co.jp/Modern-Epidemiology-Kenneth-J-Rothman/dp/1451190050))
 
 
 ### Infectious disease epidemiology
@@ -28,8 +28,8 @@ I am learning statistics, following [this reference](https://qiita.com/ssugasawa
 2. [統計学入門 東京大学出版](https://www.utp.or.jp/book/b300857.html) provides a more rigorous introduction to statistical inference, covering probability, estimation, and hypothesis testing in a systematic way
 3. [データ解析のための数理統計入門](https://www.kyoritsu-pub.co.jp/book/b10033628.html) moves toward theoretical statistics, explaining the mathematical foundations behind inference methods and statistical models
 4. [現代数理統計学の基礎](https://www.kyoritsu-pub.co.jp/book/b10003681.html) further deepens this theoretical perspective, offering a more formal and comprehensive treatment of statistical theory.
-5. [標準ベイズ統計学](https://www.asakura.co.jp/detail.php?book_code=12267&srsltid=AfmBOookiaOnA332Yo92n3nYVIxSZejU-KBNujDbUkf5YifJy4G39KD8) introduces Bayesian thinking as a framework for updating beliefs with data, contrasting it with classical approaches
-6. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703) provides a comprehensive and practical treatment of Bayesian methods, showing how to build models, perform inference, and apply Bayesian analysis to real-world problems using modern computational technique
+5. [標準ベイズ統計学](https://www.asakura.co.jp/detail.php?book_code=12267&srsltid=AfmBOookiaOnA332Yo92n3nYVIxSZejU-KBNujDbUkf5YifJy4G39KD8) introduces Bayesian thinking as a framework for updating beliefs with data, contrasting it with classical approaches ([English](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf))
+6. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703) provides a comprehensive and practical treatment of Bayesian methods, showing how to build models, perform inference, and apply Bayesian analysis to real-world problems using modern computational technique ([English](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.stat.columbia.edu/gelman/book/BDA3.pdf))
 
 
 ### Modeling and Programming
