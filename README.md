@@ -1,6 +1,6 @@
 # Webpage
 
-This webpage was created using the [template](https://github.com/mmistakes/mm-github-pages-starter/generate) provided by [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This webpage was created using the [template](https://github.com/mmistakes/mm-github-pages-starter/generate) based on [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 - Main page is *index.md*
 - Subpage files are "_pages"
 
