@@ -15,6 +15,7 @@ I am a Ph.D. student with research interests in infectious disease epidemiology 
 I completed my Master’s training in environmental engineering, where I developed a strong foundation in water systems and environmental processes, and during my doctoral studies I have expanded my focus to public health. My current research centers on 
 - the design of effective wastewater sampling strategies including development of highly sensitive detection methods 
 - the development of statistical modeling frameworks to analyze wastewater-based data so that it can meaningfully inform public health decision-making.
+
 Ultimately, my goal is to contribute to building a society that is more resilient to infectious disease threats by integrating environmental monitoring with rigorous statistical analysis and public health practice.
 
 ![Research image](/assets/images/home.jpg)
