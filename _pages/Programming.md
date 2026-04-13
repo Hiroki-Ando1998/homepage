@@ -12,3 +12,24 @@ The key advantages of programming can be summarized as follows:
 - Flexibility: Enables customized analyses and complex model implementation
 - Reproducibility: Facilitates transparent and repeatable workflows
 - Adaptability: Allows easy modification and rapid reanalysis under new conditions.
+
+On the other hand, as a beginner in programming, I initially struggled to understand what software was available and which tools were suitable for specific purposes, encountering difficulties from the very first stages of adoption. 
+I also found that installing the necessary tools and learning their basic usage required considerable time. 
+Therefore, in this article, I aim to organize and summarize these aspects both as a personal reference and as a guide for other programming beginners facing similar challenges.
+
+
+# GitHub
+GitHub is a web-based platform for version control and collaboration that allows users to store, manage, and share code. It is built on Git, a distributed version control system that tracks changes in files over time. By using GitHub, individuals and teams can keep a complete history of their projects, revert to previous versions if needed, and work on the same codebase simultaneously without conflicts.
+
+For researchers, GitHub is widely used for:
+- Managing and version-controlling analysis code and research projects
+- Sharing code and data to ensure reproducibility and transparency
+- Collaborating with other researchers across institutions
+- Distributing software tools, models, and computational methods
+- Hosting documentation and research-related resources (e.g., project websites)
+
+GitHub is an useful tool to manage and organize code and files for tools such as R, LaTeX, and reveal.js.
+
+
+# R
+
