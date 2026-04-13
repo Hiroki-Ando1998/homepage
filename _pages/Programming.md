@@ -62,6 +62,10 @@ From a research perspective, the key advantages of R include:
 - **Extensive package ecosystem**: Thousands of user-contributed packages extend functionality across diverse research fields
 - **Community and knowledge sharing**: Many researchers publicly share their code and methods, making it easier to replicate existing studies and build upon prior work
 
+### Quick start
+1. [Check and set directory](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)
+2. [Read data file](https://www.rdocumentation.org/packages/qtl2/versions/0.32/topics/read_csv)
+3. [Install library](https://www.dataquest.io/blog/install-package-r/)
 
 # LaTex
 LaTeX is a document preparation system widely used in academia for writing papers and can be edited efficiently within VS Code
