@@ -96,6 +96,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide # ここに追加
       read_time: true
       comments: true
       share: true
@@ -107,6 +108,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide # ここに追加
 
 category_archive:
   type: liquid
