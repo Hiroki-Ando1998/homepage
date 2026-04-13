@@ -75,7 +75,7 @@ From a researcher’s perspective, the advantages of LaTeX include:
 
 In comparison, Microsoft Word provides a more intuitive, WYSIWYG (What You See Is What You Get) interface, which is easier for beginners and suitable for simple documents. However, as documents become more complex—particularly with many equations, references, and figures—Word can become difficult to manage consistently. In contrast, LaTeX offers greater stability, precision, and reproducibility, making it the preferred choice for many researchers despite its steeper learning curve.Other tools for writing academic papers, such as [Quarto](https://quarto.org/docs/download/), are also available. It is best to choose a tool that aligns with both your own preferences and those of your collaborators.
 
-- [install_Japanese](https://qiita.com/alpaca-honke/items/f30a2d04eedaa3c36a21#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+- [install_(Japanese)](https://qiita.com/alpaca-honke/items/f30a2d04eedaa3c36a21#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 
 
 # Reveal.js
