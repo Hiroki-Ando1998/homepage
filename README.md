@@ -28,9 +28,8 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 
 
 ## CV template
-- [Homepage CV][https://ja.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk]
+- [Homepage CV](https://ja.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk)
 - [Enginner CV](https://www.overleaf.com/latex/templates/twentyoneseconds/xmvbqtfmnycf)
 - [Academic CV](https://www.overleaf.com/articles/jaydevs-resume/qwdzzxqcrwmf)
-- 
 
 
