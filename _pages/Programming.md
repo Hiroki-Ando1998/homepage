@@ -63,8 +63,20 @@ From a research perspective, the key advantages of R include:
 - **Community and knowledge sharing**: Many researchers publicly share their code and methods, making it easier to replicate existing studies and build upon prior work
 
 
+# LaTex
+LaTeX is a document preparation system widely used in academia for writing papers and can be edited efficiently within VS Code
+From a researcher’s perspective, the advantages of LaTeX include:
+- High-quality typesetting: Produces professionally formatted documents with precise control over layout and typography
+- Excellent mathematical notation: Handles complex equations clearly and consistently, far beyond what is easily achievable in Microsoft Word
+- Separation of content and formatting: Authors focus on writing content, while formatting is handled systematically
+- Reproducibility and version control: Plain-text source files integrate well with Git, enabling transparent revision tracking
+- Cross-referencing and automation: Automatically manages references, citations, figure numbers, and tables
+- Scalability: Efficiently handles large documents such as theses, books, and multi-author manuscripts
+
+In comparison, Microsoft Word provides a more intuitive, WYSIWYG (What You See Is What You Get) interface, which is easier for beginners and suitable for simple documents. However, as documents become more complex—particularly with many equations, references, and figures—Word can become difficult to manage consistently. In contrast, LaTeX offers greater stability, precision, and reproducibility, making it the preferred choice for many researchers despite its steeper learning curve.Other tools for writing academic papers, such as [Quarto](https://quarto.org/docs/download/), are also available. It is best to choose a tool that aligns with both your own preferences and those of your collaborators.
+
+- [install_Japanese](https://qiita.com/alpaca-honke/items/f30a2d04eedaa3c36a21#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 
 
-
-
+# Reveal.js
 
