@@ -19,7 +19,7 @@ Therefore, in this article, I aim to organize and summarize these aspects both a
 
 
 # GitHub
-GitHub is a web-based platform for version control and collaboration that allows users to store, manage, and share code. It is built on Git, a distributed version control system that tracks changes in files over time. By using GitHub, individuals and teams can keep a complete history of their projects, revert to previous versions if needed, and work on the same codebase simultaneously without conflicts.
+[GitHub](https://github.co.jp/) is a web-based platform for version control and collaboration that allows users to store, manage, and share code. It is built on [Git](https://git-scm.com/), a distributed version control system that tracks changes in files over time. By using GitHub, individuals and teams can keep a complete history of their projects, revert to previous versions if needed, and work on the same codebase simultaneously without conflicts.
 
 For researchers, GitHub is widely used for:
 - Managing and version-controlling analysis code and research projects
@@ -31,7 +31,6 @@ For researchers, GitHub is widely used for:
 GitHub is an useful tool to manage and organize code and files for tools such as R, LaTeX, and reveal.js.
 
 - [install Youtube](https://www.youtube.com/watch?v=wDRoduig_98) & [install (Japanese)](https://www.kagoya.jp/howto/it-glossary/develop/howtousegithub/)
-- 
 
 
 # R
