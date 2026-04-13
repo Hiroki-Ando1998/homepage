@@ -34,7 +34,6 @@ Using the EPISENS-M method, we conducted approximately four years of wastewater 
 - Lead to the implementation of wastewater surveillance in Sapporo city, Japan ([Link](https://www.city.sapporo.jp.e.ain.hp.transer.com/gesui/surveillance.html)).
 
 # Ph.D reseach 2023-Present
----
 ### 1. Handling left-censored wastewater suveillance data (2025)
 ![Research image_4](../assets/images/research_model_1.jpg)  
 Despite technological advancements, non-detected samples are still observed. Left-censored data hinders an accurate understanding of the temporal dynamics of wastewater concentration. To address this, we developed a state-space model to handle left-censored wastewater surveillance data ([Paper](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=2ucfkxcAAAAJ&sortby=pubdate&citation_for_view=2ucfkxcAAAAJ:4TOpqqG69KYC)). The developed model
