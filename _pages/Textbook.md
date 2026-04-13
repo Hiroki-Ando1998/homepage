@@ -32,12 +32,12 @@ I am learning statistics, following [this reference](https://qiita.com/ssugasawa
 6. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703) provides a comprehensive and practical treatment of Bayesian methods, showing how to build models, perform inference, and apply Bayesian analysis to real-world problems using modern computational technique
 
 
-### 統計モデリング & R言語プログラミング
-1. [データ解析のための統計モデリング入門](https://www.iwanami.co.jp/book/b257893.html)
-2. [RとStanではじめるベイズ統計モデリングによるデータ分析入門](https://www.kspub.co.jp/book/detail/5165362.html)
-3. [StanとRでベイズ統計モデリング](https://www.kyoritsu-pub.co.jp/book/b10003786.html)
-4. [Rによる機械学習](https://www.shoeisha.co.jp/book/detail/9784798167343)
-5. [Rではじめる地理空間データの統計解析入門](https://www.kspub.co.jp/book/detail/5273036.html)
+### Modeling and Programming
+1. [データ解析のための統計モデリング入門](https://www.iwanami.co.jp/book/b257893.html) introduces the core ideas of statistical modeling, emphasizing how to formulate models, interpret parameters, and connect data with underlying processes in an intuitive yet principled way
+2. [RとStanではじめるベイズ統計モデリングによるデータ分析入門](https://www.kspub.co.jp/book/detail/5165362.html) provides a hands-on introduction to Bayesian modeling, showing how to implement models and perform inference using R and Stan, making abstract concepts computationally concrete
+3. [StanとRでベイズ統計モデリング](https://www.kyoritsu-pub.co.jp/book/b10003786.html) builds on this foundation with more advanced models and deeper explanations, helping readers develop practical skills for real-world Bayesian data analysis.
+4. [Rによる機械学習](https://www.shoeisha.co.jp/book/detail/9784798167343) expands beyond traditional statistics to cover machine learning methods, focusing on prediction, model evaluation, and algorithmic approaches using R
+5. [Rではじめる地理空間データの統計解析入門](https://www.kspub.co.jp/book/detail/5273036.html) introduces statistical techniques for analyzing spatial and geographic data, including mapping, spatial correlation, and region-based modeling, which are particularly relevant for applications such as epidemiology and environmental studies.
 
 ### その他
 - [欠測データ処理](https://www.kyoritsu-pub.co.jp/book/b10003896.html)
