@@ -8,10 +8,8 @@ title: Welcome to Hiroki's Page!
 ---
 ### Contact
 Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]  
-CV: [PDF](https://drive.google.com/drive/u/0/folders/1l5AGlTYMFyW5ohbhGnXx5DC1cZg9Pe0i)
-
 [![CV](assets/images/CV_screenshot.png)](https://hiroki-ando1998.github.io/homepage/CV/Academic_CV.pdf)
-[PDF](https://hiroki-ando1998.github.io/homepage/CV/Academic_CV.pdf)
+
 
 
 ### <span style="color:#5E9CA0;">Education</span>
