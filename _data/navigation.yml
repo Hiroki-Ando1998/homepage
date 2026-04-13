@@ -3,6 +3,8 @@ main:
     url: /research/
   - title: "Programming"
     url: /Programming/
+    - title: "R and Stan code"
+    url: /R and Stan code/
   - title: "Textbook"
     url: /Textbook/
   - title: "Resources"
