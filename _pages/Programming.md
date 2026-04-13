@@ -57,8 +57,8 @@ Although there are several ways to edit files (e.g., R file) from GitHub using V
 From a research perspective, the key advantages of R include:
 - **Advanced statistical capabilities**: Supports a wide range of statistical methods, from basic analyses to complex models (e.g., Bayesian inference, time-series analysis, and state-space models)
 - **High-quality visualization**: Enables flexible and publication-ready graphics through packages such as ggplot2
-- **Open-source and free**: Freely available, making it accessible to researchers worldwide without licensing costs
-- **Reproducibility**: Code-based workflows allow analyses to be easily reproduced and verified
+- Open-source and free: Freely available, making it accessible to researchers worldwide without licensing costs
+- Reproducibility: Code-based workflows allow analyses to be easily reproduced and verified
 - **Extensive package ecosystem**: Thousands of user-contributed packages extend functionality across diverse research fields
 - **Community and knowledge sharing**: Many researchers publicly share their code and methods, making it easier to replicate existing studies and build upon prior work
 
@@ -79,4 +79,14 @@ In comparison, Microsoft Word provides a more intuitive, WYSIWYG (What You See I
 
 
 # Reveal.js
+[reveal.js](https://revealjs.com/) is an open-source framework for creating presentations using web technologies such as HTML, CSS, and JavaScript. One major advantage of reveal.js is that it can be used within Visual Studio Code, allowing users to write and manage slides alongside analysis code (e.g., R or Python). This integration enables a unified workflow in which figures, results, and slides can be generated and updated programmatically.
 
+From a researcher’s perspective, the key advantages of reveal.js include:
+- Reproducibility: Slides can be generated directly from code, ensuring consistency between analysis and presentation
+- Flexibility and customization: Full control over layout, design, and interactivity using web technologies
+- Integration with code: Easily incorporates dynamic content, such as plots or results generated from R or Python
+- Version control compatibility: Plain-text files integrate naturally with Git and platforms like GitHub
+- **Web-based sharing**: Presentations can be hosted online and shared via a URL, making them easily accessible without requiring specific software
+- **Portability**: Runs in a web browser, making it platform-independent
+
+In comparison, Microsoft PowerPoint offers a highly intuitive, graphical user interface that is easy to use and widely adopted. It is well suited for quickly creating slides without requiring programming knowledge. However, PowerPoint relies heavily on manual editing, which can make it less efficient for updating figures or maintaining consistency across slides, especially in data-driven presentations. In contrast, reveal.js emphasizes automation, reproducibility, and integration with analytical workflows. While it requires some familiarity with coding and web technologies, it provides substantial advantages for researchers who need to create dynamic, data-driven, and easily shareable presentations.
