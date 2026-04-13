@@ -11,7 +11,7 @@ Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 [![CV](assets/images/CV_screenshot.png)](https://hiroki-ando1998.github.io/homepage/CV/Academic_CV.pdf)
 
 
-I am a Ph.D. student with research interests in infectious disease epidemiology and wastewater-based epidemiology, which is one type of environemtnal surveillance that uses sewage to monitor the presence and dynamics of biological or chemical markers in a community.
+I am a Ph.D. student with research interests in infectious disease epidemiology and [wastewater-based epidemiology](https://www.youtube.com/watch?v=G4PN7rXHEWY), which is one type of environemtnal surveillance that uses sewage to monitor the presence and dynamics of biological or chemical markers in a community.
 I completed my Master’s training in environmental engineering, where I developed a strong foundation in water systems and environmental processes, and during my doctoral studies I have expanded my focus to public health. My current research centers on 
 - the design of effective wastewater sampling strategies for detecting viruses in wastewater
 - the development of statistical modeling frameworks to analyze wastewater-based data so that it can meaningfully inform public health decision-making.
