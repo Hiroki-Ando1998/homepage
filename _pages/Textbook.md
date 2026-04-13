@@ -20,20 +20,17 @@ I compiled a list of textbooks I used to study topics related to my research—s
 
 
 # Statistics and Modeling
-# <span style="color:#5E9CA0;">統計学 & モデリング</span>
-[ベイズ統計学を勉強する参考書のフロー (慶應義塾大学・株式会社Nospare 菅澤先生)](https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6)
+I am learning statistics, following [this reference](https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6)
 
-### 統計学入門
-1. [データ分析に必須の知識・考え方　統計学入門](https://www.socym.co.jp/book/1319)
-- [公式と例題で学ぶ数学の基礎](https://www.kyoritsu-pub.co.jp/book/b10123480.html)
-- [公式と例題で学ぶ統計学の基礎](https://www.kyoritsu-pub.co.jp/book/b10085700.html)
-- [統計学入門 東京大学出版](https://www.utp.or.jp/book/b300857.html)
+### Theortical Statistics
+01. [公式と例題で学ぶ数学の基礎](https://www.kyoritsu-pub.co.jp/book/b10123480.html) introduces the essential mathematical foundations, such as algebra and calculus, through formulas and worked examples, helping build the basic skills required for statistics
+1. [データ分析に必須の知識・考え方　統計学入門](https://www.socym.co.jp/book/1319) focuses on intuitive understanding of statistical concepts, including how to summarize and interpret data, emphasizing practical thinking rather than formal theory
+2. [統計学入門 東京大学出版](https://www.utp.or.jp/book/b300857.html) provides a more rigorous introduction to statistical inference, covering probability, estimation, and hypothesis testing in a systematic way
+3. [データ解析のための数理統計入門](https://www.kyoritsu-pub.co.jp/book/b10033628.html) moves toward theoretical statistics, explaining the mathematical foundations behind inference methods and statistical models
+4. [現代数理統計学の基礎](https://www.kyoritsu-pub.co.jp/book/b10003681.html) further deepens this theoretical perspective, offering a more formal and comprehensive treatment of statistical theory.
+5. [標準ベイズ統計学](https://www.asakura.co.jp/detail.php?book_code=12267&srsltid=AfmBOookiaOnA332Yo92n3nYVIxSZejU-KBNujDbUkf5YifJy4G39KD8) introduces Bayesian thinking as a framework for updating beliefs with data, contrasting it with classical approaches
+6. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703) provides a comprehensive and practical treatment of Bayesian methods, showing how to build models, perform inference, and apply Bayesian analysis to real-world problems using modern computational technique
 
-### 統計学 (中級~) 
-1. [データ解析のための数理統計入門](https://www.kyoritsu-pub.co.jp/book/b10033628.html)
-2. [標準ベイズ統計学](https://www.asakura.co.jp/detail.php?book_code=12267&srsltid=AfmBOookiaOnA332Yo92n3nYVIxSZejU-KBNujDbUkf5YifJy4G39KD8)
-3. [現代数理統計学の基礎](https://www.kyoritsu-pub.co.jp/book/b10003681.html)
-4. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703)
 
 ### 統計モデリング & R言語プログラミング
 1. [データ解析のための統計モデリング入門](https://www.iwanami.co.jp/book/b257893.html)
