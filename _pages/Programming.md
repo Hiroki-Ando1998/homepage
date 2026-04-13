@@ -1,3 +1,8 @@
+---
+permalink: /Programming/
+title: "Programming"
+---
+
 
 Programming enables faster and more efficient creation of slides and data analysis compared with interface-based operations (e.g., Excel and PowerPoint). In particular, once the workflow is written as code, repetitive tasks no longer require manual intervention, and even large datasets can be processed automatically using a consistent procedure. Such automation not only reduces the time required for tasks but also helps minimize human error.
 
