@@ -1,1 +1,192 @@
+\documentclass[11pt,a4paper]{article}
 
+% --- パッケージの導入 ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{enumitem} 
+\usepackage{mathptmx} % 本文を Times New Roman 風に変更
+\usepackage[scaled]{helvet} % 見出しなどに使うサンセリフ体を Helvetica に変更
+\usepackage{courier} % 等幅フォントを Courier に変更
+\usepackage{xurl} % URLのどこでも改行を許可
+\usepackage{hyperref}
+\urlstyle{same} % URLのフォントを本文と統一
+
+
+% --- スタイルの設定 ---
+% セクション見出しのフォーマット（左寄せ・太字・大文字・下線）
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{15pt}{10pt}
+
+% リストの設定（箇条書きの余白調整）
+\setlist[itemize]{topsep=0pt, partopsep=0pt, itemsep=2pt, parsep=2pt, leftmargin=1.5em}
+
+% インデントを無効化
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ------------------------------------- ヘッダー（左寄せ） ---
+{\LARGE \textbf{Hiroki Ando}} \\
+{\small % ここから文字を小さくする
+Department of Public Health, University of Arizona, Tucson, AZ 85721, \href{mailto:hirokiando@arizona.edu}{hirokiando@arizona.edu}
+} % ここまで
+
+
+\vspace{0pt}
+% ------------------------------------ 研究職歴 ---
+\section{Research Experience}
+
+\textbf{PhD Research, University of Arizona } \hfill 2023 -- Present \\
+
+% --- PhD Research / Research Experience ---
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+    \small % 文字サイズを一段階小さくして一行に収まりやすくする
+    \item Developed a time-series model to address left-censored data in wastewater surveillance.
+    \item Developed a stochastic model for wastewater-based risk assessment of city-level infectious disease epidemics.
+    \item Developed a stochastic model combining hospital case data and wastewater data for nosocomial infection risk assessment. % 長いので少し簡略化
+    \item Developed a model incorporating shedding load variability to accurately estimate the number of cases. % 冗長な表現を削り一行に
+    \item Published scientific papers in peer-reviewed journals to support the research programme.
+    \item Secured competitive funding (\$50,000) for a project focused on wastewater surveillance.
+\end{itemize}
+
+\vspace{10pt}
+\textbf{Master Research, Hokkaido University} \hfill 2020 -- 2023 \\
+
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+    \small
+    \item Developed two highly sensitive detection methods for wastewater surveillance monitoring infectious diseases.
+    \item Collaborated with local authorities to implement wastewater surveillance in Sapporo, Japan.
+    \item Developed a mathematical model for early detection of COVID-19 cases through wastewater surveillance.
+    \item Investigated SARS-CoV-2 and variants in the Tokyo 2020 Olympic and Paralympic athlete village. % 情報を凝縮して一行に
+    \item Published three first-author scientific papers in peer-reviewed journals to support the research.
+\end{itemize}
+
+
+
+
+
+\vspace{10pt}
+
+% ------------------------------------------------------------- スキル ---
+\section{Relevant Research Skills}
+\begin{itemize}
+    \item \textbf{Laboratory:} PCR, wastewater concentration, nucleic acid extraction.
+    \item \textbf{Computation:} R, LaTeX, Baysian modeling, time-series analysis, infectious disease modeling, stochastic modeling, QMRA
+\end{itemize}
+
+
+% ------------------------------------------------------------- Award ---
+\section{Awards and Fellowships}
+
+\begin{enumerate}[label=\arabic*., series=awardcount, leftmargin=1.5em, itemsep=1pt, parsep=1pt]
+    \small % リスト全体の文字サイズを小さく設定
+    \setcounter{enumi}{8} % 10から始める場合はここを10にするか、前回のコードに合わせて調整してください
+    
+    \item \textbf{One Health Pilot Grant}, University of Arizona One Health Research Initiative (\$50,000) \hfill May 2024
+    \addtocounter{enumi}{-2}
+    
+    \item \textbf{Funai Overseas Scholarship}, Funai Foundation for Information Technology (\$150,000) \hfill 2023 -- 2025
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Nishihara Cultural Foundation Scholarship} (\$8,000) \hfill 2022 -- 2023
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Kurita Award (Best Presentation)}, 55th Japan Society on Water Environment (JSWE) \hfill Mar 2022
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Best Presentation Award}, 14th Interim Presentation, Hokkaido University \hfill Dec 2021
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Environmental Technology and Project Award}, 58th Env. Engineering Research Forum \hfill Oct 2021
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Best Poster Award}, 7th Cross-Departmental Symposium, Hokkaido University \hfill Oct 2021
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Lion Award (Best Poster)}, 55th Japan Society on Water Environment (JSWE) \hfill Mar 2021
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{Dean of Engineering Award}, Hokkaido University \hfill Mar 2021 \\
+    {\footnotesize For achieving the highest GPA in the Environmental Engineering course (top of 50 students).}
+\end{enumerate}
+
+% -------------------------------------- 教育歴 ---
+\section{Education}
+\textbf{University of Arizona} \hfill 2023 -- Present \\
+Ph.D in Public Health, under the supervision of Dr. Kelly A. Reynolds
+
+\textbf{Hokkaido University}} \hfill 2020 -- 2023 \\
+Master of Engineering in Environmental Engineering, under the supervision of Dr. Masaaki Kitajima
+
+\textbf{Hokkaido University}} \hfill 2016 -- 2020 \\
+Bachelor of Engineering in Environmental Engineering
+
+\vspace{10pt}
+
+
+% ------------------------------------------------------------- Publications ---
+\section{Publications}
+
+\begin{enumerate}[label=\arabic*., series=pubcount, leftmargin=1.5em, nosep]
+    \small
+    \urlstyle{same} % リスト内でもフォントを本文に合わせる
+    \sloppy % 行の端でURLをより柔軟に折り返す設定
+    \setcounter{enumi}{16}
+
+    \item \textbf{\underline{H. Ando}}, M. Kitajima, T. Oki, and M. Murakami. Advancements in global water and sanitation access (2000–2020). \textit{Scientific Reports}, 15, 6399, \textbf{2025}. \url{https://www.nature.com/articles/s41598-025-90980-7}
+    \addtocounter{enumi}{-2}
+
+    \item M. Murakami, S. Nomura, \textbf{\underline{H. Ando}}, and M. Kitajima. Perceptions and responses to COVID-19 through wastewater surveillance information and online search behavior: A randomized controlled trial. \textit{International Journal of Disaster Risk Reduction}, 118, 105224, \textbf{2025}. \url{https://doi.org/10.1016/j.ijdrr.2025.105224}
+    \addtocounter{enumi}{-2}
+
+    \item M. Kitajima, M. Murakami, \textbf{\underline{H. Ando}}, S. Kadoya, R. Iwamoto, T. Kuroita, K. Yamaguchi, H. Kobayashi, S. Okabe, H. Katayama, and S. Imoto. Quantitative association of SARS-CoV-2 in wastewater and clinically confirmed cases in different areas of the Tokyo 2020 Olympic and Paralympic Village. \textit{Science of The Total Environment}, 960, 178209, \textbf{2025}. \url{https://doi.org/10.1016/j.scitotenv.2024.178209}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, M. Murakami, M. Kitajima, and KA Reynolds. Wastewater-based estimation of temporal variation in shedding amount of influenza A virus and clinically identified case using the PRESENS model. \textit{Environment International}, 109218, \textbf{2024}. \url{https://doi.org/10.1016/j.envint.2024.109218}
+    \addtocounter{enumi}{-2}
+
+    \item M. Murakami, \textbf{\underline{H. Ando}}, R Yamaguchi, and M. Kitajima. Evaluating survey techniques in wastewater-based epidemiology for accurate COVID-19 incidence estimation. \textit{Science of the Total Environment}, 954, 176702, \textbf{2024}. \url{https://doi.org/10.1016/j.scitotenv.2024.176702}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, and KA. Reynolds. Wastewater-based effective reproduction number and prediction under the absence of shedding information. \textit{Environment International}, 194, 109128, \textbf{2024}. \url{https://doi.org/10.1016/j.envint.2024.109128}
+    \addtocounter{enumi}{-2}
+
+    \item T. Kuroita, A Yoshimura, R. Iwamoto, \textbf{\underline{H. Ando}}, S. Okabe, M. Kitajima. Quantitative analysis of SARS-CoV-2 RNA in wastewater and evaluation of sampling frequency during the downward period of a COVID-19 wave in Japan. \textit{Science of the Total Environment}, 166526, \textbf{2024}. \url{https://doi.org/10.1016/j.scitotenv.2023.166526}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, W. Ahmed, S. Okabe, M. Kitajima. Tracking the effects of the COVID-19 pandemic on viral gastroenteritis through wastewater-based retrospective analysis. \textit{Science of the Total Environment}, 166557, \textbf{2023}. \url{https://doi.org/10.1016/j.scitotenv.2023.166557}
+    \addtocounter{enumi}{-2}
+
+    \item R. Iwamoto, K. Yamaguchi, K. Katayama, \textbf{\underline{H. Ando}}, K. Setsukinai, H. Kobayashi, S. Okabe, M. S. Imoto Kitajima. Identification of SARS-CoV-2 variants in wastewater using targeted amplicon sequencing during a low COVID-19 prevalence period in Japan. \textit{Science of the Total Environment}, 163706, \textbf{2023}. \url{https://doi.org/10.1016/j.scitotenv.2023.163706}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, W. Ahmed, R. Iwamoto, H. Kobayashi, S. Okabe, M. Kitajima. Impact of COVID-19 pandemic on the prevalence of influenza A and respiratory syncytial viruses elucidated by wastewater-based epidemiology. \textit{Science of the Total Environment}, 162694, \textbf{2023}. \url{https://doi.org/10.1016/j.scitotenv.2023.162694}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, M. Murakami, W. Ahmed, R. Iwamoto, H. Kobayashi, S. Okabe, M. Kitajima. Wastewater-based prediction of COVID-19 cases using a highly sensitive SARS-CoV-2 RNA detection method combined with mathematical modeling. \textit{Environment International}, 107743, \textbf{2023}. \url{https://doi.org/10.1016/j.envint.2023.107743}
+    \addtocounter{enumi}{-2}
+
+    \item R. Iwamoto, K. Yamaguchi, C. Arakawa, \textbf{\underline{H. Ando}}, E. Haramoto, K. Setsukinai, K. Katayama, T. Yamagishi, S. Sorano, M. Murakami, S. Kyuwa, H. Kobayashi, S. Okabe, S. Imoto, M. Kitajima. Detectability and removal efficiency of SARS-CoV-2 in a large-scale septic tank of a COVID-19 quarantine facility in Japan. \textit{Science of the Total Environment}, 157869, \textbf{2022}. \url{https://doi.org/10.1016/j.scitotenv.2022.157869}
+    \addtocounter{enumi}{-2}
+
+    \item M. Kitajima, M. Murakami, S. Kadoya, \textbf{\underline{H. Ando}}, T. Kuroita, H. Katayama, S. Imoto. Association of SARS-CoV-2 Load in Wastewater With Reported COVID-19 Cases in the Tokyo 2020 Olympic and Paralympic Village From July to September 2021. \textit{JAMA Network Open}, 5(8) e2226822, \textbf{2022}. \url{https://doi.org/10.1001/jamanetworkopen.2022.26822}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, R. Iwamoto, H. Kobayashi, S. Okabe, M. Kitajima. The Efficient and Practical virus Identification System with ENhanced Sensitivity for Solids (EPISENS-S): A Rapid and Cost-Effective SARS-CoV-2 RNA Detection Method for Routine Wastewater Surveillance. \textit{Science of the Total Environment}, 157101, \textbf{2022}. \url{https://doi.org/10.1016/j.scitotenv.2022.157101}
+    \addtocounter{enumi}{-2}
+
+    \item \textbf{\underline{H. Ando}}, Satoshi Okabe, Masaaki Kitajima. Wastewater-based Epidemiology for Understanding COVID-19 Prevalence and Early Detection of Variant. \textit{Environmental Biotechnology}, 22(1) 91--95, \textbf{2022}.
+\end{enumerate}
+
+
+
+
+
+
+
+
+\end{document}
