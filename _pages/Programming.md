@@ -20,12 +20,12 @@ Therefore, in this article, I aim to organize and summarize these aspects both a
 # GitHub
 [GitHub](https://github.co.jp/) is a web-based platform for version control and collaboration that allows users to store, manage, and share code. It is built on [Git](https://git-scm.com/), a distributed version control system that tracks changes in files over time. By using GitHub, individuals and teams can keep a complete history of their projects, revert to previous versions if needed, and work on the same codebase simultaneously without conflicts.
 
-For researchers, GitHub is widely used for:
-- Managing and version-controlling analysis code and research projects
-- Sharing code and data to ensure reproducibility and transparency
+- **Managing and version-controlling** analysis code and research projects
+- **Sharing code and data** to ensure reproducibility and transparency
 - Collaborating with other researchers across institutions
-- Distributing software tools, models, and computational methods
 - Hosting documentation and research-related resources (e.g., project websites)
+- Distributing software tools, models, and computational methods
+- **Creating and sharing URLs** for PDFs (e.g., slides, CVs) and webpages, enabling easy and accessible dissemination of research outputs
 
 GitHub is an useful tool to manage and organize code and files for tools such as R, LaTeX, and reveal.js.
 
@@ -67,11 +67,11 @@ From a research perspective, the key advantages of R include:
 LaTeX is a document preparation system widely used in academia for writing papers and can be edited efficiently within VS Code
 From a researcher’s perspective, the advantages of LaTeX include:
 - High-quality typesetting: Produces professionally formatted documents with precise control over layout and typography
-- Excellent mathematical notation: Handles complex equations clearly and consistently, far beyond what is easily achievable in Microsoft Word
-- Separation of content and formatting: Authors focus on writing content, while formatting is handled systematically
+- **Excellent mathematical notation**: Handles complex equations clearly and consistently, far beyond what is easily achievable in Microsoft Word
+- **Separation of content and formatting**: Authors focus on writing content, while formatting is handled systematically
 - Reproducibility and version control: Plain-text source files integrate well with Git, enabling transparent revision tracking
 - Cross-referencing and automation: Automatically manages references, citations, figure numbers, and tables
-- Scalability: Efficiently handles large documents such as theses, books, and multi-author manuscripts
+- **Scalability**: Efficiently handles large documents such as theses, books, and multi-author manuscripts
 
 In comparison, Microsoft Word provides a more intuitive, WYSIWYG (What You See Is What You Get) interface, which is easier for beginners and suitable for simple documents. However, as documents become more complex—particularly with many equations, references, and figures—Word can become difficult to manage consistently. In contrast, LaTeX offers greater stability, precision, and reproducibility, making it the preferred choice for many researchers despite its steeper learning curve.Other tools for writing academic papers, such as [Quarto](https://quarto.org/docs/download/), are also available. It is best to choose a tool that aligns with both your own preferences and those of your collaborators.
 
