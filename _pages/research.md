@@ -4,11 +4,13 @@ layout: single
 permalink: /research/
 author_profile: true
 ---
-Wastewater surveillance is an environmental monitoring approach that complements clinical surveillance data. It is expected that the concentration of infectious disease viruses in wastewater, along with the relative abundance and presence of viral genomic sequences, reflects the epidemic status of a community.
-To enhance the utility of wastewater surveillance, I have focused on two major areas:
+
+To enhance the utility of wastewater surveillance, I have focused on two major areas ([Google Scholar](https://scholar.google.com/citations?user=2ucfkxcAAAAJ&hl=ja)):
 - Development of highly sensitive detection methods for infectious disease viruses in wastewater
 - Development of an analytical framework for wastewater surveillance data
 
+# Master reseach 2020-20222
+---
 # <span style="color:#5E9CA0;">Development of highly sensitive detection methods</span> 
 ### 1. EPISENS-S method (2022)
 ![Research image_1](../assets/images/research_EPISENS_S.jpg)
@@ -33,10 +35,11 @@ Using the EPISENS-M method, we conducted approximately four years of wastewater 
 - revealed epidemic dynamics of the infectious viruses before and during COVID-19
 - Lead to the implementation of wastewater surveillance in Sapporo city, Japan ([Link](https://www.city.sapporo.jp.e.ain.hp.transer.com/gesui/surveillance.html)).
 
-# <span style="color:#5E9CA0;"> Development of analytical frameworks</span> 
+# Ph.D reseach 2023-Present
+---
 ### 1. Handling left-censored wastewater suveillance data (2025)
 ![Research image_4](../assets/images/research_model_1.jpg)  
-Despite technological advancements, non-detected samples are still observed. Left-censored data hinders an accurate understanding of the temporal dynamics of wastewater concentration. To address this, we developed a state-space model to handle left-censored wastewater surveillance data (The paper will be submitted soon). The developed model
+Despite technological advancements, non-detected samples are still observed. Left-censored data hinders an accurate understanding of the temporal dynamics of wastewater concentration. To address this, we developed a state-space model to handle left-censored wastewater surveillance data ([Paper](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=2ucfkxcAAAAJ&sortby=pubdate&citation_for_view=2ucfkxcAAAAJ:4TOpqqG69KYC)). The developed model
 - uses only wastewater concentration and detection rate data
 - enables to estimate wastewater concentration in lull period when negative samples are often observed
 - smoothe wastewater concentration data to clearly show temporal dynamics
