@@ -4,8 +4,7 @@ layout: single
 permalink: /research/
 author_profile: true
 ---
-
-To enhance the utility of wastewater surveillance, I have focused on two major areas ([Google Scholar](https://scholar.google.com/citations?user=2ucfkxcAAAAJ&hl=ja)):
+I have focused on two major areas of wastewater surveillance ([Google Scholar](https://scholar.google.com/citations?user=2ucfkxcAAAAJ&hl=ja)):
 - Development of highly sensitive detection methods for infectious disease viruses in wastewater
 - Development of an analytical framework for wastewater surveillance data
 
