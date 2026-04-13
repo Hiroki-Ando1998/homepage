@@ -12,15 +12,7 @@ Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 
 
 ### <span style="color:#5E9CA0;">Education</span>
-- <u>August 2023 - Present</u>: University of Arizona (USA), Ph.D. program in Environmental Health Sciences
-  
-- <u>April 2021 - March 2023</u>: University of Hokkaido (Japan), Enviromental Engineering (Master in Engineering)  
-   
-  - Supervisor: [Dr. Masaaki Kitajima](https://scholar.google.co.jp/citations?user=46SKTFsAAAAJ&hl=en)   
-  - Advisors: [Dr. Satoshi Okabe](https://scholar.google.co.jp/citations?user=MKX4iLsAAAAJ&hl=ja) & [Dr. Mamoru Oshiki](https://scholar.google.com/citations?user=-gmVynQAAAAJ&hl=ja)
-  - Thesis's title: Development of highly sensitive detection methods and mathematical models to understand viral infectious disease prevalence through wastewater surveillance
 
-- <u>April 2017 - March 2021</u>: University of Hokkaido (Japan), Enviromental Engineering (Bachelor in Engineering)
 
 ### <span style="color:#5E9CA0;">Research interests</span> 
 ![Research image](/assets/images/home.jpg)
