@@ -90,3 +90,17 @@ From a researcher’s perspective, the key advantages of reveal.js include:
 - **Portability**: Runs in a web browser, making it platform-independent
 
 In comparison, Microsoft PowerPoint offers a highly intuitive, graphical user interface that is easy to use and widely adopted. It is well suited for quickly creating slides without requiring programming knowledge. However, PowerPoint relies heavily on manual editing, which can make it less efficient for updating figures or maintaining consistency across slides, especially in data-driven presentations. In contrast, reveal.js emphasizes automation, reproducibility, and integration with analytical workflows. While it requires some familiarity with coding and web technologies, it provides substantial advantages for researchers who need to create dynamic, data-driven, and easily shareable presentations.
+
+# Obsidian
+[Obsidian](https://obsidian.md/) is a markdown-based note-taking and knowledge management application designed to help users organize and connect information efficiently. One of the most distinctive features of Obsidian is its ability to create bidirectional links between notes. This makes it particularly well suited for summarizing academic papers, as users can connect related studies, methods, and concepts across multiple notes. O
+
+From a researcher’s perspective, the key advantages of Obsidian include:
+- **Knowledge linking**: Easily connect notes to build a network of related ideas and research topics
+- **Effective literature management**: Well suited for organizing and summarizing academic papers
+- Markdown-based: Uses simple, portable text files that are easy to edit and manage
+- [Integration with GitHub](https://www.youtube.com/watch?v=O4Ga14fe05w) & [Template](https://github.com/amatzk/obsidian-amatzk-template)
+- Free to use: Core features are available at no cost
+- Extensibility: Supports plugins that add features such as graph visualization, task management, and citation tools
+- Versatility: Can be used not only for research notes but also for daily journaling, task tracking, and personal knowledge management
+
+
