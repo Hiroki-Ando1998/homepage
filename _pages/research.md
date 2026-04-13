@@ -10,7 +10,6 @@ To enhance the utility of wastewater surveillance, I have focused on two major a
 - Development of an analytical framework for wastewater surveillance data
 
 # Master reseach 2020-20222
----
 # <span style="color:#5E9CA0;">Development of highly sensitive detection methods</span> 
 ### 1. EPISENS-S method (2022)
 ![Research image_1](../assets/images/research_EPISENS_S.jpg)
