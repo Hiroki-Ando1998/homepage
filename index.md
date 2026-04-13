@@ -11,13 +11,12 @@ Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]
 [![CV](assets/images/CV_screenshot.png)](https://hiroki-ando1998.github.io/homepage/CV/Academic_CV.pdf)
 
 
-I am a Ph.D. student with research interests in wastewater-based epidemiology and infectious disease epidemiology. I completed my Master’s training in environmental engineering, where I developed a strong foundation in water systems and environmental processes, and during my doctoral studies I have expanded my focus to public health. My current research centers on 
-- the design of effective sampling strategies for detecting viruses in wastewater
+I am a Ph.D. student with research interests in infectious disease epidemiology and wastewater-based epidemiology, which is one type of environemtnal surveillance that uses sewage to monitor the presence and dynamics of biological or chemical markers in a community.
+I completed my Master’s training in environmental engineering, where I developed a strong foundation in water systems and environmental processes, and during my doctoral studies I have expanded my focus to public health. My current research centers on 
+- the design of effective wastewater sampling strategies for detecting viruses in wastewater
 - the development of statistical modeling frameworks to analyze wastewater-based data so that it can meaningfully inform public health decision-making.
-
-Wastewater-based epidemiology is an approach that uses sewage to monitor the presence and dynamics of biological or chemical markers in a community. Because wastewater aggregates signals from both symptomatic and asymptomatic individuals, it provides a powerful and unbiased tool for understanding population-level trends, particularly in the context of infectious diseases.
-
 Ultimately, my goal is to contribute to building a society that is more resilient to infectious disease threats by integrating environmental monitoring with rigorous statistical analysis and public health practice.
+
 ![Research image](/assets/images/home.jpg)
 Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
 - Development of detection methods for pathogens in wastewater and environmental water
