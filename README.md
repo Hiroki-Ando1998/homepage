@@ -1,6 +1,8 @@
 # Minimal Mistakes remote theme starter
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This webpage was created using the [template](https://github.com/mmistakes/mm-github-pages-starter/generate) provided by [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+- Main page is *index.md*
+- Subpage files are "_pages"
 
 ## Publish pages
 To publish a web page on GitHub, first open your repository and navigate to the **Settings tab**. From there, go to the **Pages section**, which is dedicated to configuring your site. In this section, choose the branch you want to deploy from, typically the main branch, and specify the folder if necessary, such as the root directory or a docs folder. After saving these settings, GitHub will automatically build and deploy your site. Once the process is complete, a URL will be generated where your web page is publicly accessible. You can then edit your Markdown or HTML files in the repository, and any changes pushed to the selected branch will automatically update the published site.
