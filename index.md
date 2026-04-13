@@ -20,8 +20,5 @@ Ultimately, my goal is to contribute to building a society that is more resilien
 
 ![Research image](/assets/images/home.jpg)
 Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
-- Development of detection methods for pathogens in wastewater and environmental water
-- Fate and transportation of pathogens in the environment
-- Time series analysis of wastewater surveillance data
-- Mathematical infectious disease modeling using wastewater surveillance data
+
 
