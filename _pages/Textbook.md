@@ -5,6 +5,7 @@ title: "Textbook"
 I compiled a list of textbooks I used to study topics related to my research—such as epidemiology, statistics, and programming—for students who, like me, transitioned from an engineering background to public health. Many of these are Japanese textbooks; however, there are likely more comprehensive resources available in English, as well as other materials that may be easier to understand. Please use this list as a reference.
 
 # Public helath
+---
 ### Epidemiology
 1. [疫学 医学的研究と実践のサイエンス](https://www.molcom.jp/products/detail/52131/) introduces the overall framework of epidemiology, covering basic measures, study designs, bias, and practical applications in public health
 2. [Essential of Epidemiology in Public health](https://www.academia.edu/43690544/ESSENTIALS_OF_FOURTH_EDITION) focuses more on real-world applications, emphasizing how epidemiological methods are used in public health practice with many concrete examples.
@@ -20,8 +21,8 @@ I compiled a list of textbooks I used to study topics related to my research—s
 
 
 # Statistics and Modeling
+---
 I am learning statistics, following [this reference](https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6)
-
 ### Theortical Statistics
 01. [公式と例題で学ぶ数学の基礎](https://www.kyoritsu-pub.co.jp/book/b10123480.html) introduces the essential mathematical foundations, such as algebra and calculus, through formulas and worked examples, helping build the basic skills required for statistics
 1. [データ分析に必須の知識・考え方　統計学入門](https://www.socym.co.jp/book/1319) focuses on intuitive understanding of statistical concepts, including how to summarize and interpret data, emphasizing practical thinking rather than formal theory
