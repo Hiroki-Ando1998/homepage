@@ -30,6 +30,9 @@ For researchers, GitHub is widely used for:
 
 GitHub is an useful tool to manage and organize code and files for tools such as R, LaTeX, and reveal.js.
 
+- [install Youtube](https://www.youtube.com/watch?v=wDRoduig_98) & [install (Japanese)](https://www.kagoya.jp/howto/it-glossary/develop/howtousegithub/)
+- 
+
 
 # R
 
