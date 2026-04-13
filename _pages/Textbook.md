@@ -1,4 +1,7 @@
-
+---
+permalink: /Textbook/
+title: "Textbook"
+---
 
 
 # <span style="color:#5E9CA0;">統計学 & モデリング</span>
