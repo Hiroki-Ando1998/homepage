@@ -5,6 +5,7 @@
 layout: single
 author_profile: true
 title: Ph.D. Student in Public Health
+classes: wide  <-- これを追加！
 ---
 
 [![CV](assets/images/CV_screenshot.png)](https://hiroki-ando1998.github.io/homepage/CV/Academic_CV.pdf)
