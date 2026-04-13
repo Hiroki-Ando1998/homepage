@@ -4,10 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
-title: Welcome to Hiroki's Page!
+title: Welcome to My Page!
 ---
-### Contact
-Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]  
+## Self-introduction
 [![CV](assets/images/CV_screenshot.png)](https://hiroki-ando1998.github.io/homepage/CV/Academic_CV.pdf)
 
 
@@ -22,3 +21,5 @@ Ultimately, my goal is to contribute to building a society that is more resilien
 Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
 
 
+## Contact
+Email: [hirokiando@arizona.edu] or [hirokiando.res@gmail.com]  
