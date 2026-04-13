@@ -3,6 +3,8 @@ main:
     url: /research/
   - title: "Programming"
     url: /Programming/
+  - title: "Textbook"
+    url: /Textbook/
   - title: "Resources"
     url: /resources/
   - title: "Links"
