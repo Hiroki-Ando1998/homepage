@@ -33,10 +33,10 @@ GitHub is an useful tool to manage and organize code and files for tools such as
 - [Making a webpage_Video](https://www.youtube.com/watch?v=Pof342wGt78)
 
 # Visual Studio (VS) code
-[VS Code](https://code.visualstudio.com/download) is a lightweight yet powerful source code editor that supports a wide range of programming languages and tools, including R, Python, LaTeX, and reveal.js. Through its rich ecosystem of extensions, VS Code can be customized to provide language-specific features such as syntax highlighting, code completion, debugging, and integrated execution environments, making it suitable for both beginners and advanced users.
+[VS Code](https://code.visualstudio.com/download) is a lightweight yet powerful source code editor that supports a wide range of programming languages and tools. Through its rich ecosystem of extensions, VS Code can be customized to provide language-specific features such as syntax highlighting, code completion, debugging, and integrated execution environments, making it suitable for both beginners and advanced users.
 
 The key advantages of VS Code include:
-- **Multi-language support**: Enables seamless use of R, Python, LaTeX, reveal.js, and many other languages within a single environment
+- **Multi-language support**: Enables seamless use of **R, Python, LaTeX, reveal.js**, and many other languages within a single environment
 - **Extensibility**: Offers a wide range of extensions to customize functionality for specific workflows
 - **Integrated version control**: Provides built-in support for Git and seamless integration with GitHub
 - **GUI-based Git operations**: Allows users to commit, push, pull, and manage changes without relying on command-line operations
