@@ -1,6 +1,6 @@
 ---
 permalink: /Textbook/
-title: "Textbook"
+title: "Textbooks"
 ---
 I compiled a list of textbooks I used to study topics related to my research—such as epidemiology, statistics, and programming—**for students who, like me, transitioned from an engineering background to public health**. Many of these are Japanese textbooks; however, there are likely more comprehensive resources available in English, as well as other materials that may be easier to understand. Please use this list as a reference.
 
