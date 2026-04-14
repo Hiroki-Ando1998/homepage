@@ -13,8 +13,8 @@ These are functions ([Rcode]()) I often use:
 - **summarize** means aggregating data within groups or across the entire dataset to compute statistics such as mean
 - **mutate()** is used to create new variables or modify existing ones based on transformations of other columns. For example, you can compute a new risk score, log-transform a variable, or combine existing variables into a new feature.
 - **drop_na()** is used to remove rows that contain missing values (NA).
-- **is.na() is used to detect missing values. It returns a logical vector indicating whether each element is NA, and is often used for filtering, counting missing values, or creating indicators of missingness.
-- **which(!is.na(x)) is used to identify the positions of all elements in x that are not *NA*.
+- **is.na()** is used to detect missing values. It returns a logical vector indicating whether each element is NA, and is often used for filtering, counting missing values, or creating indicators of missingness.
+- **which(!is.na(x))** is used to identify the positions of all elements in x that are not *NA*.
 - [apply](https://stats.biopapyrus.jp/r/basic/apply.html) is a function used to perform an operation over the rows or columns of a matrix or array without writing explicit loops
 
 
