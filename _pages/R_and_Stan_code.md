@@ -31,7 +31,7 @@ In R, there are several ways to create visualizations, and [ggplot2](https://epi
 
 ggplot2 supports specialized and less common visualizations, including QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms (via extensions), network visualizations (via packages like ggraph), and interactive-style layered graphics when combined with other tools.
 
-To create a graph that matches your preferences, you need to adjust elements such as [colors](https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/1_colour.R), plot styles(https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/2_shape.md), how multiple plots are combined (https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/4_combined_figures.R), and theme settings (https://ggplot2.tidyverse.org/reference/ggtheme.html).
+To create a graph that matches your preferences, you need to adjust elements such as [colors](https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/1_colour.R), [plot styles](https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/2_shape.md), [how multiple plots are combined] (https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/4_combined_figures.R), and [theme settings] (https://ggplot2.tidyverse.org/reference/ggtheme.html).
 
 
 ---
