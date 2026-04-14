@@ -4,7 +4,7 @@ main:
   - title: "Programming"
     url: /Programming/
     - title: "R and Stan code"
-    url: /R and Stan code/
+    url: /R_and_Stan_code/
   - title: "Textbook"
     url: /Textbook/
   - title: "Resources"
