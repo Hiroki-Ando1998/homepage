@@ -6,7 +6,7 @@ title: "R & Stan code"
 # 1. Data organization
 A central framework of data organization in R is the **tidyverse**, especially the **package dplyr**. Alongside it, **tidyr** focuses on reshaping data between wide and long formats, handling missing values, and ensuring that datasets follow the “tidy data” structure where each variable is a column and each observation is a row. For data import and string handling, packages like **readr** and **stringr** are commonly used, making it easier to read large datasets and clean textual variables in a consistent way. The design philosophy of the tidyverse is to make data preparation readable, chainable, and close to natural language through the pipe operator %>%. For large-scale data processing, packages like **data.table** are often preferred because they are faster and more memory-efficient, especially for big datasets.
 
-These are functions ([Rcode](https://github.com/Hiroki-Ando1998/R/tree/main/Data_organization) I often use:
+These are functions ([Rcode](https://github.com/Hiroki-Ando1998/R/tree/main/Data_organization)) I often use:
 - **filter()** means selecting a subset of observations based on conditions, such as keeping only patients older than 60 or only records from a specific time period.
 - **select()** means choosing specific variables from a dataset, such as keeping only age, sex, and outcome while removing unnecessary columns.
 - **group_by()** dividing data into subsets based on one or more categorical variables, such as grouping by gender.
