@@ -29,7 +29,9 @@ In R, there are several ways to create visualizations, and [ggplot2](https://epi
 - For [statistical summaries and uncertainty visualization](https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/7_statistical_summaries&uncertainty_visualization): error bar plots, pointrange plots, linerange plots, mean and median summary plots, and visualizations of confidence or credible intervals directly from data or model outputs.
 - For displaying how quantities or effects move across categories: Sankey diagram and Alluvial plot can be used. Connections are shown as flowing bands, and the thickness of each band represents the magnitude, proportion, or strength of influence. Their smooth, wave-like appearance comes from the curved connections between nodes, making complex relationships intuitive to interpret.
 
-In addition, ggplot2 supports specialized and less common visualizations, including QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms (via extensions), network visualizations (via packages like ggraph), and interactive-style layered graphics when combined with other tools.
+ggplot2 supports specialized and less common visualizations, including QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms (via extensions), network visualizations (via packages like ggraph), and interactive-style layered graphics when combined with other tools.
+
+To create a graph that matches your preferences, you need to adjust elements such as [colors](https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/1_colour.R), plot styles(https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/2_shape.md), how multiple plots are combined (https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/4_combined_figures.R), and theme settings (https://ggplot2.tidyverse.org/reference/ggtheme.html).
 
 
 ---
