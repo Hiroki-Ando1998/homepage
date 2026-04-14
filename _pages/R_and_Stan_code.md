@@ -1,5 +1,5 @@
 ---
-permalink: /R and Stan code/
+permalink: /R_and_Stan_code/
 title: "R and Stan code"
 ---
 
