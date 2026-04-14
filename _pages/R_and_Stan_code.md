@@ -8,7 +8,7 @@ title: "R_and_Stan_code"
 
 
 # 2 Data Visualization
-In R, there are several ways to create visualizations, and ggplot2 is one of the most widely used and influential approaches
+In R, there are several ways to create visualizations, and [ggplot2](https://epirhandbook.com/jp/new_pages/ggplot_basics.jp.html) is one of the most widely used and influential approaches
 - For distributional analysis: histograms, density plots, frequency polygons, boxplots, violin plots, ridgeline plots, dot plots, and empirical cumulative distribution function (ECDF) plots, all of which help reveal the shape, spread, and skewness of data.
 - For relationships between variables: scatter plot, which can be extended into bubble charts by mapping size, regression lines, smoothing curves, and confidence bands, and create two-dimensional density plots, contour plots, and hexbin plots for large datasets.
 - For comparisons across categories: bar charts (count and summarized), grouped and stacked bar charts, proportional (100%) bar charts, lollipop charts, Cleveland dot plots, and mosaic plots (via extensions), all useful for comparing discrete groups.
