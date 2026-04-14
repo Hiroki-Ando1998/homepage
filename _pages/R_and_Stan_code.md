@@ -1,6 +1,6 @@
 ---
 permalink: /R_and_Stan_code/
-title: "R and Stan code"
+title: "R_and_Stan_code"
 ---
 
 
