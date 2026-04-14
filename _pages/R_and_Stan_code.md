@@ -23,11 +23,10 @@ In addition, ggplot2 supports specialized and less common visualizations, includ
 
 # 3 Generalized linear model (GLM)
 [GLM](https://en.wikipedia.org/wiki/Generalized_linear_model) is a flexible extension of ordinary linear regression that allows the response variable to follow different types of distributions.. 
-In practice, GLMs are widely used for binary outcomes (logistic regression), count data (Poisson regression), and skewed continuous data. This framework is particularly important in epidemiology and public health, where outcomes are often not normally distributed.
-By combining R with Stan, it becomes possible to extend GLMs into a fully Bayesian framework. Through packages such as rstan, users can specify the same linear predictor structure but estimate the model using Bayesian inference via Markov Chain Monte Carlo methods. This allows for full posterior distributions of parameters, more flexible modeling of uncertainty, and the incorporation of prior information.
-- [Linear model]
-- [logit-Binomial]()
-- [Poisson regression model]()
+By combining R with Stan, it becomes possible to extend GLMs into a fully Bayesian framework. This allows for full posterior distributions of parameters, more flexible modeling of uncertainty, and the incorporation of prior information.
+- [Linear model]() is used when the outcome variable is continuous and approximately normally distributed. It assumes a linear relationship between predictors and the outcome and is appropriate when the goal is to explain or predict continuous measurements.
+- [Logit-Binomial model]() is used when the outcome is binary or represents proportions, such as disease presence/absence, success/failure, or infection status.
+- [Poisson regression model]() is used when the outcome is count data, such as the number of cases, events, or occurrences in a fixed time or space. It assumes that the variance is proportional to the mean and is commonly applied in epidemiology and event-rate modeling.
 
 In modern data analysis and machine learning, two fundamental requirements are generalization performance and reproducibility ([Ref](https://tjo.hatenablog.com/entry/2026/03/27/170000)), as they determine whether analytical results are both useful for prediction and trustworthy as scientific evidence. 
 - **Generalization performance** refers to how well a model trained on observed data performs on unseen data, capturing the ability to extract true underlying patterns rather than overfitting noise. This concept is central in statistical learning, where techniques such as cross-validation are used to estimate out-of-sample predictive accuracy and ensure that models remain valid under future, unknown conditions.
