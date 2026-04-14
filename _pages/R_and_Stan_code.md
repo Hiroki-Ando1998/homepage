@@ -48,5 +48,5 @@ By combining R with Stan, it becomes possible to extend GLMs into a fully Bayesi
 - [Logit-Binomial model](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/2_LogisticModel.stan) is used when the outcome is binary or represents proportions, such as disease presence/absence, success/failure, or infection status.
 - [Poisson regression model](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/3_PoissonModel) is used when the outcome is count data, such as the number of cases, events, or occurrences in a fixed time or space. It assumes that the variance is proportional to the mean and is commonly applied in epidemiology and event-rate modeling.
 
-
+These analysis is done using [maximum likelihood estimation approaches](https://github.com/Hiroki-Ando1998/R/tree/main/Generalized%20linear%20model)
 
