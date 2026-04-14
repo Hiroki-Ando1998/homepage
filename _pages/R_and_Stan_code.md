@@ -1,6 +1,6 @@
 ---
 permalink: /R_and_Stan_code/
-title: "R_and_Stan_code"
+title: "R & Stan code"
 ---
 
 # 1. Data organization
