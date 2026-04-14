@@ -21,6 +21,12 @@ In R, there are several ways to create visualizations, and [ggplot2](https://epi
 In addition, ggplot2 supports specialized and less common visualizations, including QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms (via extensions), network visualizations (via packages like ggraph), and interactive-style layered graphics when combined with other tools.
 
 
+# Modeling
+In modern data analysis and machine learning, two fundamental requirements are generalization performance and reproducibility ([Ref](https://tjo.hatenablog.com/entry/2026/03/27/170000)), as they determine whether analytical results are both useful for prediction and trustworthy as scientific evidence. 
+- **Generalization performance** refers to how well a model trained on observed data performs on unseen data, capturing the ability to extract true underlying patterns rather than overfitting noise. This concept is central in statistical learning, where techniques such as cross-validation are used to estimate out-of-sample predictive accuracy and ensure that models remain valid under future, unknown conditions.
+- **Reproducibility** concerns whether an analysis produces the same results when the same data, code, and procedure are applied again, either by the original analyst or by others. It is a cornerstone of scientific reliability, ensuring that findings are not dependent on arbitrary choices, hidden preprocessing steps, or undocumented analytical decisions. In practice, reproducibility requires careful control of the entire analytical pipeline, including data selection, preprocessing, model specification, and evaluation criteria, all of which should be transparently documented and ideally automated.
+
+
 # 3 Generalized linear model (GLM)
 [GLM](https://en.wikipedia.org/wiki/Generalized_linear_model) is a flexible extension of ordinary linear regression that allows the response variable to follow different types of distributions.. 
 By combining R with Stan, it becomes possible to extend GLMs into a fully Bayesian framework. This allows for full posterior distributions of parameters, more flexible modeling of uncertainty, and the incorporation of prior information.
@@ -28,7 +34,5 @@ By combining R with Stan, it becomes possible to extend GLMs into a fully Bayesi
 - [Logit-Binomial model]() is used when the outcome is binary or represents proportions, such as disease presence/absence, success/failure, or infection status.
 - [Poisson regression model]() is used when the outcome is count data, such as the number of cases, events, or occurrences in a fixed time or space. It assumes that the variance is proportional to the mean and is commonly applied in epidemiology and event-rate modeling.
 
-In modern data analysis and machine learning, two fundamental requirements are generalization performance and reproducibility ([Ref](https://tjo.hatenablog.com/entry/2026/03/27/170000)), as they determine whether analytical results are both useful for prediction and trustworthy as scientific evidence. 
-- **Generalization performance** refers to how well a model trained on observed data performs on unseen data, capturing the ability to extract true underlying patterns rather than overfitting noise. This concept is central in statistical learning, where techniques such as cross-validation are used to estimate out-of-sample predictive accuracy and ensure that models remain valid under future, unknown conditions.
-- **Reproducibility** concerns whether an analysis produces the same results when the same data, code, and procedure are applied again, either by the original analyst or by others. It is a cornerstone of scientific reliability, ensuring that findings are not dependent on arbitrary choices, hidden preprocessing steps, or undocumented analytical decisions. In practice, reproducibility requires careful control of the entire analytical pipeline, including data selection, preprocessing, model specification, and evaluation criteria, all of which should be transparently documented and ideally automated.
+
 
