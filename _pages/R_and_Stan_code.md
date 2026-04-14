@@ -3,8 +3,19 @@ permalink: /R_and_Stan_code/
 title: "R_and_Stan_code"
 ---
 
+# 1. Data organization
+A central framework of data organization in R is the **tidyverse**, especially the **package dplyr**. Alongside it, **tidyr** focuses on reshaping data between wide and long formats, handling missing values, and ensuring that datasets follow the “tidy data” structure where each variable is a column and each observation is a row. For data import and string handling, packages like **readr** and **stringr** are commonly used, making it easier to read large datasets and clean textual variables in a consistent way. The design philosophy of the tidyverse is to make data preparation readable, chainable, and close to natural language through the pipe operator %>%. For large-scale data processing, packages like **data.table** are often preferred because they are faster and more memory-efficient, especially for big datasets.
 
-
+These are functions ([Rcode]()) I often use:
+- **filter()** means selecting a subset of observations based on conditions, such as keeping only patients older than 60 or only records from a specific time period.
+- **select()** means choosing specific variables from a dataset, such as keeping only age, sex, and outcome while removing unnecessary columns.
+- **group_by()** dividing data into subsets based on one or more categorical variables, such as grouping by gender.
+- **summarize** means aggregating data within groups or across the entire dataset to compute statistics such as mean
+- **mutate()** is used to create new variables or modify existing ones based on transformations of other columns. For example, you can compute a new risk score, log-transform a variable, or combine existing variables into a new feature.
+- **drop_na()** is used to remove rows that contain missing values (NA).
+- **is.na() is used to detect missing values. It returns a logical vector indicating whether each element is NA, and is often used for filtering, counting missing values, or creating indicators of missingness.
+- **which(!is.na(x)) is used to identify the positions of all elements in x that are not *NA*.
+- [apply](https://stats.biopapyrus.jp/r/basic/apply.html) is a function used to perform an operation over the rows or columns of a matrix or array without writing explicit loops
 
 
 # 2 Data Visualization
