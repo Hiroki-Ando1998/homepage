@@ -29,8 +29,8 @@ I am learning statistics, following [this reference](https://qiita.com/ssugasawa
 2. [統計学入門 東京大学出版](https://www.utp.or.jp/book/b300857.html) provides a more rigorous introduction to statistical inference, covering probability, estimation, and hypothesis testing in a systematic way
 3. [データ解析のための数理統計入門](https://www.kyoritsu-pub.co.jp/book/b10033628.html) moves toward theoretical statistics, explaining the mathematical foundations behind inference methods and statistical models
 4. [現代数理統計学の基礎](https://www.kyoritsu-pub.co.jp/book/b10003681.html) further deepens this theoretical perspective, offering a more formal and comprehensive treatment of statistical theory.
-5. [標準ベイズ統計学](https://www.asakura.co.jp/detail.php?book_code=12267&srsltid=AfmBOookiaOnA332Yo92n3nYVIxSZejU-KBNujDbUkf5YifJy4G39KD8) introduces Bayesian thinking as a framework for updating beliefs with data, contrasting it with classical approaches ([English](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf))
-6. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703) provides a comprehensive and practical treatment of Bayesian methods, showing how to build models, perform inference, and apply Bayesian analysis to real-world problems using modern computational technique ([English](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.stat.columbia.edu/gelman/book/BDA3.pdf))
+5. [標準ベイズ統計学](https://www.asakura.co.jp/detail.php?book_code=12267&srsltid=AfmBOookiaOnA332Yo92n3nYVIxSZejU-KBNujDbUkf5YifJy4G39KD8) introduces Bayesian thinking as a framework for updating beliefs with data, contrasting it with classical approaches ([English](https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf))
+6. [ベイズデータ解析](https://www.morikita.co.jp/books/mid/009703) provides a comprehensive and practical treatment of Bayesian methods, showing how to build models, perform inference, and apply Bayesian analysis to real-world problems using modern computational technique ([English](https://sites.stat.columbia.edu/gelman/book/BDA3.pdf))
 
 
 ### Modeling and Programming
