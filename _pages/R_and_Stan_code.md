@@ -44,9 +44,9 @@ In modern data analysis and machine learning, two fundamental requirements are g
 # 3 Generalized linear model (GLM)
 [GLM](https://en.wikipedia.org/wiki/Generalized_linear_model) is a flexible extension of ordinary linear regression that allows the response variable to follow different types of distributions.. 
 By combining R with Stan, it becomes possible to extend GLMs into a fully Bayesian framework. This allows for full posterior distributions of parameters, more flexible modeling of uncertainty, and the incorporation of prior information.
-- [Linear model]() is used when the outcome variable is continuous and approximately normally distributed. It assumes a linear relationship between predictors and the outcome and is appropriate when the goal is to explain or predict continuous measurements.
-- [Logit-Binomial model]() is used when the outcome is binary or represents proportions, such as disease presence/absence, success/failure, or infection status.
-- [Poisson regression model]() is used when the outcome is count data, such as the number of cases, events, or occurrences in a fixed time or space. It assumes that the variance is proportional to the mean and is commonly applied in epidemiology and event-rate modeling.
+- [Linear model](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/1_LinearModel.stan) is used when the outcome variable is continuous and approximately normally distributed. It assumes a linear relationship between predictors and the outcome and is appropriate when the goal is to explain or predict continuous measurements.
+- [Logit-Binomial model](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/2_LogisticModel.stan) is used when the outcome is binary or represents proportions, such as disease presence/absence, success/failure, or infection status.
+- [Poisson regression model](https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/3_PoissonModel) is used when the outcome is count data, such as the number of cases, events, or occurrences in a fixed time or space. It assumes that the variance is proportional to the mean and is commonly applied in epidemiology and event-rate modeling.
 
 
 
