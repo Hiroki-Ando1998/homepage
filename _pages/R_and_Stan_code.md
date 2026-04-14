@@ -32,6 +32,7 @@ In R, there are several ways to create visualizations, and [ggplot2](https://epi
 In addition, ggplot2 supports specialized and less common visualizations, including QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms (via extensions), network visualizations (via packages like ggraph), and interactive-style layered graphics when combined with other tools.
 
 
+---
 # Modeling
 In modern data analysis and machine learning, two fundamental requirements are generalization performance and reproducibility ([Ref](https://tjo.hatenablog.com/entry/2026/03/27/170000)), as they determine whether analytical results are both useful for prediction and trustworthy as scientific evidence. 
 - **Generalization performance** refers to how well a model trained on observed data performs on unseen data, capturing the ability to extract true underlying patterns rather than overfitting noise. This concept is central in statistical learning, where techniques such as cross-validation are used to estimate out-of-sample predictive accuracy and ensure that models remain valid under future, unknown conditions.
