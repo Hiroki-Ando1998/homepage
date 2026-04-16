@@ -13,3 +13,5 @@ The CV is prepared using LaTeX and stored in a folder named “[CV](https://gith
 Editing the files in VS Code is straightforward if you first create a local copy of the repository by cloning it to your computer. This can be done using the **git clone command in your terminal, followed by the repository URL**. Once the cloning process is complete, the repository will be available as a folder on your local machine, which you can then open directly in VS Code. This setup allows you to edit files more comfortably, keep track of changes, and synchronize your updates with GitHub by committing and pushing them back to the remote repository.
 
 
+## Convenient free software
+- [Inkscape](https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=ja-JP&gl=JP)
