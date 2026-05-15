@@ -5,8 +5,8 @@ main:
     url: /Textbook/
   - title: "Links"
     url: /links/
-  - title: "Memo"
-    url: /Memo/
+# - title: "Memo"
+#   url: /Memo/
   - title: "Programming"
     url: /Programming/
   - title: "R & Stan code"
