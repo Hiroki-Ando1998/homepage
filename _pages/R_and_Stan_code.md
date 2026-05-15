@@ -19,7 +19,7 @@ These are functions ([Rcode](https://github.com/Hiroki-Ando1998/R/tree/main/Data
 
 
 # 2 Data Visualization
-In R, there are several ways to create visualizations (e.g., ggblend, ggnewscale, gganimate), and ggplot2 is one of the most widely used and influential approaches ([guide book](https://ggplot2-book.org/)).
+In R, there are several ways to create visualizations (e.g., ggblend, ggnewscale, gganimate), and ggplot2 is one of the most widely used and influential approaches ([R Graph Gallery](https://r-graph-gallery.com/)).
 - For [distributional analysis](https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/1_DistributionAnalysis): histograms, density plots, frequency polygons, boxplots, violin plots, ridgeline plots, dot plots, and empirical cumulative distribution function (ECDF) plots, all of which help reveal the shape, spread, and skewness of data.
 - For [relationships between variables](https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/2_relationship_betweem_variables): scatter plot, which can be extended into bubble charts by mapping size, regression lines, smoothing curves, and confidence bands, and create two-dimensional density plots, contour plots, and hexbin plots for large datasets.
 - For [comparisons across categories](https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/3_comparison_across_categories): bar charts (count and summarized), grouped and stacked bar charts, proportional (100%) bar charts, lollipop charts, Cleveland dot plots, and mosaic plots (via extensions), all useful for comparing discrete groups.
