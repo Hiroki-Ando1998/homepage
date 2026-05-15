@@ -1,13 +1,13 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Programming"
-    url: /Programming/
   - title: "Textbooks"
     url: /Textbook/
   - title: "Links"
     url: /links/
   - title: "Memo"
     url: /Memo/
+  - title: "Programming"
+    url: /Programming/
   - title: "R & Stan code"
     url: /R_and_Stan_code/
