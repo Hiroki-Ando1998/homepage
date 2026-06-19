@@ -37,7 +37,7 @@ Using the EPISENS-M method, we conducted approximately four years of wastewater 
 ---
 ### 1. Handling left-censored wastewater suveillance data
 ![Research image_4](../assets/images/research_model_1.jpg)  
-Despite technological advancements, non-detected samples are still observed. Left-censored data hinders an accurate understanding of the temporal dynamics of wastewater concentration. To address this, we developed a state-space model to handle left-censored wastewater surveillance data ([Paper](https://www.sciencedirect.com/science/article/pii/S0043135426001703). The developed model
+Despite technological advancements, non-detected samples are still observed. Left-censored data hinders an accurate understanding of the temporal dynamics of wastewater concentration. To address this, we developed a state-space model to handle left-censored wastewater surveillance data ([Paper](https://www.sciencedirect.com/science/article/pii/S0043135426001703)). The developed model
 - uses only wastewater concentration and detection rate data
 - enables to estimate wastewater concentration in lull period when negative samples are often observed
 - smoothe wastewater concentration data to clearly show temporal dynamics
