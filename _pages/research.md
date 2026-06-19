@@ -42,12 +42,11 @@ Despite technological advancements, non-detected samples are still observed. Lef
 - enables to estimate wastewater concentration in lull period when negative samples are often observed
 - smoothe wastewater concentration data to clearly show temporal dynamics
 
-### 2. Coming soon (2025)
-
-### 3. Wastewater-based effective reproduction number and prediction
+### 2. Wastewater-based effective reproduction number and prediction
 ![Research image_3](../assets/images/research_model_3.jpg)  
 Estimating the effective reproduction number and predicting incidence using wastewater surveillance data have been conducted by incorporating the shedding dynamics of infected individuals into infectious disease models. However, shedding dynamics for most infectious diseases remain unknown. To address this, we developed a model to approximate the effective reproduction number and predict wastewater concentration up to several weeks in advance using only wastewater concentration data ([Paper](https://www.sciencedirect.com/science/article/pii/S0160412024007141)).
 
+### 3. Coming soon
 
 
 
