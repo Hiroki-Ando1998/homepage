@@ -3,7 +3,7 @@ permalink: /Note/
 title: "Note"
 ---
 
-## Contents
+
 - [使用した教科書リスト (Japanese)](https://hiroki-ando1998.github.io/homepage/Note/Textbook_List.pdf)
 - [Programming (English)](https://hiroki-ando1998.github.io/homepage/Note/Programming.pdf)
 - [Basic R & stan codes (English)](https://hiroki-ando1998.github.io/homepage/Note/R_Stan_code.pdf)
