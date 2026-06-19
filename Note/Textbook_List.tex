@@ -1,55 +1,130 @@
+\documentclass[uplatex]{jsarticle} % ★ 1. 日本語文書クラスに変更
 
-\usepackage{hyperref}
-\usepackage{enumitem}
+% --- パッケージの読み込みと余白設定 ---
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{natbib}
 
-\section{Textbooks and Learning Resources}
+\usepackage{titlesec} % 見出し（Section）の書式を制御するために使用
+\usepackage[margin=20mm]{geometry} % 上下左右の余白を20mmに設定
+\usepackage{indentfirst} % ★ 追加：全ての段落の先頭にインデントを入れる
+\usepackage{url}
+\usepackage{xurl}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
 
-I compiled a list of textbooks I used to study topics related to my research---such as epidemiology, statistics, and programming---for students who, like me, transitioned from an engineering background to public health. Many of these are Japanese textbooks; however, there are likely more comprehensive resources available in English, as well as other materials that may be easier to understand. Please use this list as a reference.
 
-\section{Public Health}
+\begin{document}
 
-\subsection{Epidemiology}
+以下は、私が工学系のバックグラウンドから公衆衛生分野へと移行したときに使用した教科書のリストです。
+これらの教科書を使用して
+自分の研究に関連する分野（疫学、統計学、プログラミングなど）を学んできました。
+これらの多くは日本語の教科書ですが、より包括的な英語の文献や、より理解しやすい他の教材も存在すると思われます。
+このリストはあくまで参考として活用してください。
 
-\begin{enumerate}
-\item \href{https://www.molcom.jp/products/detail/52131/}{疫学 医学的研究と実践のサイエンス} introduces the overall framework of epidemiology, covering basic measures, study designs, bias, and practical applications in public health.
+\section{公衆衛生学}
 
-\item \href{https://www.academia.edu/43690544/ESSENTIALS_OF_FOURTH_EDITION}{Essentials of Epidemiology in Public Health} focuses more on real-world applications, emphasizing how epidemiological methods are used in public health practice with many concrete examples.
-
-\item \href{https://www.medsi.co.jp/products/detail/3742}{アドバンス分析疫学} takes a more analytical approach, explaining statistical modeling, confounding adjustment, and methods for analyzing epidemiological data in greater depth.
-
-\item \href{https://www.gakujutsu.co.jp/product/978-4-7806-1245-5/}{現代疫学} provides a more theoretical and rigorous treatment of epidemiology, particularly in causal inference and the formal understanding of bias and study design (\href{https://www.amazon.co.jp/Modern-Epidemiology-Kenneth-J-Rothman/dp/1451190050}{English version}).
-\end{enumerate}
-
-\subsection{Infectious Disease Epidemiology}
-
-\begin{enumerate}
-\item \href{https://www.routledge.com/Modern-Infectious-Disease-Epidemiology/Giesecke/p/book/9781444180022}{Modern Infectious Disease Epidemiology} provides a practical introduction to the epidemiology of infectious diseases, covering key concepts such as transmission dynamics, outbreak investigation, surveillance, immunity, and control measures.
-
-\item \href{https://store.isho.jp/search/detail/productId/2105621490}{感染症疫学のためのデータ分析入門} focuses on how to analyze infectious disease data in practice, introducing statistical methods and computational approaches needed to handle real epidemiological datasets.
-
-\item \href{https://www.amazon.co.jp/dp/4563011673}{感染症の数理モデル} takes a more theoretical perspective, explaining how infectious disease dynamics can be described and understood using mathematical models such as compartmental models.
-\end{enumerate}
-
-\section{Statistics and Modeling}
-
-I am learning statistics following \href{https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6}{this reference}.
-
-\subsection{Theoretical Statistics}
+\subsection{疫学}
 
 \begin{enumerate}
-\item \href{https://www.kyoritsu-pub.co.jp/book/b10123480.html}{公式と例題で学ぶ数学の基礎} introduces the essential mathematical foundations such as algebra and calculus through formulas and worked examples.
+\item \href{https://www.molcom.jp/products/detail/52131/}{疫学 医学的研究と実践のサイエンス}: 
+疫学の全体的な枠組みを紹介しており、基本的な指標、研究デザイン、バイアス、公衆衛生における実践的応用をカバーしている。
 
-\item \href{https://www.socym.co.jp/book/1319}{データ分析に必須の知識・考え方 統計学入門} focuses on intuitive understanding of statistical concepts and practical thinking.
+\item \href{https://www.academia.edu/43690544/ESSENTIALS_OF_FOURTH_EDITION}{Essentials of Epidemiology in Public Health}:
+より実践的な応用に焦点を当てており、疫学的手法が公衆衛生の現場でどのように使われるかを多くの具体例とともに解説している。
 
-\item \href{https://www.utp.or.jp/book/b300857.html}{統計学入門} provides a rigorous introduction to statistical inference, covering probability, estimation, and hypothesis testing.
+\item \href{https://www.medsi.co.jp/products/detail/3742}{アドバンス分析疫学}:
+より分析的なアプローチをとり、統計モデリング、交絡の調整、疫学データ解析手法についてより深く説明している。
 
-\item \href{https://www.kyoritsu-pub.co.jp/book/b10033628.html}{データ解析のための数理統計入門} moves toward theoretical statistics and explains the mathematical foundations behind inference methods.
-
-\item \href{https://www.kyoritsu-pub.co.jp/book/b10003681.html}{現代数理統計学の基礎} offers a more formal and comprehensive treatment of statistical theory.
-
-\item \href{https://www.asakura.co.jp/detail.php?book_code=12267}{標準ベイズ統計学} introduces Bayesian thinking as a framework for updating beliefs with data (\href{https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf}{English version}).
-
-\item \href{https://www.tokyo-tosho.co.jp/02452/}{マルコフ連鎖モンテカルロ法入門} provides a concise introduction to the fundamentals of MCMC methods.
-
-\item \href{https://www.morikita.co.jp/books/mid/009703}{ベイズデータ解析} provides a comprehensive treatment of Bayesian methods (\href{https://sites.stat.columbia.edu/gelman/book/BDA3.pdf}{English version}).
+\item \href{https://www.gakujutsu.co.jp/product/978-4-7806-1245-5/}{現代疫学}: 
+理論的かつ厳密な疫学の体系を扱っており、特に因果推論やバイアス、研究デザインの形式的理解に重点を置いている（\href{https://www.amazon.co.jp/Modern-Epidemiology-Kenneth-J-Rothman/dp/1451190050}{English version}）。
 \end{enumerate}
+
+\subsection{感染症疫学}
+
+\begin{enumerate}
+\item \href{https://www.routledge.com/Modern-Infectious-Disease-Epidemiology/Giesecke/p/book/9781444180022}{Modern Infectious Disease Epidemiology}: 
+感染症疫学の実践的な入門書であり、感染動態、アウトブレイク調査、サーベイランス、免疫、制御対策などの主要概念を扱っている。
+
+\item \href{https://store.isho.jp/search/detail/productId/2105621490}{感染症疫学のためのデータ分析入門}: 
+感染症データの実践的な解析方法に焦点を当てており、実データを扱うための統計手法や計算的アプローチを紹介している。
+
+\item \href{https://www.amazon.co.jp/dp/4563011673}{感染症の数理モデル}: 
+より理論的な立場から、コンパートメントモデルなどの数理モデルを用いて感染症動態をどのように記述・理解するかを説明している。
+\end{enumerate}
+
+\section{統計学・モデリング}
+
+統計学・モデリングは\href{https://qiita.com/ssugasawa/items/0e0d76de3ed92c7410e6}{このサイト}を参考に勉強しました 。
+
+\subsection{数理統計学}
+
+\begin{enumerate}
+\item \href{https://www.kyoritsu-pub.co.jp/book/b10123480.html}{公式と例題で学ぶ数学の基礎}:
+代数や微積分などの数学的基礎を、公式と例題を通じて学ぶための教材である。
+
+\item \href{https://www.socym.co.jp/book/1319}{データ分析に必須の知識・考え方 統計学入門}: 
+統計学の概念を直感的に理解し、実践的な思考法を身につけることに重点を置いている。
+
+\item \href{https://www.utp.or.jp/book/b300857.html}{統計学入門}: 
+確率・推定・仮説検定を含む統計的推論について、厳密な入門を提供している。
+
+\item \href{https://www.kyoritsu-pub.co.jp/book/b10033628.html}{データ解析のための数理統計入門}: 
+より理論的な統計学へと進み、推論手法の数学的基盤を説明している。
+
+\item \href{https://www.kyoritsu-pub.co.jp/book/b10003681.html}{現代数理統計学の基礎}: 
+統計理論をより形式的かつ体系的に扱う内容である。統計検定1級の参考書にもなる。
+
+\item \href{https://www.asakura.co.jp/detail.php?book_code=12267}{標準ベイズ統計学}:
+データに基づいて信念を更新する枠組みとしてベイズ統計を非常にわかりやすく解説している（\href{https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf}{English version}）。
+
+\item \href{https://www.tokyo-tosho.co.jp/02452/}{マルコフ連鎖モンテカルロ法入門}: 
+MCMC法の基礎を解説しており、なんとなく曖昧な理解になりがちなMCMC法の直感的な意味やアルゴリズムの仕組みを、
+数式と具体例を交えて整理して理解できるように構成されている。
+
+\item \href{https://www.morikita.co.jp/books/mid/009703}{ベイズデータ解析} 
+ベイズ統計手法を体系的に扱った包括的な解説書で、辞書のようなものである（\href{https://sites.stat.columbia.edu/gelman/book/BDA3.pdf}{English version}）。
+\end{enumerate}
+
+\subsection{統計モデリングとプログラミング}
+
+\begin{enumerate}
+\item \href{https://www.iwanami.co.jp/book/b257893.html}{データ解析のための統計モデリング入門}: 
+統計モデリングの基本的な考え方を解説しており、モデルの立て方、パラメータの解釈、データと背後にある生成過程を直感的かつ厳密に結びつける方法を学ぶことができる。
+
+\item \href{https://www.kspub.co.jp/book/detail/5165362.html}{RとStanではじめるベイズ統計モデリングによるデータ分析入門}:
+ベイズモデリングの実践的な入門書であり、RとStanを用いてモデルを実装し推論を行う方法を示すことで、抽象的な概念を計算的に具体化している。
+
+\item \href{https://www.kyoritsu-pub.co.jp/book/b10003786.html}{StanとRでベイズ統計モデリング}: 
+同じくベイズモデリングの実践的な入門書であり、実データ解析に必要な実践的スキルの習得を支援する。
+
+\item \href{https://www.shoeisha.co.jp/book/detail/9784798167343}{Rによる機械学習}:
+従来の統計学を超えて機械学習手法を扱い、Rを用いた予測、モデル評価、アルゴリズム的アプローチに重点を置いている。
+
+\item \href{https://www.kspub.co.jp/book/detail/5273036.html}{Rではじめる地理空間データの統計解析入門}:
+空間データや地理データの解析手法を紹介しており、地図作成、空間相関、地域ベースのモデリングなどを扱う。
+これらは疫学や環境研究などの応用分野に特に関連が深い。
+\end{enumerate}
+
+
+\subsection{因果推論}
+
+\begin{enumerate}
+\item \href{https://www.kyoritsu-pub.co.jp/book/b10003896.html}{欠測データ処理}: 
+実データで頻繁に生じる欠測値への対処方法を解説しており、単一代入法や多重代入法などの手法とそのRでの実装を紹介する。
+また、不適切な欠測処理がバイアスにつながることを強調している。
+
+\item \href{https://gihyo.jp/book/2020/978-4-297-11117-5}{効果検証入門}: 
+実務的な因果推論の入門書であり、特にビジネス応用を念頭に、単純比較が誤解を生む理由や、ランダム化比較試験、傾向スコア、差分の差分法などを用いた因果効果推定の方法を分かりやすく説明している。
+
+\item \href{https://www.kyoritsu-pub.co.jp/book/b10011781.html}{統計的因果推論の理論と実装} : 
+因果推論の理論と実装の両面を扱うより厳密な体系的解説書であり、マッチング、操作変数法、回帰不連続デザインなどの手法や、
+因果枠組みにおける欠測データの扱いについても説明している。
+
+\item \href{https://www.amazon.co.jp/%E7%96%AB%E5%AD%A6%E3%83%BB%E8%87%A8%E5%BA%8A%E7%A0%94%E7%A9%B6%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E5%9B%A0%E6%9E%9C%E6%8E%A8%E8%AB%96-Robins%E3%81%AEg-methods%E3%81%AB%E3%82%88%E3%82%8B%E7%8F%BE%E5%AE%9F%E5%95%8F%E9%A1%8C%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81-%E7%AF%A0%E5%B4%8E-%E6%99%BA%E5%A4%A7/dp/4254123124/}{疫学・臨床研究のための因果推論: Robinsのg-methodsによる現実問題へのアプローチ} :
+疫学および臨床研究における因果推論の高度で厳密な解説書であり、Robinsのg-methods（周辺構造モデルやg-computationなど）に焦点を当てている。時間依存性交絡や複雑な縦断データのもとでの因果効果推定方法を解説し、理論と実データ解析の橋渡しを行っている。
+\end{enumerate}
+
+
+
+\end{document}
