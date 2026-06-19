@@ -31,73 +31,34 @@
         }
     ]
 }
+
+#-----------------------------------------------------------------------------------------英語
 {
     "editor.fontSize": 16,
 
     "latex-workshop.latex.tools": [
         {
-            "name": "uplatex",
-            "command": "uplatex",
+            "name": "latexmk",
+            "command": "latexmk",
             "args": [
-                "-synctex=1",
+                "-pdf",
                 "-interaction=nonstopmode",
+                "-synctex=1",
                 "%DOC%"
-            ]
-        },
-        {
-            "name": "dvipdfmx",
-            "command": "dvipdfmx",
-            "args": [
-                "%DOCFILE%.dvi"
             ]
         }
     ],
 
     "latex-workshop.latex.recipes": [
         {
-            "name": "uplatex -> dvipdfmx",
+            "name": "latexmk",
             "tools": [
-                "uplatex",
-                "dvipdfmx"
+                "latexmk"
             ]
         }
     ]
 }
 
-    "editor.fontSize": 16,
-
-    "latex-workshop.latex.tools": [
-        {
-            "name": "uplatex",
-            "command": "uplatex",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "%DOC%"
-            ]
-        },
-        {
-            "name": "dvipdfmx",
-            "command": "dvipdfmx",
-            "args": [
-                "%DOCFILE%.dvi"
-            ]
-        }
-    ],
-
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "uplatex -> dvipdfmx",
-            "tools": [
-                "uplatex",
-                "dvipdfmx"
-            ]
-        }
-    ]
-}
-
-
-#-----------------------------------------------------------------------------------------英語
 
 
 
