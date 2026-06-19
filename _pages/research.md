@@ -8,7 +8,7 @@ I have focused on two major areas of wastewater surveillance ([Google Scholar](h
 - Development of highly sensitive detection methods for infectious disease viruses in wastewater
 - Development of an analytical framework for wastewater surveillance data
 
-# Master reseach 2020-20222
+# Master reseach 2020-2022
 ---
 ### 1. EPISENS-S method
 ![Research image_1](../assets/images/research_EPISENS_S.jpg)
