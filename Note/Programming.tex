@@ -1,0 +1,211 @@
+\documentclass[11pt]{article}
+
+% --- パッケージの読み込みと余白設定 ---
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{natbib}
+
+\usepackage{titlesec} % 見出し（Section）の書式を制御するために使用
+\usepackage{lipsum}   % サンプルの文章を生成するために使用（不要なら削除可）
+\usepackage[margin=20mm]{geometry} % 上下左右の余白を20mmに設定
+\usepackage{indentfirst} % ★ 追加：全ての段落の先頭にインデントを入れる
+\usepackage[normalem]{ulem}
+\usepackage{url}
+\usepackage{xurl}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+
+
+% --- 見出しデザイン統一 ---
+\titleformat{\section}
+{\Large\bfseries}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\large\bfseries}
+{\thesubsection}{1em}{}
+
+% --- 余白調整 ---
+\titlespacing*{\section}
+{0pt}{20pt}{10pt}
+
+\titlespacing*{\subsection}
+{0pt}{14pt}{6pt}
+
+
+\begin{document}
+
+
+
+\section{Programming}
+
+Programming enables faster and more efficient creation of slides and data analysis compared with interface-based operations (e.g., Excel and PowerPoint). 
+The key advantages of programming can be summarized as follows:
+\begin{itemize}
+\item Efficiency: Automates repetitive tasks and reduces processing time
+\item Accuracy: Minimizes human error through standardized procedures
+\item Scalability: Handles large datasets with consistent performance
+\item Flexibility: Enables customized analyses and complex model implementation
+\item Reproducibility: Facilitates transparent and repeatable workflows
+\item Adaptability: Allows easy modification and rapid reanalysis under new conditions
+\end{itemize}
+On the other hand, as a beginner in programming, I initially struggled to understand what software was available and which tools were suitable for specific purposes, encountering difficulties from the very first stages of adoption. 
+I also found that installing the necessary tools and learning their basic usage required considerable time. 
+Therefore, in this article, I aim to organize and summarize these aspects both as a personal reference and as a guide for other programming beginners facing similar challenges.
+
+% --------------------------------------------------
+
+\section{GitHub}
+
+\href{https://github.co.jp/}{\textbf{GitHub}} is a web-based platform for version control 
+and collaboration that allows users to store, manage, and share code. 
+It is built on \href{https://git-scm.com/}{\textbf{Git}}, 
+a distributed version control system that tracks changes in files over time. 
+By using GitHub, individuals and teams can keep a complete history of their projects, revert to previous versions if needed, and work on the same codebase simultaneously without conflicts.
+
+\begin{itemize}
+\item Managing and version-controlling analysis code and research projects
+\item Sharing code and data to ensure reproducibility and transparency
+\item Collaborating with other researchers across institutions
+\item Hosting documentation and research-related resources (e.g., project websites)
+\item Distributing software tools, models, and computational methods
+\item Creating and sharing URLs for PDFs (e.g., slides, CVs) and webpages, enabling easy and accessible dissemination of research outputs
+\end{itemize}
+GitHub is an useful tool to manage and organize code and files for tools 
+such as R, LaTeX, and reveal.js.
+\begin{itemize}
+\item \href{https://www.youtube.com/watch?v=wDRoduig_98}{Install Video}
+\item \href{https://www.kagoya.jp/howto/it-glossary/develop/howtousegithub/}{Install (Japanese)}
+\item \href{https://www.youtube.com/watch?v=Pof342wGt78}{Making a webpage Video}
+\end{itemize}
+
+% --------------------------------------------------
+
+\section{Visual Studio (VS) Code}
+
+\href{https://code.visualstudio.com/download}{\textbf{VS Code}} is 
+a lightweight yet powerful source code editor that supports a wide range of programming languages and tools. Through its rich ecosystem of extensions, VS Code can be customized to provide language-specific features such as syntax highlighting, code completion, debugging, and integrated execution environments, making it suitable for both beginners and advanced users.
+
+The key advantages of VS Code include:
+\begin{itemize}
+\item Multi-language support: Enables seamless use of R, Python, LaTeX, reveal.js, and many other languages within a single environment
+\item Extensibility: Offers a wide range of extensions to customize functionality for specific workflows
+\item Integrated version control: Provides built-in support for Git and seamless integration with GitHub
+\item GUI-based Git operations: Allows users to commit, push, pull, and manage changes without relying on command-line operations
+\item AI-assisted coding: Supports tools such as GitHub Copilot, which can suggest code completions, generate functions, and help debug or refactor code, thereby improving productivity and reducing development time
+\item Workspace management: Enables efficient handling of multiple files and projects in a unified interface
+\item Preview and execution: Supports real-time preview of outputs such as LaTeX documents and reveal.js presentations
+\item User-friendly interface: Lowers the barrier to entry for beginners while maintaining powerful features for advanced users
+\end{itemize}
+
+These features make VS Code a versatile and efficient tool for 
+programming, data analysis, document preparation, and presentation development.
+Although there are several ways to edit files (e.g., R file) from GitHub using VS Code, 
+the most fundamental approach is to \href{https://www.youtube.com/watch?v=N7UT6nvCqoI}{\textbf{create a local clone of the repository}}.
+
+\begin{itemize}
+\item Integration with GitHub
+\item R in VS Code
+\item LaTeX in VS Code
+\end{itemize}
+
+% --------------------------------------------------
+
+\section{R and RStudio}
+
+\href{https://www.r-project.org/}{\textbf{R}} is 
+a programming language and software environment specifically designed 
+for statistical computing and data analysis. 
+\href{https://posit.co/download/rstudio-desktop/}{\textbf{RStudio}} is 
+an integrated development environment (IDE) for R 
+that enhances usability by providing 
+a user-friendly interface, script editor, workspace management, and tools 
+for visualization and package management. 
+While Visual Studio Code can be used for R programming, 
+making RStudio not strictly necessary, RStudio remains highly convenient as it is specifically designed for use with R.
+From a research perspective, the key advantages of R include:
+\begin{itemize}
+\item \uline{Advanced statistical capabilities}: Supports a wide range of statistical methods, from basic analyses to complex models (e.g., Bayesian inference, time-series analysis, and state-space models)
+\item \uline{High-quality visualization}: Enables flexible and publication-ready graphics through packages such as ggplot2
+\item Open-source and free: Freely available, making it accessible to researchers worldwide without licensing costs
+\item Reproducibility: Code-based workflows allow analyses to be easily reproduced and verified
+\item \uline{Extensive package ecosystem}: Thousands of user-contributed packages extend functionality across diverse research fields
+\item \uline{Community and knowledge sharing}: Many researchers publicly share their code and methods, making it easier to replicate existing studies and build upon prior work
+\end{itemize}
+
+\subsection{Quick start}
+\begin{enumerate}
+\item \href{https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd}{\textbf{Check and set directory}}
+\item \href{https://www.rdocumentation.org/packages/qtl2/versions/0.32/topics/read_csv}{\textbf{Read data file}}
+\item \href{https://www.dataquest.io/blog/install-package-r/}{\textbf{Install library}}
+\end{enumerate}
+
+% --------------------------------------------------
+
+\section{LaTeX}
+
+\href{https://github.com/Hiroki-Ando1998/LaTeX}{\textbf{LaTeX}} is a document preparation system widely used in academia for writing papers and can be edited efficiently within VS Code. 
+From a researcher’s perspective, the advantages of LaTeX include:
+\begin{itemize}
+\item High-quality typesetting: Produces professionally formatted documents with precise control over layout and typography
+\item \uline{Excellent mathematical notation}: Handles complex equations clearly and consistently, far beyond what is easily achievable in Microsoft Word
+\item \uline{Separation of content and formatting}: Authors focus on writing content, while formatting is handled systematically
+\item Reproducibility and version control: Plain-text source files integrate well with Git, enabling transparent revision tracking
+\item Cross-referencing and automation: Automatically manages references, citations, figure numbers, and tables
+\item \uline{Scalability}: Efficiently handles large documents such as theses, books, and multi-author manuscripts
+\end{itemize}
+In comparison, Microsoft Word provides a more intuitive, WYSIWYG interface, 
+which is easier for beginners and suitable for simple documents. 
+However, as documents become more complex—particularly with many equations, references, and figures—Word can become difficult to manage consistently. 
+In contrast, LaTeX offers greater stability, precision, and reproducibility, 
+making it the preferred choice for many researchers despite its steeper learning curve. 
+Other tools for writing academic papers, such as \href{https://quarto.org/docs/download/}{\textbf{Quarto}}, 
+are also available. 
+It is best to choose a tool that aligns with both your own preferences and those of your collaborators.
+
+% --------------------------------------------------
+
+\section{Reveal.js}
+
+\href{https://revealjs.com/}{\textbf{reveal.js}} is an open-source framework 
+for creating presentations using web technologies such as HTML, CSS, and JavaScript. 
+One major advantage of reveal.js is that it can be used within Visual Studio Code, 
+allowing users to write and manage slides alongside analysis code (e.g., R or Python). 
+This integration enables a unified workflow in which figures, results, and slides can 
+be generated and updated programmatically.
+From a researcher’s perspective, the key advantages of reveal.js include:
+\begin{itemize}
+\item Reproducibility: Slides can be generated directly from code, ensuring consistency between analysis and presentation
+\item Flexibility and customization: Full control over layout, design, and interactivity using web technologies
+\item Integration with code: Easily incorporates dynamic content, such as plots or results generated from R or Python
+\item Version control compatibility: Plain-text files integrate naturally with Git and platforms like GitHub
+\item \uline{Web-based sharing}: Presentations can be hosted online and shared via a URL, making them easily accessible without requiring specific software
+\item \uline{Portability}: Runs in a web browser, making it platform-independent
+\end{itemize}
+In comparison, Microsoft PowerPoint offers a highly intuitive, 
+graphical user interface that is easy to use and widely adopted. 
+It is well suited for quickly creating slides without requiring programming knowledge. 
+However, PowerPoint relies heavily on manual editing, 
+which can make it less efficient for updating figures or maintaining consistency across slides, especially in data-driven presentations. 
+In contrast, reveal.js emphasizes automation, reproducibility, and integration with analytical workflows.
+
+% --------------------------------------------------
+
+\section{Obsidian}
+
+\href{https://obsidian.md/}{\textbf{Obsidian}} is a markdown-based note-taking and knowledge management application designed 
+to help users organize and connect information efficiently. 
+One of the most distinctive features is its ability to create bidirectional links 
+between notes, making it particularly suitable for summarizing academic papers and connecting concepts across studies.
+From a researcher’s perspective, the key advantages of Obsidian include:
+\begin{itemize}
+\item \uline{Knowledge linking}: Easily connect notes to build a network of related ideas and research topics
+\item \uline{Effective literature management}: Well suited for organizing and summarizing academic papers
+\item Markdown-based: Uses simple, portable text files that are easy to edit and manage
+\item Integration with GitHub and templates
+\item Free to use: Core features are available at no cost
+\item Extensibility: Supports plugins such as graph view, task management, and citation tools
+\item Versatility: Can be used not only for research notes but also for daily journaling and personal knowledge management
+\end{itemize}
+
+\end{document}
