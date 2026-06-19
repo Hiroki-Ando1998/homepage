@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.7.3)  19 JUN 2026 14:26
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.7.3)  19 JUN 2026 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,16 +386,16 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 43.
-LaTeX Font Info:    Trying to load font information for OML+cmtt on input line 44.
-LaTeX Font Info:    No file OMLcmtt.fd. on input line 44.
+LaTeX Font Info:    Trying to load font information for OML+cmtt on input line 50.
+LaTeX Font Info:    No file OMLcmtt.fd. on input line 50.
 
 
 LaTeX Font Warning: Font shape `OML/cmtt/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textgreater' on input line 44.
+(Font)              for symbol `textgreater' on input line 50.
 
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 56.
+(Font)              No change on input line 63.
 
 
 [1
@@ -412,22 +412,16 @@ L3 programming layer <2025-06-09>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `R_Stan_code.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `R_Stan_code.out':
-(rerunfilecheck)             Before: 8314B9CCD816821578B29702DFE0F823;841
-(rerunfilecheck)             After:  4AF2E04512DFFFF1FEC04994AF3204CE;710.
+Package rerunfilecheck Info: File `R_Stan_code.out' has not changed.
+(rerunfilecheck)             Checksum: 4AF2E04512DFFFF1FEC04994AF3204CE;710.
  ) 
 Here is how much of TeX's memory you used:
  11382 strings out of 468532
  175084 string characters out of 5452771
- 685662 words of memory out of 5000000
+ 685514 words of memory out of 5000000
  39819 multiletter control sequences out of 15000+600000
  687598 words of font info for 78 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 75i,5n,79p,839b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,421b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on R_Stan_code.dvi (2 pages, 12472 bytes).

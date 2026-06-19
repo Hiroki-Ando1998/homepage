@@ -41,9 +41,16 @@
 
 \section{Data Organization}
 A central framework of data organization in R is the \textbf{tidyverse}, especially the \textbf{package dplyr}. 
-Alongside it, \textbf{tidyr} focuses on reshaping data between wide and long formats, handling missing values, and ensuring that datasets follow the ``tidy data'' structure where each variable is a column and each observation is a row. For data import and string handling, packages like \textbf{readr} and \textbf{stringr} are commonly used, making it easier to read large datasets and clean textual variables in a consistent way. The design philosophy of the tidyverse is to make data preparation readable, chainable, and close to natural language through the pipe operator \texttt{\%\textgreater\%}. For large-scale data processing, packages like \textbf{data.table} are often preferred because they are faster and more memory-efficient, especially for big datasets.
-
-These are functions (\href{https://github.com/Hiroki-Ando1998/R/tree/main/Data_organization}{Rcode}) I often use:
+Alongside it, \textbf{tidyr} focuses on reshaping data between wide and long formats, 
+handling missing values, and ensuring that datasets follow the ``tidy data'' structure 
+where each variable is a column and each observation is a row. For data import and string handling, 
+packages like \textbf{readr} and \textbf{stringr} are commonly used, 
+making it easier to read large datasets and clean textual variables in a consistent way. 
+The design philosophy of the tidyverse is to make data preparation readable, chainable, and close to natural language 
+through the pipe operator \texttt{\%\textgreater\%}. 
+For large-scale data processing, packages like \textbf{data.table} are often preferred 
+because they are faster and more memory-efficient, especially for big datasets.
+These are functions (\href{https://github.com/Hiroki-Ando1998/R/tree/main/Data_organization}{\textbf{Rcode}}) I often use:
 
 \begin{itemize}
 \item \textbf{filter()} means selecting a subset of observations based on conditions, such as keeping only patients older than 60 or only records from a specific time period.
@@ -54,53 +61,54 @@ These are functions (\href{https://github.com/Hiroki-Ando1998/R/tree/main/Data_o
 \item \textbf{drop\_na()} is used to remove rows that contain missing values (NA).
 \item \textbf{is.na()} is used to detect missing values. It returns a logical vector indicating whether each element is NA, and is often used for filtering, counting missing values, or creating indicators of missingness.
 \item \textbf{which(!is.na(x))} is used to identify the positions of all elements in x that are not \textit{NA}.
-\item \href{https://stats.biopapyrus.jp/r/basic/apply.html}{apply} is a function used to perform an operation over the rows or columns of a matrix or array without writing explicit loops.
+\item \href{https://stats.biopapyrus.jp/r/basic/apply.html}{\textbf{apply}} is a function used to perform an operation over the rows or columns of a matrix or array without writing explicit loops.
 \end{itemize}
 
 % --------------------------------------------------
 
 \section{Data Visualization}
-
-In R, there are several ways to create visualizations (e.g., ggblend, ggnewscale, gganimate), and ggplot2 is one of the most widely used and influential approaches (\href{https://r-graph-gallery.com/}{R Graph Gallery}).
+In R, there are several ways to create visualizations (e.g., ggblend, ggnewscale, gganimate), and ggplot2 
+is one of the most widely used and influential approaches (\href{https://r-graph-gallery.com/}{\textbf{R Graph Gallery}}).
 
 \begin{itemize}
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/1_DistributionAnalysis}{distributional analysis}: histograms, density plots, frequency polygons, boxplots, violin plots, ridgeline plots, dot plots, and empirical cumulative distribution function (ECDF) plots, all of which help reveal the shape, spread, and skewness of data.
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/2_relationship_betweem_variables}{relationships between variables}: scatter plot, bubble charts, regression lines, smoothing curves, confidence bands, two-dimensional density plots, contour plots, and hexbin plots.
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/3_comparison_across_categories}{comparisons across categories}: bar charts (count and summarized), grouped and stacked bar charts, proportional (100\%) bar charts, lollipop charts, Cleveland dot plots, and mosaic plots.
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/4_time_series_data}{time series data}: line plots, area charts, stacked area charts, streamgraphs, and ribbon plots.
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/5_multivariate_visualization}{multivariate visualization}: heatmaps, tile plots, scatterplot matrices, parallel coordinate plots, and faceted plots.
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/6_spatial_data}{spatial data}: choropleth maps, point maps, path maps, polygon maps, and raster maps.
-\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/7_statistical_summaries&uncertainty_visualization}{statistical summaries and uncertainty visualization}: error bar plots, pointrange plots, linerange plots, and confidence/credible interval visualizations.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/1_DistributionAnalysis}{\textbf{distributional analysis}}: histograms, density plots, frequency polygons, boxplots, violin plots, ridgeline plots, dot plots, and empirical cumulative distribution function (ECDF) plots, all of which help reveal the shape, spread, and skewness of data.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/2_relationship_betweem_variables}{textbf{relationships between variables}}: scatter plot, bubble charts, regression lines, smoothing curves, confidence bands, two-dimensional density plots, contour plots, and hexbin plots.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/3_comparison_across_categories}{textbf{comparisons across categories}}: bar charts (count and summarized), grouped and stacked bar charts, proportional (100\%) bar charts, lollipop charts, Cleveland dot plots, and mosaic plots.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/4_time_series_data}{\textbf{time series data}}: line plots, area charts, stacked area charts, streamgraphs, and ribbon plots.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/5_multivariate_visualization}{\textbf{multivariate visualization}}: heatmaps, tile plots, scatterplot matrices, parallel coordinate plots, and faceted plots.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/6_spatial_data}{\textbf{spatial data}}: choropleth maps, point maps, path maps, polygon maps, and raster maps.
+\item For \href{https://github.com/Hiroki-Ando1998/R/tree/main/ggplot2/7_statistical_summaries&uncertainty_visualization}{\textbf{statistical summaries and uncertainty visualization}}: error bar plots, pointrange plots, linerange plots, and confidence/credible interval visualizations.
 \item Sankey diagrams and Alluvial plots visualize flows between categories, where link thickness represents magnitude or proportion.
 \end{itemize}
-
-ggplot2 supports advanced visualizations such as QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms, and network visualizations.
-
-To create customized graphs, you can adjust \href{https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/1_colour_gradation.R}{colors}, \href{https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/2_shape.md}{plot styles}, \href{https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/4_combined_figures.R}{combining plots}, and \href{https://ggplot2.tidyverse.org/reference/ggtheme.html}{theme settings}.
+ggplot2 supports advanced visualizations such as 
+QQ plots, PP plots, slope graphs, waterfall charts, funnel plots, dendrograms, and network visualizations.
+To create customized graphs, you can adjust 
+\href{https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/1_colour_gradation.R}{\textbf{colors}}, 
+\href{https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/2_shape.md}{\textbf{plot styles}}, 
+\href{https://github.com/Hiroki-Ando1998/R/blob/main/ggplot2/4_combined_figures.R}{\textbf{combining plots}}, and 
+\href{https://ggplot2.tidyverse.org/reference/ggtheme.html}{textbf{theme settings}}.
 
 % --------------------------------------------------
-
 \section{Modeling}
-
-In modern data analysis and machine learning, two fundamental requirements are generalization performance and reproducibility (\href{https://tjo.hatenablog.com/entry/2026/03/27/170000}{Ref}).
-
+In modern data analysis and machine learning, 
+two fundamental requirements are generalization performance and 
+reproducibility (\href{https://tjo.hatenablog.com/entry/2026/03/27/170000}{\textbf{Ref}}).
 \begin{itemize}
 \item \textbf{Generalization performance} refers to how well a model trained on observed data performs on unseen data, capturing the ability to extract true underlying patterns rather than overfitting noise. Cross-validation is commonly used to estimate this.
 \item \textbf{Reproducibility} refers to whether results can be reproduced using the same data, code, and procedures. It ensures scientific reliability and transparency.
 \end{itemize}
 
 % --------------------------------------------------
-
 \section{Generalized Linear Model (GLM)}
-
-\href{https://en.wikipedia.org/wiki/Generalized_linear_model}{GLM} is a flexible extension of ordinary linear regression that allows the response variable to follow different distributions. By combining R with Stan, GLMs can be extended into a Bayesian framework.
-
+\href{https://en.wikipedia.org/wiki/Generalized_linear_model}{\textbf{GLM}} is a flexible extension of ordinary linear regression 
+that allows the response variable to follow different distributions. 
+By combining R with Stan, GLMs can be extended into a Bayesian framework.
 \begin{itemize}
-\item \href{https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/1_LinearModel.stan}{Linear model}: used for continuous outcomes with normal distribution.
-\item \href{https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/2_LogisticModel.stan}{Logit-Binomial model}: used for binary or proportion outcomes.
-\item \href{https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/3_PoissonModel}{Poisson regression model}: used for count data such as event frequencies.
+\item \href{https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/1_LinearModel.stan}{\textbf{Linear model}}: used for continuous outcomes with normal distribution.
+\item \href{https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/2_LogisticModel.stan}{\textbf{Logit-Binomial model}}: used for binary or proportion outcomes.
+\item \href{https://github.com/Hiroki-Ando1998/R/blob/main/Generalized%20linear%20model/Baysian_approach/3_PoissonModel}{\textbf{Poisson regression model}}: used for count data such as event frequencies.
 \end{itemize}
-
-These analyses can also be performed using maximum likelihood estimation approaches (\href{https://github.com/Hiroki-Ando1998/R/tree/main/Generalized%20linear%20model}{link}).
+These analyses can also be performed using maximum likelihood estimation approaches 
+(\href{https://github.com/Hiroki-Ando1998/R/tree/main/Generalized%20linear%20model}{\textbf{link}}).
 
 \end{document}
