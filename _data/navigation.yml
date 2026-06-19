@@ -1,8 +1,8 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Textbooks"
-    url: /Textbook/
+  - title: "Note"
+    url: /Note/
   - title: "Links"
     url: /links/
 # - title: "Memo"
