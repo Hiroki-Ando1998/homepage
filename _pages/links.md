@@ -36,6 +36,6 @@ The [Wastewaterscan](https://data.wastewaterscan.org/) is a large wastewater-bas
 If you want to know about wastewater surveillance, please visit [wasewater surveillance webinerW](https://sites.nd.edu/rcn-wastewater-sarscov2/webinar-series/)
 
 ## Publicitly available data
-- [CDC Wastewater surveillance data](https://data.cdc.gov/browse?q=wastewater&sortBy=relevance&pageSize=20&page=1) (see: [CDC webpage_"When data are updated"](https://www.cdc.gov/wastewater/about-data/index.html#cdc_data_surveillance_section_8-available-data)
+- [CDC Wastewater surveillance data](https://data.cdc.gov/browse?q=wastewater&sortBy=relevance&pageSize=20&page=1) (see: [CDC webpage_"When data are updated"](https://www.cdc.gov/wastewater/about-data/index.html#cdc_data_surveillance_section_8-available-data))
 - [illicit drug in Chile during COVID-19](https://www.sciencedirect.com/science/article/pii/S2352340926004865)
 
