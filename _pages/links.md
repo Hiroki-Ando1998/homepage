@@ -38,8 +38,9 @@ If you want to know about wastewater surveillance, please visit [wasewater surve
 ## Publicitly available data
 - [illicit drug in Chile during COVID-19](https://www.sciencedirect.com/science/article/pii/S2352340926004865)
 - [CDC Wastewater surveillance data](https://data.cdc.gov/browse?q=wastewater&sortBy=relevance&pageSize=20&page=1) (see: [CDC webpage_"When data are updated"](https://www.cdc.gov/wastewater/about-data/index.html#cdc_data_surveillance_section_8-available-data))
+
 As of June 2026, the U.S. CDC wastewater surveillance program included 1,278 wastewater monitoring sites that had reported data within the previous two months (April 26, 2026 to June 20, 2026).
-These sites collectively covered an estimated 144 million people, corresponding to approximately 43% of the total U.S. population.
+These sites collectively covered an estimated 144 million people, corresponding to approximately 43% of the total U.S. population ([Ref](https://www.cdc.gov/wastewater/about/index.html)).
 
 The CDC wastewater surveillance data are compiled from three major sources:
 
