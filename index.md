@@ -16,11 +16,9 @@ I completed my Master’s training in environmental engineering, where I develop
 - the design of effective wastewater sampling strategies including development of highly sensitive detection methods 
 - the development of statistical modeling frameworks to analyze wastewater-based data so that it can meaningfully inform public health decision-making.
 
-Ultimately, my goal is to contribute to building a society that is more resilient to infectious disease threats by integrating environmental monitoring with rigorous statistical analysis and public health practice.
-
 ![Research image](/assets/images/home_1.svg)
 
-Wastewater and environmental water surveillance for infectious diseases: <u><b>an interdisciplinary discipline between environmental engineering and public health.</b></u>
+Ultimately, my goal is to contribute to building a society that is more resilient to infectious disease threats by integrating environmental monitoring with rigorous statistical analysis and public health practice.
 
 &nbsp;
 &nbsp;
